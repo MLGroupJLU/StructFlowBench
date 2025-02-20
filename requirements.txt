@@ -1,0 +1,7 @@
+httpx==0.28.1
+numpy==2.2.3
+ollama==0.4.7
+openai==1.63.2
+torch==2.3.0
+tqdm==4.66.5
+transformers==4.44.0
