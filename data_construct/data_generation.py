@@ -25,7 +25,7 @@ I list the following constraints and methods for adding them to the prompt. Plea
     - (Definition:Require the large model to respond based on a given scenario or identity.)
     - (Use:Let LLM simutale a given scenario or identity in the prompt.)
     - (Prompt Example:Imagine you are an experienced doctor and respond to the following health-related questions.)
-- Fundamental Format Constraint:
+- Basic Format Constraint:
     - (Definition:Require the large model's output to be in a specified basic format.)
     - (Use: The specified format must be in JSON,XML,CSV,Table,Markdown,Code. **Do not** specify other formats! )
     - (Prompt Example:Please output the following data in JSON format.)
@@ -93,7 +93,7 @@ Refer to the following real prompts:
 """
 ]
         self.user_characteristic_idx=user_characteristic_idx
-        self.constraint_type_list=['Situation Constraint','Fundamental Format Constraint','Quantity Format Constraint','Template Format Constraint','Keyword/Element Constraint']
+        self.constraint_type_list=['Situation Constraint','Basic Format Constraint','Quantity Format Constraint','Template Format Constraint','Keyword/Element Constraint']
         self.task_list=task_list
         self.temperature=temperature
 
@@ -174,10 +174,10 @@ class SummarizedPromptsGeneration():
 Definitions and Scenarios of the Five Basic Structures:
 It can be considered that the overall structure of all multi-turn dialogues is composed of the following five basic structures:
 - **Follow-up**: A conversational structure where the user's prompts are based on the content of the previous turn, introducing additional constraints at each step. 
-- **Callback**: A conversational structure where the user refers back to content from two or more previous turns to provide context or reference for the current prompt.
+- **Recall**: A conversational structure where the user refers back to content from two or more previous turns to provide context or reference for the current prompt.
 - **Expansion**: A conversational structure where the user establishes a main theme and explores related subtopics in subsequent turns. 
 - **Summary**: A conversational structure where the user requests a consolidation of content from multiple previous turns into a cohesive overview. 
-- **Revision**: 
+- **Refinement**: 
     - A conversational structure where the user is not satisfied with the response, modify or rephrase some of the constraints which have been expressed in last round's prompt to improve the LLM's response. 
 
 [Dialogue Structure Template]
@@ -209,13 +209,13 @@ As a real user, generate appropriate simple multi-round dialogue user prompts ba
 [Output Format]
 When you describe the summarized prompt of corresponding dialogue structure, you should follow the format below:
 - Follow-up:The summarized prompt structure should be as follows: "The user follow the last round dialogue by ..."
-- Callback:The summarized prompt structure should be as follows: "The user recall ... in (dialogue) and ..."
+- Recall:The summarized prompt structure should be as follows: "The user recall ... in (dialogue) and ..."
 - Expansion:The summarized prompt structure should be as follows: "The user expands on the subtopic of... mentioned previously in..."
 - Summary:The summarized prompt structure should be as follows: "The user seeks a summary of the content discussed in..."
-- Revision:The summarized prompt structure should be as follows: "The user modify the (the old constraint) included in last round's prompt to (the new constraint) for (purpose: the reason why user change the requirement) "
+- Refinement:The summarized prompt structure should be as follows: "The user modify the (the old constraint) included in last round's prompt to (the new constraint) for (purpose: the reason why user change the requirement) "
 - **Attention!**: 
-    - In the 'Revision' structure, modifications to the prompt should not be chanding the topic!!! 
-    - In the 'Revision' structure, modification to the prompt should not be adding constraints.
+    - In the 'Refinement' structure, modifications to the prompt should not be chanding the topic!!! 
+    - In the 'Refinement' structure, modification to the prompt should not be adding constraints.
     - The modifications must be to some specific change like(style,specify a template format, change the basic format,avoid doing... etc. )
     - example:"The user modify the tone in last round's prompt to make the response more formal"
 
@@ -318,7 +318,7 @@ Below, I provide the definitions and examples for all types of constraints:
 - Situation Constraint:
     - Definition:Require the large model to respond based on a simulated scenario or identity.
     - Constraint Example:Imagine you are an experienced doctor and respond to the following health-related questions.
-- Fundamental Format Constraint:
+- Basic Format Constraint:
     - Definition:Require the large model's output to be in a specified basic format.
     - Constraint Example:Please output the following data in JSON format.
 - Quantity Format Constraint:
@@ -331,12 +331,6 @@ Below, I provide the definitions and examples for all types of constraints:
 - Content Constraint:
     - Definition: Require that the response from the large model must revolve around the specified content scope and should not deviate.
     - Example: "Focus your answer on the impact of technology on education."
-- Revision Constraint:
-    - Definition: Require that the latest response be a modification of the answer from previous round, satisfying the newly proposed constraints.
-    - Example: "Modify your previous answer to include examples of how technology has changed classroom learning."
-- Dialogue History Constraint: 
-    - Definition: Explicitly or implicitly require that the response be based on the content from previous conversation history.
-    - Example: "Building on our previous conversation about the role of 'shadow' in urban environments..."
 
 [conv history]
 {conv_history}
@@ -351,12 +345,12 @@ Refer to the list of atomic constraint types and their definitions provided in t
 Identify both the type of each constraint and its corresponding content from the [user prompt].
 Ensure that all constraints are correctly categorized and expressed as questions.
 Extract only one instance of each type of constraint. If there are multiple constraints of the same type, they should be merged into a single constraint.
-Note to extract Revision Constraint and Dialogue History Constraint, if [conv history] is empty, then these two constraint do not exist.
+Note to extract Refinement Constraint and Dialogue History Constraint, if [conv history] is empty, then these two constraint do not exist.
 Ensure that **all** constraints expressed in the prompt are extracted without omitting any constraints.
 
 #example#
 "Please revise your previous answer to focus on the efficiency of solar power instead. Ensure your response includes the term 'efficiency' and stays within 100 words."
-- Revision Constraint: Does the response modify the prior answer to concentrate on the efficiency of solar power?
+- Refinement Constraint: Does the response modify the prior answer to concentrate on the efficiency of solar power?
 - Keyword/Element Constraint: Does the response include the term 'efficiency'?
 - Quantity Format Constraint: Is the response limited to 100 words?
 
@@ -479,7 +473,6 @@ if __name__=="__main__":
     summarzied_conv_file_directory = f"data_construct\\data_{user_ch}\\{args.lot_id}\\summarized_conv"
     whole_conv_file_directory = f"data_construct\\data_{user_ch}\\{args.lot_id}\\whole_conv"
     extracted_constraints_file_directory = f"data_construct\\data_{user_ch}\\{args.lot_id}\\extracted_constraints"
-    only_conv_file_directory = f"data_construct\\data_{user_ch}\\{args.lot_id}\\only_conv"
     task_map={
         "Fact-based_Q&A":{
             "definition":"Fact-based Q&A: The user asks definite questions, expecting concise and accurate answers.",
@@ -527,7 +520,6 @@ if __name__=="__main__":
         base_url=args.base_url,
         temperature=args.temperature
     )()
-
     CompleteDialoguesGeneration(
         task_keys=task_map.keys(),
         user_characteristic_idx=args.user_characteristic_idx,
