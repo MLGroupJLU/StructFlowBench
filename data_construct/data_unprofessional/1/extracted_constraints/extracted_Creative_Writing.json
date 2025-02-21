@@ -1,0 +1,431 @@
+[
+    {
+        "conv_purpose": "User intends to create a short poetic piece that captures the essence of autumn with a specific tone or style in mind.",
+        "summarized prompts": [
+            {
+                "name": "c1",
+                "description": "The user requests a creative poem about autumn, focusing on the vivid imagery of falling leaves and the change in weather.",
+                "explanation": "This prompt initiates the dialogue with a request for a creative writing piece, aligning with the user's interest in literature and artistic expression."
+            },
+            {
+                "name": "c2",
+                "description": "The user modifies the style of the poem from descriptive to more metaphorical, aiming to convey deeper emotions associated with the season.",
+                "explanation": "The summarized prompt follows the 'Revision' structure by changing the poem's style to enhance emotional depth without changing the topic or adding new constraints."
+            }
+        ],
+        "structure": [
+            {
+                "source": "c1",
+                "target": "c2",
+                "relation": "revision"
+            }
+        ],
+        "conv_topic": "literature",
+        "conv_task": "Creative Writing: Text with an emphasis on artistic expression and creativity (e.g., poems, short stories, scripts).",
+        "whole_conv": [
+            {
+                "name": "c1",
+                "user prompt": "hey, write me a poem bout autumn, like talkin' about leaves fallin' and all that weather change. and make it sound like a story i can read to my lil' bro.",
+                "assistant answer": "Sure! Here’s a little poem about autumn you can share:\n\nIn the forest where the cool winds blow,\nLeaves of crimson and gold begin to show.\nThey flutter down in a gentle dance,\nA colorful tapestry, a fleeting glance.\n\nThe air crisp and clear, whispers of change,\nBeckoning us to nature’s wondrous range.\nUnder the amber sky, we wander free,\nIn the embrace of autumn’s symphony.",
+                "constraints": [
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response focus on the theme of autumn?",
+                        "explanation": "The user specifically asks for a poem about autumn that includes details about leaves falling and the weather changing, which sets the content scope for the response."
+                    },
+                    {
+                        "type":"Keyword/Element Constraint",
+                        "content":"Does the response include elements like falling leaves and weather changes",
+                        "explanation":"" 
+                    },
+                    {
+                        "type": "Style Constraint",
+                        "content": "Is the response written in a storytelling style suitable for reading to a little brother?",
+                        "explanation": "The user requests that the poem be written in a way that can be read to their little brother, indicating a specific writing style."
+                    }
+                ]
+            },
+            {
+                "name": "c2",
+                "user prompt": "can u change that poem? make it deep, like, use them metaphors to show feelings but still about autumn.",
+                "assistant answer": "Absolutely, let's add some depth to it:\n\nIn autumn's embrace, whispers of farewell,\nLeaves descend like echoes of secrets unspoken.\nThe earth, a canvas brushed with fleeting dreams,\nBears the weight of time’s gentle token.\n\nCrisp airs weave stories in the twilight glow,\nClouds gather like thoughts in introspection.\nA symphony of stillness, where silence speaks,\nReflecting the heart's quiet introspection.",
+                "constraints": [
+                    {
+                        "type": "Revision Constraint",
+                        "content": "Does the response modify the previous poem to include metaphors that convey deeper feelings?",
+                        "explanation": "The user is asking for a modification of the previously provided poem, specifically to add depth and metaphorical elements."
+                    },
+                    {
+                        "type": "Dialogue History Constraint",
+                        "content": "Does the response still revolve around the theme of autumn, including elements like falling leaves and weather changes?",
+                        "explanation": "The user wants the poem to be about autumn, focusing on the aspects of leaves falling and the change in weather, as mentioned in the initial request."
+                    }
+                ]
+            }
+        ],
+        "user_type": 0
+    },
+    {
+        "conv_purpose": "The user aims to craft a creatively written poem centered on the theme of human emotion, specifically focusing on the interplay between joy and melancholy.",
+        "summarized prompts": [
+            {
+                "name": "c1",
+                "description": "The user initiates the conversation by requesting a creative poem capturing the duality of joy and sadness within the human experience.",
+                "explanation": "The initial prompt sets the groundwork for a creative writing task focusing on human emotions, aligning with the dialogue's creative writing type."
+            },
+            {
+                "name": "c2",
+                "description": "The user modifies the style of the poem requested in the last round's prompt to include more vivid imagery for enhancing emotional depth.",
+                "explanation": "This follows the 'revision' structure by altering the constraint regarding style, aiming to deepen the poem's emotional expression without changing its theme or adding new constraints."
+            },
+            {
+                "name": "c3",
+                "description": "The user recalls the blend of joy and sadness captured in the creative structure of the poem discussed in dialogue c1 and asks for its expansion to include a metaphorical journey representing these emotions.",
+                "explanation": "This follows the 'callback' structure, as the user references content from c1 to build upon it by integrating a journey metaphor that enhances the thematic exploration initiated in the first round."
+            }
+        ],
+        "structure": [
+            {
+                "source": "c1",
+                "target": "c2",
+                "relation": "revision"
+            },
+            {
+                "source": "c1",
+                "target": "c3",
+                "relation": "call-back"
+            }
+        ],
+        "conv_topic": "humanities",
+        "conv_task": "Creative Writing: Text with an emphasis on artistic expression and creativity (e.g., poems, short stories, scripts).",
+        "whole_conv": [
+            {
+                "name": "c1",
+                "user prompt": "Write a poem, make it about joy and sadness. Make it so you feel both, kinda deep like human emotions stuff, okay?",
+                "assistant answer": "In a dance of light and shadow, we weave,\\nWhere joy and sadness take their leave.\\nIn laughter's echo, tears find their place,\\nA mirrored journey, time cannot erase.\\nIn smiles, the echoes of pain reside,\\nIn sorrow's embrace, joy does bide.\\nLife's canvas, in hues both bright and dim,\\nBrush of emotions, on a whim.\\nFor every sunrise brings a tear,\\nAnd every dusk holds laughter near.\\nIn this dance of light and woe,\\nOur hearts forever ebb and flow.",
+                "constraints": [
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response focus on both joy and sadness, exploring deep human emotions?",
+                        "explanation": "The user explicitly asks for a poem that revolves around the themes of joy and sadness, emphasizing the depth of human emotions. This requirement ensures the content of the response is centered on these specific emotional themes."
+                    },
+                    {
+                        "type": "Style Constraint",
+                        "content": "Is the response written in a poetic style, capturing the essence of deep human emotions?",
+                        "explanation": "The user requests a poem, which implies that the response should be in a poetic form. Additionally, the request for a 'kinda deep like human emotions stuff' suggests a specific writing style that conveys depth and emotion."
+                    }
+                ]
+            },
+            {
+                "name": "c2",
+                "user prompt": "Aye, can you make it more vivid, like throw in some cool imagery or something? Make emotions pop.",
+                "assistant answer": "In the dawn's golden embrace, joy arises,\\nA gentle glow that paints the skies.\\nSadness, the silver moon's soft guise,\\nIlluminating the night, where silence lies.\\nJoy's laughter like a river's flow,\\nSparkling in the sun, where wildflowers grow.\\nSadness whispers in the rustling leaves,\\nA midnight breeze that softly grieves.\\nIn the dance of light and shadow's play,\\nThe colors of life both fade and sway.\\nFor in each tear, a rainbow gleams,\\nAnd within each sorrow, a dream redeems.",
+                "constraints": [
+                    {
+                        "type": "Revision Constraint",
+                        "content": "Does the response revise the previous poem to include more vivid imagery and make the emotions stand out?",
+                        "explanation": "The user is asking for a modification of the previous response to add more vivid imagery and enhance the emotional impact, which aligns with the definition of a Revision Constraint."
+                    }
+                ]
+            },
+            {
+                "name": "c3",
+                "user prompt": "remember that first poem? Can you expand it? Like imagine it's a journey, yeah? Metaphors maybe, but def keep the joy and sadness",
+                "assistant answer": "Embark on a journey through twilight's hue,\\nWhere joy and sadness, as companions, grew.\\nJoy strides through fields of golden dawn,\\nWith laughter's echo softly drawn.\\nSadness walks a path of moonlit mist,\\nAs shadows and dreams quietly coexist.\\nTogether they traverse mountains high,\\nWhere echoes of laughter and tears comply.\\nIn valleys, where wild rivers starkly divide,\\nTheir journey entwines, side by side.\\nFor every peak touched by sunrise gold,\\nMeets a valley where tales of tears unfold.\\nIn this voyage, where paths endlessly unfurl,\\nJoy and sadness, a tapestry of the world.",
+                "constraints": [
+                    {
+                        "type": "Revision Constraint",
+                        "content": "Does the response expand on the previous poem to incorporate a journey-like narrative with metaphors, while maintaining the themes of joy and sadness?",
+                        "explanation": "This constraint is classified as a Revision Constraint because it explicitly requires the new response to be a modification of the answer from the previous round, adding new elements like a journey and metaphors, while keeping the original themes."
+                    },
+                    {
+                        "type": "Dialogue History Constraint",
+                        "content": "Does the response build upon the previous conversation about the first poem that was written about joy and sadness?",
+                        "explanation": "This constraint is classified as a Dialogue History Constraint because it explicitly references the previous conversation and the content of the first poem, indicating that the new response should be based on this prior interaction."
+                    }
+                ]
+            }
+        ],
+        "user_type": 0
+    },
+    {
+        "conv_purpose": "User is crafting a creative short story about an artist's journey, seeking to develop ideas for different elements of the story and then summarize them.",
+        "summarized prompts": [
+            {
+                "name": "c1",
+                "description": "User begins by requesting a brainstorming session to generate ideas about a struggling artist's unique journey and key experiences in their creative process.",
+                "explanation": "The user initiates the dialogue by establishing the main theme for discussion, which sets the stage for following prompts that will build upon this initial idea."
+            },
+            {
+                "name": "c2",
+                "description": "The user follows the last round dialogue by narrowing down on specific experiences from the brainstormed ideas and asks for more detailed scenarios or moments that could be pivotal in the artist's journey.",
+                "explanation": "This prompt is a follow-up as the user builds upon the initial brainstorming session by introducing additional constraints, focusing on specific experiences and deepening the exploration."
+            },
+            {
+                "name": "c3",
+                "description": "The user seeks a summary of the content discussed in the previous rounds to consolidate the developed ideas into a cohesive narrative outline for the short story.",
+                "explanation": "This is a summary prompt because the user is asking for a consolidation of the detailed ideas and scenarios discussed in earlier dialogues into a unified overview of the story."
+            }
+        ],
+        "structure": [
+            {
+                "source": "c1",
+                "target": "c2",
+                "relation": "follow-up"
+            },
+            {
+                "source": [
+                    "c1",
+                    "c2"
+                ],
+                "target": "c3",
+                "relation": "summary"
+            }
+        ],
+        "conv_topic": "art",
+        "conv_task": "Creative Writing: Text with an emphasis on artistic expression and creativity (e.g., poems, short stories, scripts).",
+        "whole_conv": [
+            {
+                "name": "c1",
+                "user prompt": "need some ideas for a short story about an artist who struggles a lot. like their journey or what they go through. wanna brainstorm a lot of unique stuff. oh and include like a big turning point.",
+                "assistant answer": "Sure! Let's think about an artist who's grappling with self-doubt and financial instability. They might have a pivotal moment when discovering a new medium that completely changes their perspective. Perhaps they meet a mentor who challenges their views on art. We could explore their experience with a gallery exhibition that doesn't go as planned. What do you think?",
+                "constraints": [
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response focus on ideas for a short story about an artist who struggles and their journey?",
+                        "explanation": "The user is asking for ideas specifically about a struggling artist, which sets the content scope of the response."
+                    },
+                    {
+                        "type": "Keyword/Element Constraint",
+                        "content": "Does the response include a big turning point in the story?",
+                        "explanation": "The user explicitly asks for the inclusion of a big turning point, making it a keyword/element constraint."
+                    },
+                    {
+                        "type": "Quantity Format Constraint",
+                        "content": "Does the response provide a lot of unique ideas?",
+                        "explanation": "The user wants to brainstorm a lot of unique stuff, which implies a quantity format constraint, though not strictly defined by a specific number."
+                    }
+                ]
+            },
+            {
+                "name": "c2",
+                "user prompt": "gotta narrow down some of those ideas. focus on specific things that change them. give me detailed moments, like when they hit rock bottom or finally get a break.",
+                "assistant answer": "Absolutely, let's dive deeper. How about a scene where the artist receives a rejection letter from a major art show they're desperate to be a part of, which makes them question their path? Then, a chance encounter with an old friend leads to their first small exhibition, giving them a glimmer of hope. We can also explore a night where they're inspired in a dream, waking up to sketch a piece that gains unexpected attention.",
+                "constraints": [
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response focus on specific moments that change the artist, such as when they hit rock bottom or finally get a break?",
+                        "explanation": "This constraint requires the response to revolve around specific turning points in the artist's journey, ensuring that the content is focused and relevant."
+                    },
+                    {
+                        "type": "Revision Constraint",
+                        "content": "Does the response narrow down the ideas from the previous brainstorming session and provide more detailed moments?",
+                        "explanation": "This constraint requires the response to be a modification of the previous answer, focusing on narrowing down the ideas and providing more detailed moments."
+                    },
+                    {
+                        "type": "Dialogue History Constraint",
+                        "content": "Does the response build on the previous conversation about the artist who struggles a lot?",
+                        "explanation": "This constraint explicitly requires the response to be based on the content from the previous conversation, which discussed the artist's journey and struggles."
+                    }
+                ]
+            },
+            {
+                "name": "c3",
+                "user prompt": "can u just summarize all those points into a story outline. kinda like, start with them struggling, then hits bottom, then things change, and then sum big a-ha moment.",
+                "assistant answer": "Of course! Here's a quick outline: \n1. Introduction: The artist struggles with self-doubt and financial issues, feeling disconnected from their work. \n2. Midway Point: They experience a major setback with a rejection letter, leading to a period of despair. \n3. Turning Point: A serendipitous meeting with an old friend offers a chance for a small exhibition, renewing their passion. \n4. Climax: Inspired by a dream, the artist creates a breakthrough piece that resonates widely, marking their a-ha moment. \n5. Conclusion: With new confidence and a clearer sense of direction, the artist continues their journey, embracing both success and failure along the way.",
+                "constraints": [
+                    {
+                        "type": "Dialogue History Constraint",
+                        "content": "Does the response build upon the previous conversation and summarize all those points into a story outline?",
+                        "explanation": ""
+                    },
+                    {
+                        "type": "Template Format Constraint",
+                        "content": "Does the response follow the template: start with them struggling, then hits bottom, then things change, and then sum big a-ha moment?",
+                        "explanation": "The user specifies a strict structure for the story outline, which includes starting with the struggle, hitting rock bottom, changes, and a big a-ha moment."
+                    }
+                ]
+            }
+        ],
+        "user_type": 0
+    },
+    {
+        "conv_purpose": "The user seeks to collaboratively create a piece of creative writing about music, starting with a general idea and refining it through successive dialogue turns.",
+        "summarized prompts": [
+            {
+                "name": "c1",
+                "description": "The user requests inspiration for a short story centered around the theme of music.",
+                "explanation": "This initial prompt sets the stage for the creative writing process, aligning with the theme of music."
+            },
+            {
+                "name": "c2",
+                "description": "The user follows up by asking for the addition of a specific character who is deeply passionate about music to be integrated into the story.",
+                "explanation": "This follows the 'follow-up' structure as the user builds on the initial story idea by adding a new constraint—a character who is passionate about music."
+            }
+        ],
+        "structure": [
+            {
+                "source": "c1",
+                "target": "c2",
+                "relation": "follow-up"
+            }
+        ],
+        "conv_topic": "music",
+        "conv_task": "Creative Writing: Text with an emphasis on artistic expression and creativity (e.g., poems, short stories, scripts).",
+        "whole_conv": [
+            {
+                "name": "c1",
+                "user prompt": "Can you give me ideas for a short story? It should be about music, like a band or someone who loves music deeply. Make sure it has words like melody, rhythm, and harmony. And can you use this template: '[Introduction]... [Plot Development]... [Climax]... [Resolution]'?",
+                "assistant answer": "Sure! Here's an idea: \n\n[Introduction] A young guitarist named Alex, who spends most of his time jamming in his garage, dreams of forming a band. His small town is not known for its music scene, but Alex is determined to change that. \n\n[Plot Development] Alex meets Jamie, a passionate drummer, and together they start playing music in local cafes and parks. They search for a vocalist to complete their band, finally finding Lily, a soulful singer who adds depth to their melodies. \n\n[Climax] They get a chance to perform at the town's annual music festival. On the night of the performance, a storm threatens to cancel the event. Despite the odds, Alex motivates the band to play beneath a makeshift tent, turning the stormy night into an electrifying show. \n\n[Resolution] Their performance captivates the audience and sparks a renewed interest in live music within the community. Alex's dream of creating a music scene in his town begins to take shape, with the band gaining local fame.",
+                "constraints": [
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response revolve around a story about music, such as a band or someone who loves music deeply?",
+                        "explanation": "This constraint requires that the response must focus on the specified content, which is a story about music, specifically involving a band or a person with a deep love for music."
+                    },
+                    {
+                        "type": "Keyword/Element Constraint",
+                        "content": "Does the response include the words 'melody', 'rhythm', and 'harmony'?",
+                        "explanation": "This constraint requires the inclusion of specific keywords ('melody', 'rhythm', and 'harmony') in the response."
+                    },
+                    {
+                        "type": "Template Format Constraint",
+                        "content": "Does the response follow the template: '[Introduction]... [Plot Development]... [Climax]... [Resolution]'?",
+                        "explanation": "This constraint specifies that the response should be structured according to a given template, with clearly defined sections for introduction, plot development, climax, and resolution."
+                    }
+                ]
+            },
+            {
+                "name": "c2",
+                "user prompt": "Add a character to the story. They gotta be super into music. No long descriptions, just quick info. Oh, and don't use words like sad or lonely.",
+                "assistant answer": "Alright! Let's introduce Mia, a brilliant violinist who plays in the local orchestra. She joins the band after hearing Alex and Jamie play, bringing her unique classical touch to their rock sound. Mia's passion for blending different musical genres makes her a perfect fit for the group, adding new layers to their harmony and rhythm.",
+                "constraints": [
+                    {
+                        "type": "Revision Constraint",
+                        "content": "Does the response add a character to the story who is deeply into music, based on the previous story about music?",
+                        "explanation": "The user is asking for a modification of the previous answer by adding a new character, which aligns with the definition of a Revision Constraint."
+                    },
+                    {
+                        "type": "Inverse Constraint",
+                        "content": "Does the response avoid using words like sad or lonely?",
+                        "explanation": "The user explicitly asks the LLM to not use specific words, which is an example of an Inverse Constraint."
+                    },
+                    {
+                        "type":"Quantity Format Constraint",
+                        "content":"Does the response has no long descriptions, just quick info?",
+                        "explanation":"" 
+                    }
+                ]
+            }
+        ],
+        "user_type": 0
+    },
+    {
+        "conv_purpose": "The user aims to create a short story with a poetic theme, exploring different elements and bringing them together creatively.",
+        "summarized prompts": [
+            {
+                "name": "c1",
+                "description": "The user asks for a unique premise for a short story centered around a mystical forest where time flows differently.",
+                "explanation": "This prompt initiates the conversation with a clear topic for creative writing, setting the stage for further exploration."
+            },
+            {
+                "name": "c2",
+                "description": "The user follows the last round dialogue by asking for creative descriptions of the forest's environment, such as the flora and fauna.",
+                "explanation": "The prompt adheres to the 'follow-up' structure by building on the story premise introduced in the previous round, requesting more specific details."
+            },
+            {
+                "name": "c3",
+                "description": "The user recalls elements of mystical time flow and forest environment mentioned in (c1) and (c2) and asks for a gripping opening scene that incorporates these elements.",
+                "explanation": "This prompt fits the 'callback' structure, as it integrates ideas discussed in earlier rounds to craft the opening scene of the story."
+            }
+        ],
+        "structure": [
+            {
+                "source": "c1",
+                "target": "c2",
+                "relation": "follow-up"
+            },
+            {
+                "source": "c1",
+                "target": "c3",
+                "relation": "call-back"
+            }
+        ],
+        "conv_topic": "entertainment",
+        "conv_task": "Creative Writing: Text with an emphasis on artistic expression and creativity (e.g., poems, short stories, scripts).",
+        "whole_conv": [
+            {
+                "name": "c1",
+                "user prompt": "i wanna write short story, like in a mystical forest where time's all weird? gimme a unique twist, gotta include magic but no dragons here!",
+                "assistant answer": "Sure! Imagine a mystical forest where time is a living entity, manifesting as a playful spirit that dances around, changing the flow of time at will. People who enter this forest might find themselves aging backwards or seeing glimpses of their future, but never the present. The magic of the forest is nurtured by ancient, singing trees, and the sound of their melodies shapes the flow of time. However, there's a secret — only those who bring a genuine offering to the forest's heart can learn to control this time flow. No dragons involved, promise!",
+                "constraints": [
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response revolve around a short story set in a mystical forest where time is unusual?",
+                        "explanation": "The user wants a short story with a specific setting, which defines the content scope of the response."
+                    },
+                    {
+                        "type": "Keyword/Element Constraint",
+                        "content": "Does the response include magic?",
+                        "explanation": "The user explicitly requests that the story must include magic, making it a keyword/element constraint."
+                    },
+                    {
+                        "type": "Inverse Constraint",
+                        "content": "Does the response refrain from including dragons?",
+                        "explanation": "The user specifies that dragons should not be included in the story, which is an inverse constraint."
+                    }
+                ]
+            },
+            {
+                "name": "c2",
+                "user prompt": "now tell me what's in this forest, like plants and animals? make it sound magical, but i want it in exactly 3 sentences.",
+                "assistant answer": "The forest is filled with luminescent flowers that bloom only at night, casting a gentle glow that reveals hidden paths. The trees have leaves that whisper secrets of ages past, and their bark is embedded with gemstones that catch the moonlight, creating sparkling constellations on the forest floor. Enigmatic creatures, with eyes that shimmer like starlight, roam silently, their presence felt more than seen.",
+                "constraints": [
+                    {
+                        "type":"Dialogue History Constraint",
+                        "content":"Is the response based on the forest from the previous conversation?",
+                        "explanation":"" 
+                    },
+                    {
+                        "type": "Quantity Format Constraint",
+                        "content": "Is the response limited to exactly 3 sentences?",
+                        "explanation": "The user explicitly requests that the response be in exactly 3 sentences, which is a clear specification of the number of sentences."
+                    },
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response focus on describing the plants and animals in the mystical forest?",
+                        "explanation": "The user asks for a description of what is in the forest, specifically plants and animals, indicating the content scope should revolve around this topic."
+                    },
+                    {
+                        "type": "Style Constraint",
+                        "content": "Does the response make the description sound magical?",
+                        "explanation": "The user wants the description to 'sound magical,' which is a request for a specific writing style."
+                    }
+                ]
+            },
+            {
+                "name": "c3",
+                "user prompt": "so now just start the story, use those time ideas and forest stuff u told. start with 'Once upon...' and end with '...to be continued.'",
+                "assistant answer": "Once upon a time, in a forest where the essence of time wove its whimsical dance, a young wanderer named Elara stepped into the embrace of ancient trees. The luminous flowers bathed her path in an ethereal light while the trees whispered eerie secrets, the familiar hum of time dissolved into a melody only the forest could compose. As she ventured further, glimpses of her life played out in the vibrant air, tantalizing visions that beckoned her deeper into the mystery, and just as the forest began to reveal its heart, the journey was to be continued.",
+                "constraints": [
+                    {
+                        "type": "Template Format Constraint",
+                        "content": "Does the response start with 'Once upon...' and end with '...to be continued.'?",
+                        "explanation": "The user explicitly asks for the story to begin with 'Once upon...' and end with '...to be continued.', which fits the definition of a Template Format Constraint."
+                    },
+                    {
+                        "type": "Revision Constraint",
+                        "content": "Does the response incorporate the time-related ideas and forest elements previously discussed?",
+                        "explanation": "The user requests that the story should use the time-related concepts and forest details from the previous responses, indicating a Revision Constraint."
+                    },
+                    {
+                        "type": "Dialogue History Constraint",
+                        "content": "Is the response based on the content from the previous conversation about the mystical forest and its magical elements?",
+                        "explanation": "The user refers to the previous discussion about the mystical forest and its magical elements, which is an explicit requirement to use the dialogue history, fitting the Dialogue History Constraint."
+                    }
+                ]
+            }
+        ],
+        "user_type": 0
+    }
+]

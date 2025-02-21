@@ -1,0 +1,356 @@
+[
+    {
+        "conv_purpose": "User seeks assistance in drafting a concise email about a recent music event they attended for a workplace newsletter.",
+        "summarized prompts": [
+            {
+                "name": "c1",
+                "description": "User requests help in writing an email about a music event they attended, mentioning specific details like the event name, date, and location.",
+                "explanation": "The user's initial prompt sets the stage for the request, establishing the need for a draft email by providing basic details about the music event to be included."
+            },
+            {
+                "name": "c2",
+                "description": "The user modifies the request by asking for the email tone to be more professional, ensuring it aligns with workplace standards.",
+                "explanation": "The user revises the previous constraint by changing the tone to a more professional style, which is a specific modification without changing the overall topic."
+            }
+        ],
+        "structure": [
+            {
+                "source": "c1",
+                "target": "c2",
+                "relation": "revision"
+            }
+        ],
+        "conv_topic": "music",
+        "conv_task": "Practical Writing: Common workplace or daily-life writing scenarios that emphasize clarity and brevity.",
+        "whole_conv": [
+            {
+                "name": "c1",
+                "user prompt": "Hello, I recently attended a fantastic music event and I need to draft a concise email for our workplace newsletter. The event was called 'Harmony Fest', held on September 20th, 2023, at the Greenfield Amphitheater. Please ensure that the description includes significant elements like the event name, date, and location. Additionally, could you make sure to highlight the breathtaking performances?",
+                "assistant answer": "Certainly! Here's a draft for your email: Subject: A Night to Remember at Harmony Fest - September 20th, 2023 Dear [Recipient's Name], I am thrilled to share my experience from the Harmony Fest, held on September 20th, 2023, at the picturesque Greenfield Amphitheater. The night was filled with breathtaking performances that left the audience in awe. It was a gathering of musical talents from diverse genres, creating an atmosphere of unity and joy. Looking forward to sharing more events in the future. Best regards, [Your Name]",
+                "constraints": [
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response focus on drafting a concise email for the workplace newsletter about the 'Harmony Fest' event?",
+                        "explanation": "The user specifies that the response should be a concise email for the workplace newsletter, and it must revolve around the 'Harmony Fest' event."
+                    },
+                    {
+                        "type": "Keyword/Element Constraint",
+                        "content": "Does the response include the event name 'Harmony Fest', date 'September 20th, 2023', and location 'Greenfield Amphitheater'?",
+                        "explanation": "The user explicitly requires the inclusion of the event name, date, and location in the description."
+                    },
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response highlight the breathtaking performances at the event?",
+                        "explanation": "The user specifically asks to highlight the breathtaking performances, which is a key element of the content."
+                    }
+                ]
+            },
+            {
+                "name": "c2",
+                "user prompt": "Could you adjust the previous draft to suit a more professional tone suitable for our workplace standards? Also, I would like the email to be no more than 150 words and include keywords such as 'insightful', 'networking opportunities', and 'cultural enrichment'.",
+                "assistant answer": "Certainly! Here's a revised draft: Subject: Insightful Evening at Harmony Fest - A Cultural Enrichment Experience Dear [Recipient's Name], I am pleased to report on the Harmony Fest event held on September 20th, 2023, at the Greenfield Amphitheater. This event provided exceptional cultural enrichment and insightful experiences, with performances that transcended musical boundaries. It also offered ample networking opportunities for attendees, fostering a platform for meaningful professional connections. Harmony Fest embodied a celebration of musical diversity, and its success has set a new standard for future events. I am looking forward to more such enriching experiences. Sincerely, [Your Name]",
+                "constraints": [
+                    {
+                        "type": "Revision Constraint",
+                        "content": "Does the response modify the previous draft to suit a more professional tone suitable for workplace standards?",
+                        "explanation": "This constraint requires the LLM to adjust the previous draft, making it more appropriate for a professional setting, indicating a revision of the prior response."
+                    },
+                    {
+                        "type": "Quantity Format Constraint",
+                        "content": "Is the response limited to no more than 150 words?",
+                        "explanation": "The user explicitly requests that the email be no more than 150 words long, which is a clear quantity format constraint."
+                    },
+                    {
+                        "type": "Keyword/Element Constraint",
+                        "content": "Does the response include the keywords 'insightful', 'networking opportunities', and 'cultural enrichment'?",
+                        "explanation": "The user specifies that the email should include certain keywords, which is a keyword/element constraint."
+                    }
+                ]
+            }
+        ],
+        "user_type": 1
+    },
+    {
+        "conv_purpose": "User is drafting a guide on basic computer hardware components for an office training session.",
+        "summarized prompts": [
+            {
+                "name": "c1",
+                "description": "User requests an explanation of the central processing unit (CPU) and its role in a computer system.",
+                "explanation": "This prompt serves as the starting point for gathering information on individual computer components."
+            },
+            {
+                "name": "c2",
+                "description": "The user follows the last round dialogue by asking for a brief comparison between the CPU and the graphics processing unit (GPU), focusing on their primary functions.",
+                "explanation": "The prompt adds additional constraints by shifting the focus to comparing CPU and GPU, following up on the initial inquiry about the CPU."
+            },
+            {
+                "name": "c3",
+                "description": "The user seeks a summary of the content discussed in the previous two rounds, aiming to compile the gathered information into a cohesive overview for a training guide.",
+                "explanation": "This prompt asks for a summary, thereby consolidating details from the discussions about CPU and GPU into a concise format suitable for inclusion in a training guide."
+            }
+        ],
+        "structure": [
+            {
+                "source": "c1",
+                "target": "c2",
+                "relation": "follow-up"
+            },
+            {
+                "source": [
+                    "c1",
+                    "c2"
+                ],
+                "target": "c3",
+                "relation": "summary"
+            }
+        ],
+        "conv_topic": "computer",
+        "conv_task": "Practical Writing: Common workplace or daily-life writing scenarios that emphasize clarity and brevity.",
+        "whole_conv": [
+            {
+                "name": "c1",
+                "user prompt": "I am preparing a detailed training guide on basic computer hardware for an upcoming office session. Can you please provide a comprehensive explanation of the central processing unit (CPU), focusing on its pivotal role within a computer system? Please format your response in Markdown for easy integration into my guide.",
+                "assistant answer": "### Central Processing Unit (CPU)\n\nThe Central Processing Unit (CPU) is often referred to as the 'brain' of the computer. It is responsible for executing instructions from programs by performing the basic arithmetic, logic, control, and input/output operations specified by the instructions. Essentially, the CPU interprets and processes the majority of the computer's data, coordinating the functions of the other components. \n\n#### Functions of the CPU:\n1. **Arithmetic Logic Unit (ALU):** Performs all arithmetic and logical operations.\n2. **Control Unit (CU):** Directs the operation of the processor and its interaction with other components.\n3. **Registers:** Temporarily hold data and instructions that the CPU needs.\n4. **Cache:** Provides high-speed access to frequently used data and instructions.\n\nThe performance of a CPU is determined by factors such as clock speed, core count, and cache size.",
+                "constraints": [
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response focus on a comprehensive explanation of the central processing unit (CPU) and its pivotal role within a computer system?",
+                        "explanation": "The user specifically requests a detailed explanation of the CPU and its importance, which defines the scope of the content."
+                    },
+                    {
+                        "type": "Fundamental Format Constraint",
+                        "content": "Is the response formatted in Markdown?",
+                        "explanation": "The user explicitly asks for the response to be formatted in Markdown for easy integration into their guide."
+                    }
+                ]
+            },
+            {
+                "name": "c2",
+                "user prompt": "Given the foundational role of the CPU, I am curious about how it compares to the Graphics Processing Unit (GPU) in terms of their primary functions within a computer. Imagine you are an IT expert explaining this to a group with minimal technical background. Please ensure the response does not exceed 150 words.",
+                "assistant answer": "As an IT expert, I would explain that the CPU and GPU serve different but complementary roles. The CPU is designed for versatility, handling a wide range of tasks at moderate speeds, essential for running operating systems and various applications. In contrast, the GPU specializes in handling complex computations required for rendering graphics, particularly in video games and design software, by efficiently processing multiple tasks simultaneously. It excels in parallel processing, which allows for smoother and faster rendering of high-definition visuals. While the CPU orchestrates overall computer functions, the GPU enhances visual output, optimizing the user experience.",
+                "constraints": [
+                    {
+                        "type": "Situation Constraint",
+                        "content": "Is the response given from the perspective of an IT expert explaining to a group with minimal technical background?",
+                        "explanation": "The user explicitly asks the LLM to imagine being an IT expert and to explain in a way that is understandable to a group with minimal technical background."
+                    },
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response focus on comparing the primary functions of the CPU and GPU within a computer system?",
+                        "explanation": "The user requests a comparison between the CPU and GPU, specifically focusing on their primary functions."
+                    },
+                    {
+                        "type": "Quantity Format Constraint",
+                        "content": "Is the response limited to 150 words?",
+                        "explanation": "The user specifies that the response should not exceed 150 words."
+                    }
+                ]
+            },
+            {
+                "name": "c3",
+                "user prompt": "To conclude the section on processing units for my training guide, I need a concise summary of the roles and differences between the CPU and GPU that were discussed. Please compile this information into a structured overview that can be easily inserted into the guide.",
+                "assistant answer": "### Overview of Processing Units: CPU vs. GPU\n\n#### Central Processing Unit (CPU):\n- **Role:** Acts as the main processing hub, executing most computer tasks through its ALU, CU, registers, and cache.\n- **Functionality:** Versatile in running operating systems and applications by processing tasks sequentially.\n\n#### Graphics Processing Unit (GPU):\n- **Role:** Specializes in rendering graphics and handling complex computations.\n- **Functionality:** Excels in parallel processing, enabling rapid execution of multiple calculations for high-quality graphics and imaging.\n\n#### Key Differences:\n- **CPU:** Designed for a wide range of tasks, managing overall system operations.\n- **GPU:** Optimized for graphics tasks, enhancing visual output and performance.\n\nThis structured overview highlights the distinct yet complementary functions of the CPU and GPU, crucial for understanding their contributions to computer performance.",
+                "constraints": [
+                    {
+                        "type": "Dialogue History Constraint",
+                        "content": "Does the response base its content on the previous conversation about the roles and differences between the CPU and GPU?",
+                        "explanation": "The user explicitly mentions 'the roles and differences between the CPU and GPU that were discussed,' indicating that the response should build upon the previous conversation."
+                    },
+                    {
+                        "type": "Fundamental Format Constraint",
+                        "content": "Is the response formatted in a way that can be easily inserted into the training guide?",
+                        "explanation": "The user requests a 'structured overview' that can be easily inserted into the guide, implying a specific format suitable for integration."
+                    }
+                ]
+            }
+        ],
+        "user_type": 1
+    },
+    {
+        "conv_purpose": "User seeks to write a concise and clear summary of recent technological trends for a workplace presentation.",
+        "summarized prompts": [
+            {
+                "name": "c1",
+                "description": "User requests information on recent trends in artificial intelligence technology.",
+                "explanation": "This prompt serves as the initial request for information, setting the stage for a follow-up structure in the next round."
+            },
+            {
+                "name": "c2",
+                "description": "The user follows the last round dialogue by asking how these AI trends might impact the job market.",
+                "explanation": "This prompt is a follow-up because it builds directly on the information provided about AI trends by introducing an additional constraint related to their impact on the job market."
+            },
+            {
+                "name": "c3",
+                "description": "The user seeks a summary of the content discussed in the previous rounds for a brief presentation slide.",
+                "explanation": "The user requests a consolidation of the information about AI trends and their job market impact into a cohesive overview, matching the definition of a summary structure."
+            }
+        ],
+        "structure": [
+            {
+                "source": "c1",
+                "target": "c2",
+                "relation": "follow-up"
+            },
+            {
+                "source": [
+                    "c1",
+                    "c2"
+                ],
+                "target": "c3",
+                "relation": "summary"
+            }
+        ],
+        "conv_topic": "technology",
+        "conv_task": "Practical Writing: Common workplace or daily-life writing scenarios that emphasize clarity and brevity.",
+        "whole_conv": [
+            {
+                "name": "c1",
+                "user prompt": "I am preparing for an upcoming workplace presentation on recent technological developments. Can you provide the latest trends in artificial intelligence technology? Please include a detailed analysis of at least 500 words. Imagine you are a technology consultant guiding a team of professionals, and your response should reflect this perspective. Additionally, try not to mention 'smart home devices.'",
+                "assistant answer": "Recent trends in artificial intelligence (AI) highlight significant advancements across various domains. As a technology consultant guiding a team of professionals, it's crucial to understand how these innovations impact different sectors. \n\nOne of the most prominent trends is the increase in AI-driven automation across industries. Businesses are adopting AI to optimize processes, enhance productivity, and reduce operational costs. This shift is notable in sectors such as manufacturing, where AI-powered robots and machinery streamline production lines, and in logistics, where AI enhances supply chain efficiency.\n\nAnother key trend is the integration of AI in healthcare. AI algorithms are playing a pivotal role in diagnostics, drug discovery, and personalized medicine. Companies are deploying machine learning models to predict disease patterns and personalize treatment plans, making healthcare more precise and accessible.\n\nNatural Language Processing (NLP) has also seen remarkable progress, enabling AI systems to understand and generate human language with greater accuracy. This evolution is transforming customer service through AI-powered chatbots and virtual assistants, enhancing user interaction and satisfaction.\n\nIn addition, AI's role in cybersecurity is becoming increasingly significant. As cyber threats evolve, AI is being used to detect and counteract potential threats in real-time, safeguarding sensitive data and maintaining system integrity.\n\nThe ethical implications of AI continue to be a major area of focus. With the rise of AI in decision-making processes, there is a growing demand for transparent and fair algorithms to prevent biases and ensure accountability.\n\nThese trends highlight AI's expansive role in transforming industries, emphasizing both the potential benefits and the challenges that come with its implementation.",
+                "constraints": [
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response focus on the latest trends in artificial intelligence technology?",
+                        "explanation": "The user explicitly asks for the latest trends in AI technology, which sets the content scope of the response."
+                    },
+                    {
+                        "type": "Quantity Format Constraint",
+                        "content": "Is the response at least 500 words long?",
+                        "explanation": "The user specifies that the response should include a detailed analysis of at least 500 words."
+                    },
+                    {
+                        "type": "Situation Constraint",
+                        "content": "Is the response written from the perspective of a technology consultant guiding a team of professionals?",
+                        "explanation": "The user requests that the response be given as if the responder is a technology consultant, setting the simulated scenario or identity."
+                    },
+                    {
+                        "type": "Inverse Constraint",
+                        "content": "Does the response avoid mentioning 'smart home devices'?",
+                        "explanation": "The user explicitly asks to not mention 'smart home devices,' which is a clear inverse constraint."
+                    }
+                ]
+            },
+            {
+                "name": "c2",
+                "user prompt": "Building on the earlier analysis, I'm interested in understanding how these AI trends might shape the job market in the coming years. Please summarize this in exactly 300 words. Assume the role of a career advisor addressing potential job seekers.",
+                "assistant answer": "As a career advisor addressing potential job seekers, it is important to acknowledge how the emerging AI trends will reshape the job market. \n\nAI-driven automation is a double-edged sword; while it streamlines operations and enhances efficiency, it also poses a threat to certain job categories, particularly those involving repetitive tasks. Roles in manufacturing, data entry, and basic customer service may see a decrease as AI systems become more capable of handling their duties. However, this same automation opens new avenues for job creation, particularly in fields focused on the development, maintenance, and oversight of AI technologies.\n\nHealthcare professionals can expect a growing demand for roles specializing in AI-driven diagnostics and personalized medicine. As AI becomes more integrated into healthcare systems, there will be new opportunities for skilled workers who can bridge the gap between technology and patient care.\n\nThe expansion of AI in cybersecurity signals the need for professionals who can develop and manage AI-enhanced security protocols, offering a promising career path in IT and data protection.\n\nNatural Language Processing advancements will also necessitate roles in refining and implementing AI solutions that improve human-computer interaction. There is potential for growth in language-related fields and software development, where skilled individuals can contribute to creating more intuitive AI systems.\n\nEthical AI development is another crucial area, prompting a demand for experts in AI ethics and policy who can ensure that AI technologies are applied responsibly and fairly across industries.\n\nOverall, while certain jobs may be at risk, the trends indicate a shift towards more specialized roles that intertwine human expertise with AI capabilities, highlighting the importance of adaptability and continuous learning in the future job market.",
+                "constraints": [
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response focus on how AI trends might shape the job market in the coming years?",
+                        "explanation": ""
+                    },
+                    {
+                        "type": "Dialogue History Constraint",
+                        "content": "Does the response build upon the earlier analysis of AI trends provided in the previous conversation?",
+                        "explanation": "The user explicitly references the 'earlier analysis' and asks to build on it, indicating a need for the response to be based on the previous conversation, which fits the Dialogue History Constraint."
+                    },
+                    {
+                        "type": "Quantity Format Constraint",
+                        "content": "Is the response limited to exactly 300 words?",
+                        "explanation": "The user specifies that the summary should be 'exactly 300 words,' which is a clear Quantity Format Constraint."
+                    },
+                    {
+                        "type": "Situation Constraint",
+                        "content": "Does the response assume the role of a career advisor addressing potential job seekers?",
+                        "explanation": "The user requests that the response be given from the perspective of a career advisor, which is a Situation Constraint."
+                    }
+                ]
+            },
+            {
+                "name": "c3",
+                "user prompt": "I need to present a concise overview of our previous discussions on AI trends and their impact on the job market. For a brief presentation slide, can you compile this information into a summary of exactly 150 words? Ensure that the summary maintains a professional tone.",
+                "assistant answer": "The recent advancements in artificial intelligence (AI) are significantly transforming multiple industries. AI-driven automation is enhancing operational efficiency but also altering job dynamics. Roles in repetitive tasks may decrease; however, new opportunities are emerging in AI development and management. In healthcare, AI is pioneering diagnostics and personalized medicine, requiring skilled professionals to integrate technology with patient care. The cybersecurity sector is seeing an increased demand for experts capable of managing AI-enhanced security measures. Advancements in Natural Language Processing necessitate roles in creating user-friendly AI solutions. Additionally, ethical AI considerations call for specialists to ensure fair and responsible AI deployment. While AI trends present challenges, they also offer pathways for growth in specialized roles, emphasizing the need for continuous learning. This evolving landscape underscores the criticality of adaptability in navigating the future job market. Professionals must remain informed to leverage these shifts for career advancement.",
+                "constraints": [
+                    {
+                        "type": "Revision Constraint",
+                        "content": "Does the response compile and summarize the information from the previous discussions on AI trends and their impact on the job market?",
+                        "explanation": "The user is asking for a summary of the previous discussions, which implies that the response should be a revision of the earlier content."
+                    },
+                    {
+                        "type": "Dialogue History Constraint",
+                        "content": "Does the response base its content on the previous conversations about AI trends and their impact on the job market?",
+                        "explanation": "The user explicitly mentions 'our previous discussions on AI trends and their impact on the job market,' indicating that the response should be based on the prior conversation history."
+                    },
+                    {
+                        "type": "Quantity Format Constraint",
+                        "content": "Is the response exactly 150 words?",
+                        "explanation": "The user specifies that the summary should be 'exactly 150 words,' which is a clear quantity format constraint."
+                    },
+                    {
+                        "type": "Style Constraint",
+                        "content": "Does the response maintain a professional tone?",
+                        "explanation": "The user requests that the summary 'maintains a professional tone,' which is a style constraint."
+                    }
+                ]
+            }
+        ],
+        "user_type": 1
+    },
+    {
+        "conv_purpose": "The user aims to draft a legally sound employment contract by gathering and refining clauses suitable for a workplace agreement.",
+        "summarized prompts": [
+            {
+                "name": "c1",
+                "description": "The user requests initial guidance on drafting an employment contract, specifically asking for the essential clauses that should be included.",
+                "explanation": "This is the initial inquiry, so it sets the stage for the subsequent follow-up by establishing the main topic of drafting an employment contract and seeking foundational knowledge."
+            },
+            {
+                "name": "c2",
+                "description": "The user follows up the last round dialogue by asking for examples or templates of these essential clauses that could effectively be used in a general employment contract.",
+                "explanation": "The follow-up structure is demonstrated as the user builds on the initial list of essential clauses, now seeking concrete examples or templates to gain a clearer understanding of how these clauses are typically worded or structured."
+            }
+        ],
+        "structure": [
+            {
+                "source": "c1",
+                "target": "c2",
+                "relation": "follow-up"
+            }
+        ],
+        "conv_topic": "law",
+        "conv_task": "Practical Writing: Common workplace or daily-life writing scenarios that emphasize clarity and brevity.",
+        "whole_conv": [
+            {
+                "name": "c1",
+                "user prompt": "I am in the process of drafting an employment contract and need to ensure it covers all critical areas to protect both employer and employee interests. Could you please provide a detailed list of essential clauses that should be included in an employment contract? Additionally, I would appreciate if you could present this list in JSON format for easy review and integration.",
+                "assistant answer": "Certainly! Here's a list of essential clauses that are typically included in an employment contract, provided in JSON format:\n\n```json\n{\n    \"essential_clauses\": [\n        \"Parties Involved\",\n        \"Job Title and Description\",\n        \"Compensation and Benefits\",\n        \"Work Hours and Schedule\",\n        \"Duration of Employment\",\n        \"Confidentiality Agreement\",\n        \"Non-compete Clause\",\n        \"Dispute Resolution\",\n        \"Termination Conditions\",\n        \"Intellectual Property Rights\",\n        \"Compliance with Company Policies\"\n    ]\n}\n```\nThese clauses form the foundation of most employment contracts, ensuring clarity and protecting both parties' interests.",
+                "constraints": [
+                    {
+                        "type": "Fundamental Format Constraint",
+                        "content": "Is the response presented in JSON format?",
+                        "explanation": "The user explicitly requests the information to be provided in JSON format for easy review and integration."
+                    },
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response focus on providing a detailed list of essential clauses that should be included in an employment contract and cover all critical areas to protect both employer and employee interests?",
+                        "explanation": "The user is specifically asking for a detailed list of essential clauses for an employment contract, indicating the content scope of the response."
+                    }
+                ]
+            },
+            {
+                "name": "c2",
+                "user prompt": "To further aid in drafting a comprehensive employment contract, could you provide detailed examples or templates of these clauses? I am particularly interested in a format that starts with a brief introduction of each clause followed by a practical example. Please ensure the template is structured so that it can be readily adapted for general use.",
+                "assistant answer": "Of course! Below is a template that begins with an introduction for each clause followed by a practical example:\n\n```\n[Clause: Parties Involved]\nIntroduction: This clause identifies the parties entering into the employment agreement.\nExample: 'This Employment Agreement is made between ABC Corp, a corporation organized under the laws of [State], and John Doe, an individual residing at [Address].'\n\n[Clause: Job Title and Description]\nIntroduction: This clause outlines the role and duties of the employee.\nExample: 'The Employee shall serve as the Senior Software Developer, performing duties such as designing software solutions and collaborating with project managers to deliver customized applications.'\n\n[Clause: Compensation and Benefits]\nIntroduction: This clause details the employee's salary and additional benefits.\nExample: 'The Employee shall receive an annual salary of $80,000 payable biweekly, along with health insurance and a retirement savings plan.'\n\n...\n\n[Clause: Compliance with Company Policies]\nIntroduction: This clause obligates the employee to adhere to company guidelines.\nExample: 'The Employee agrees to comply with all policies and procedures of the Company as amended from time to time.'\n```\n\nThis template format allows for each clause to be easily understood and adapted to fit specific needs, ensuring clarity and comprehensiveness in the employment contract.",
+                "constraints": [
+                    {
+                        "type": "Revision Constraint",
+                        "content": "Does the response provide detailed examples or templates of the clauses, as a modification to the previous answer?",
+                        "explanation": "The user is asking for an update to the previous answer to include more detailed and practical information, which aligns with the definition of a Revision Constraint."
+                    },
+                    {
+                        "type": "Template Format Constraint",
+                        "content": "Does the response follow a format that starts with a brief introduction of each clause followed by a practical example?",
+                        "explanation": "The user specifically requests a format where each clause is introduced briefly and then followed by a practical example, fitting the Template Format Constraint definition."
+                    },
+                    {
+                        "type": "Content Constraint",
+                        "content": "Does the response focus on providing templates of employment contract clauses that can be readily adapted for general use?",
+                        "explanation": "The user specifies that the response should focus on providing templates that are adaptable, which is a clear content scope, matching the Content Constraint definition."
+                    }
+                ]
+            }
+        ],
+        "user_type": 1
+    }
+]
