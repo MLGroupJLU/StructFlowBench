@@ -117,7 +117,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the previous question to exclude seasonal variations while focusing on geographic phenomena.",
-                "explanation": "This prompt follows the 'revision' structure by altering the constraint of including seasonal variations to focusing solely on geographic phenomena, to refine the response's scope for clearer educational use."
+                "explanation": "This prompt follows the 'refinement' structure by altering the constraint of including seasonal variations to focusing solely on geographic phenomena, to refine the response's scope for clearer educational use."
             },
             {
                 "name": "c3",
@@ -129,7 +129,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -186,7 +186,7 @@
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "computer",

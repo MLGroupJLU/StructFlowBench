@@ -117,7 +117,7 @@
             {
                 "name": "c3",
                 "description": "The user modifies the focus from 'morning activities' to 'evening routines' to gain insights into simplifying the end-of-day processes.",
-                "explanation": "In this revision step, the user changes the constraint from morning to evening routines, maintaining the overall lifestyle topic while shifting the focus to different times of day."
+                "explanation": "In this refinement step, the user changes the constraint from morning to evening routines, maintaining the overall lifestyle topic while shifting the focus to different times of day."
             }
         ],
         "structure": [
@@ -129,7 +129,7 @@
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "lifestyle",

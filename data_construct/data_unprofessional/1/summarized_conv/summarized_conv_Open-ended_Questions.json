@@ -34,7 +34,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the initial prompt by requesting the response to focus more on motivational theories rather than general psychological factors.",
-                "explanation": "Following the 'Revision' structure, the user refines the focus by narrowing down to motivational theories, enhancing specificity without altering the overall topic."
+                "explanation": "Following the 'Refinement' structure, the user refines the focus by narrowing down to motivational theories, enhancing specificity without altering the overall topic."
             },
             {
                 "name": "c3",
@@ -46,7 +46,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -137,7 +137,7 @@
             {
                 "name": "c2",
                 "description": "The user modify the tone in last round's prompt to make the advice more specific to vegetarian diets, aiming for more tailored nutritional guidance.",
-                "explanation": "This follows the revision structure by narrowing down the focus from general advice to specifics about vegetarian diets without changing the overall topic."
+                "explanation": "This follows the refinement structure by narrowing down the focus from general advice to specifics about vegetarian diets without changing the overall topic."
             },
             {
                 "name": "c3",
@@ -149,12 +149,12 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "health",

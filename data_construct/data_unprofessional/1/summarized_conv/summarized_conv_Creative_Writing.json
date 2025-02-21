@@ -10,14 +10,14 @@
             {
                 "name": "c2",
                 "description": "The user modifies the style of the poem from descriptive to more metaphorical, aiming to convey deeper emotions associated with the season.",
-                "explanation": "The summarized prompt follows the 'Revision' structure by changing the poem's style to enhance emotional depth without changing the topic or adding new constraints."
+                "explanation": "The summarized prompt follows the 'Refinement' structure by changing the poem's style to enhance emotional depth without changing the topic or adding new constraints."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "literature",
@@ -34,7 +34,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the style of the poem requested in the last round's prompt to include more vivid imagery for enhancing emotional depth.",
-                "explanation": "This follows the 'revision' structure by altering the constraint regarding style, aiming to deepen the poem's emotional expression without changing its theme or adding new constraints."
+                "explanation": "This follows the 'refinement' structure by altering the constraint regarding style, aiming to deepen the poem's emotional expression without changing its theme or adding new constraints."
             },
             {
                 "name": "c3",
@@ -46,12 +46,12 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "humanities",
@@ -146,7 +146,7 @@
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "entertainment",

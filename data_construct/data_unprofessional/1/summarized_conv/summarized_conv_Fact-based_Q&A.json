@@ -10,14 +10,14 @@
             {
                 "name": "c2",
                 "description": "The user modifies the level of detail in last round's prompt to request a more succinct account for educational purposes.",
-                "explanation": "The user reviews and modifies the initial request to change the level of detail, seeking a more condensed version suitable for educational purposes, aligning with the 'revision' structure."
+                "explanation": "The user reviews and modifies the initial request to change the level of detail, seeking a more condensed version suitable for educational purposes, aligning with the 'refinement' structure."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "history",
@@ -117,7 +117,7 @@
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "geography",
@@ -213,7 +213,7 @@
             {
                 "name": "c3",
                 "description": "The user modifies the level of detail in last round's prompt to focus on more practical examples of AI in healthcare for better understanding.",
-                "explanation": "The 'Revision' structure is used here by changing the prompt's detail level to request examples that are more practical, aiming to improve the clarity of the response."
+                "explanation": "The 'Refinement' structure is used here by changing the prompt's detail level to request examples that are more practical, aiming to improve the clarity of the response."
             }
         ],
         "structure": [
@@ -225,7 +225,7 @@
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "technology",
@@ -242,7 +242,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the request in the last round's prompt to include a diagram to better visualize the water cycle.",
-                "explanation": "The prompt fits the 'revision' structure by changing the format of the response to include a visual aid, aiming to enhance understanding."
+                "explanation": "The prompt fits the 'refinement' structure by changing the format of the response to include a visual aid, aiming to enhance understanding."
             },
             {
                 "name": "c3",
@@ -254,12 +254,12 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "science",

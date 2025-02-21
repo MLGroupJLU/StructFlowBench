@@ -27,7 +27,7 @@
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "health",
@@ -66,9 +66,9 @@
                         "explanation": "The user explicitly mentions 'Building on the general tips you've provided,' indicating that the response should be based on the content from the previous conversation, which aligns with the Dialogue History Constraint."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response formatted in JSON structure?",
-                        "explanation": "The user specifically requests the response to be in a JSON format, which is a clear indication of a Fundamental Format Constraint."
+                        "explanation": "The user specifically requests the response to be in a JSON format, which is a clear indication of a Basic Format Constraint."
                     },
                     {
                         "type": "Content Constraint",
@@ -88,9 +88,9 @@
                         "explanation": "The user explicitly requests that the answer be provided in no more than 150 words, which is a clear quantity format constraint."
                     },
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to focus on dietary changes and their impact on sleep quality, particularly for someone sensitive to caffeine?",
-                        "explanation": "The user asks to narrow down the previous advice, indicating that the new response should be a revision of the earlier one, focusing specifically on dietary changes and caffeine sensitivity."
+                        "explanation": "The user asks to narrow down the previous advice, indicating that the new response should be a refinement of the earlier one, focusing specifically on dietary changes and caffeine sensitivity."
                     }
                 ]
             }
@@ -108,7 +108,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the allocation focus in the last round's prompt to emphasize a more conservative approach, ensuring lower risk for long-term stability.",
-                "explanation": "The revision structure is evident as the user modifies the constraint of asset allocation to reflect a more specific, conservative approach instead of seeking another asset category or changing the investment topic entirely."
+                "explanation": "The refinement structure is evident as the user modifies the constraint of asset allocation to reflect a more specific, conservative approach instead of seeking another asset category or changing the investment topic entirely."
             },
             {
                 "name": "c3",
@@ -120,7 +120,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -159,9 +159,9 @@
                 "assistant answer": "For a conservative investment approach, prioritize capital preservation and steady income. Allocate 40% to high-quality bonds, such as government and investment-grade corporate bonds, ensuring a stable income stream. Keep 30% in dividend-paying stocks from established companies, offering growth potential with reduced volatility. Consider 20% in real estate investments through REITs for consistent income and diversification benefits. Lastly, retain 10% in cash or cash equivalents like money market funds to enhance liquidity and flexibility. Implement risk mitigation tactics like rebalancing your portfolio periodically, diversifying within asset classes, and monitoring economic indicators to adjust your strategy as needed. This conservative allocation aims to minimize risk while supporting long-term financial stability.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to focus on a more conservative investment strategy with an emphasis on safe asset allocation and risk mitigation?",
-                        "explanation": "The user is asking for a modification of the previous answer to align with a more conservative investment approach, which fits the definition of a Revision Constraint."
+                        "explanation": "The user is asking for a modification of the previous answer to align with a more conservative investment approach, which fits the definition of a Refinement Constraint."
                     },
                     {
                         "type": "Situation Constraint",
@@ -186,7 +186,7 @@
                 "assistant answer": "Consider these low-risk investments: \n- Bonds: U.S. Treasury bonds or AAA-rated corporate bonds for stable returns. \n- Stocks: Dividend Aristocrats or blue-chip stocks for reliable dividends. \n- Real Estate: Invest in REITs focused on essential services, like healthcare or utilities, for steady income. \n- Cash: Utilize high-yield savings accounts or money market funds for liquidity and minimal risk. These options are designed to align with a conservative investment strategy, providing security and income with reduced volatility.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response adjust the focus towards specific low-risk investment options that align with a conservative portfolio strategy, as discussed in the previous round?",
                         "explanation": "This constraint requires the response to be a modification of the previous answer, focusing on low-risk investment options within a conservative strategy."
                     },
@@ -354,7 +354,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -393,7 +393,7 @@
                 "assistant answer": "Certainly! When optimizing for performance on a mid-range budget, prioritizing the right components is key. Here’s a breakdown of the components to focus on:\n\n1. **CPU**: Opt for a processor that offers the best price-to-performance ratio. The AMD Ryzen 5 or Intel i5 series often provide strong multi-core performance suitable for most applications and gaming. Look for current-generation models to ensure access to the latest features and efficiency.\n\n2. **GPU**: This is critical for gaming and graphic-intensive tasks. Consider models like the NVIDIA GeForce GTX 1660 or AMD Radeon RX 5600 XT. These GPUs offer good 1080p gaming performance at a reasonable price.\n\n3. **RAM**: Aim for at least 16GB of RAM. This amount is generally sufficient for gaming and multitasking without being overkill. A 3200MHz speed is optimal for balancing cost and performance.\n\n4. **Motherboard**: Choose one that supports the CPU and RAM types you’ve selected while providing necessary features like multiple slots for future upgrades.\n\n5. **Storage**: A 500GB SSD provides fast load times and a smoother overall system experience. Consider also adding a secondary HDD for additional storage if needed.\n\nBy focusing on these components, you can achieve a well-balanced system that provides excellent performance for its cost. Always check for compatibility and read reviews to ensure reliability and user satisfaction.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to prioritize components for the best performance within a mid-range budget?",
                         "explanation": "The user is asking for a modification of the previous response to focus on prioritizing components for optimal performance while staying within a mid-range budget."
                     },
@@ -497,7 +497,7 @@
                         "explanation": "The user specifically requests that the keyword 'diversification' be included in the response."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response presented in JSON format?",
                         "explanation": "The user requires the strategies to be presented in JSON format, specifying a particular basic format for the output."
                     },
@@ -541,9 +541,9 @@
                         "explanation": "The user explicitly mentions 'based on the strategies and specific examples we've discussed,' indicating that the response should be based on the previous conversation history."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response formatted as a Markdown document?",
-                        "explanation": "The user specifically requests the response to be formatted as a Markdown document, which is a type of fundamental format constraint."
+                        "explanation": "The user specifically requests the response to be formatted as a Markdown document, which is a type of basic format constraint."
                     },
                     {
                         "type": "Content Constraint",
@@ -578,7 +578,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -603,7 +603,7 @@
                         "explanation": "The user explicitly requests that the response should adhere to a professional tone."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response formatted as a structured markdown document?",
                         "explanation": "The user specifically asks for the response to be formatted as a structured markdown document."
                     },
@@ -620,9 +620,9 @@
                 "assistant answer": "Certainly! Here's a comprehensive dietary plan formatted in JSON:\n\n```json\n{\n    \"dietary_plan\": {\n        \"carbohydrates\": {\n            \"description\": \"Provide energy through foods like whole grains, fruits, and vegetables.\",\n            \"suggestions\": [\"Whole grain bread\", \"Brown rice\", \"Quinoa\", \"Oats\"]\n        },\n        \"proteins\": {\n            \"description\": \"Promote muscle growth and repair, found in lean meats, beans, and nuts.\",\n            \"suggestions\": [\"Chicken breast\", \"Lentils\", \"Chickpeas\", \"Almonds\"]\n        },\n        \"fats\": {\n            \"description\": \"Essential for brain health, energy, and vitamin absorption. Opt for healthy fats.\",\n            \"suggestions\": [\"Avocados\", \"Olive oil\", \"Salmon\", \"Chia seeds\"]\n        },\n        \"vitamins_and_minerals\": {\n            \"description\": \"Support various bodily functions through a range of fruits and vegetables.\",\n            \"suggestions\": [\"Spinach\", \"Broccoli\", \"Blueberries\", \"Oranges\"]\n        },\n        \"hydration\": {\n            \"description\": \"Essential for all physiological processes, aim for &gt;8 cups of water daily.\",\n            \"suggestions\": [\"Water\", \"Herbal teas\", \"Low-sugar fruit juices\"]\n        }\n    }\n}\n```",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to focus on dietary recommendations for a healthy lifestyle?",
-                        "explanation": "The user is asking to narrow down the previous discussion to focus specifically on dietary recommendations, indicating a revision of the previous broader overview."
+                        "explanation": "The user is asking to narrow down the previous discussion to focus specifically on dietary recommendations, indicating a refinement of the previous broader overview."
                     },
                     {
                         "type": "Content Constraint",
@@ -630,7 +630,7 @@
                         "explanation": "The user specifies that the response should provide a detailed dietary plan, focusing on different food groups and their benefits, which sets the scope of the content."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response formatted in JSON?",
                         "explanation": "The user explicitly requests that the response be formatted in JSON, which is a specific format requirement."
                     }
@@ -644,7 +644,7 @@
                     {
                         "type": "Dialogue History Constraint",
                         "content": "Does the response synthesize the information from previous discussions on a healthy lifestyle and dietary recommendations into a cohesive summary?",
-                        "explanation": "The user is asking to combine and summarize the information from the previous rounds of discussion, which implies a revision of the previously provided content."
+                        "explanation": "The user is asking to combine and summarize the information from the previous rounds of discussion, which implies a refinement of the previously provided content."
                     },
                     {
                         "type": "Template Format Constraint",

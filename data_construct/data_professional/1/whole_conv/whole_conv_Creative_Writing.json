@@ -10,7 +10,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the poem's style in the last round's prompt to make it more reflective and introspective.",
-                "explanation": "This follows the 'Revision' structure where the user changes the style of the poem to align more closely with a desired tone."
+                "explanation": "This follows the 'Refinement' structure where the user changes the style of the poem to align more closely with a desired tone."
             },
             {
                 "name": "c3",
@@ -22,7 +22,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -120,14 +120,14 @@
             {
                 "name": "c2",
                 "description": "The user modify the length constraint included in last round's prompt to make the story more concise and impactful for better capturing the essence of the music within a shorter narrative.",
-                "explanation": "According to the revision structure, the user changes the previous requirement by adjusting the length constraint, suggesting a more concise version, without changing the topic or adding new constraints."
+                "explanation": "According to the refinement structure, the user changes the previous requirement by adjusting the length constraint, suggesting a more concise version, without changing the topic or adding new constraints."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "music",
@@ -157,7 +157,7 @@
             {
                 "name": "c2",
                 "description": "The user modify the narrative style included in last round's prompt to make the story more suspenseful, aiming to increase reader engagement.",
-                "explanation": "The user employs the revision structure by refining the style from the previous request, enhancing the narrative's suspense without changing the story's core theme or setting."
+                "explanation": "The user employs the refinement structure by refining the style from the previous request, enhancing the narrative's suspense without changing the story's core theme or setting."
             },
             {
                 "name": "c3",
@@ -169,7 +169,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -226,7 +226,7 @@
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "humanities",

@@ -17,7 +17,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "music",
@@ -51,9 +51,9 @@
                 "assistant answer": "Certainly! Here's a revised draft: Subject: Insightful Evening at Harmony Fest - A Cultural Enrichment Experience Dear [Recipient's Name], I am pleased to report on the Harmony Fest event held on September 20th, 2023, at the Greenfield Amphitheater. This event provided exceptional cultural enrichment and insightful experiences, with performances that transcended musical boundaries. It also offered ample networking opportunities for attendees, fostering a platform for meaningful professional connections. Harmony Fest embodied a celebration of musical diversity, and its success has set a new standard for future events. I am looking forward to more such enriching experiences. Sincerely, [Your Name]",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the previous draft to suit a more professional tone suitable for workplace standards?",
-                        "explanation": "This constraint requires the LLM to adjust the previous draft, making it more appropriate for a professional setting, indicating a revision of the prior response."
+                        "explanation": "This constraint requires the LLM to adjust the previous draft, making it more appropriate for a professional setting, indicating a refinement of the prior response."
                     },
                     {
                         "type": "Quantity Format Constraint",
@@ -118,7 +118,7 @@
                         "explanation": "The user specifically requests a detailed explanation of the CPU and its importance, which defines the scope of the content."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response formatted in Markdown?",
                         "explanation": "The user explicitly asks for the response to be formatted in Markdown for easy integration into their guide."
                     }
@@ -157,7 +157,7 @@
                         "explanation": "The user explicitly mentions 'the roles and differences between the CPU and GPU that were discussed,' indicating that the response should build upon the previous conversation."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response formatted in a way that can be easily inserted into the training guide?",
                         "explanation": "The user requests a 'structured overview' that can be easily inserted into the guide, implying a specific format suitable for integration."
                     }
@@ -263,9 +263,9 @@
                 "assistant answer": "The recent advancements in artificial intelligence (AI) are significantly transforming multiple industries. AI-driven automation is enhancing operational efficiency but also altering job dynamics. Roles in repetitive tasks may decrease; however, new opportunities are emerging in AI development and management. In healthcare, AI is pioneering diagnostics and personalized medicine, requiring skilled professionals to integrate technology with patient care. The cybersecurity sector is seeing an increased demand for experts capable of managing AI-enhanced security measures. Advancements in Natural Language Processing necessitate roles in creating user-friendly AI solutions. Additionally, ethical AI considerations call for specialists to ensure fair and responsible AI deployment. While AI trends present challenges, they also offer pathways for growth in specialized roles, emphasizing the need for continuous learning. This evolving landscape underscores the criticality of adaptability in navigating the future job market. Professionals must remain informed to leverage these shifts for career advancement.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response compile and summarize the information from the previous discussions on AI trends and their impact on the job market?",
-                        "explanation": "The user is asking for a summary of the previous discussions, which implies that the response should be a revision of the earlier content."
+                        "explanation": "The user is asking for a summary of the previous discussions, which implies that the response should be a refinement of the earlier content."
                     },
                     {
                         "type": "Dialogue History Constraint",
@@ -317,7 +317,7 @@
                 "assistant answer": "Certainly! Here's a list of essential clauses that are typically included in an employment contract, provided in JSON format:\n\n```json\n{\n    \"essential_clauses\": [\n        \"Parties Involved\",\n        \"Job Title and Description\",\n        \"Compensation and Benefits\",\n        \"Work Hours and Schedule\",\n        \"Duration of Employment\",\n        \"Confidentiality Agreement\",\n        \"Non-compete Clause\",\n        \"Dispute Resolution\",\n        \"Termination Conditions\",\n        \"Intellectual Property Rights\",\n        \"Compliance with Company Policies\"\n    ]\n}\n```\nThese clauses form the foundation of most employment contracts, ensuring clarity and protecting both parties' interests.",
                 "constraints": [
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response presented in JSON format?",
                         "explanation": "The user explicitly requests the information to be provided in JSON format for easy review and integration."
                     },
@@ -334,9 +334,9 @@
                 "assistant answer": "Of course! Below is a template that begins with an introduction for each clause followed by a practical example:\n\n```\n[Clause: Parties Involved]\nIntroduction: This clause identifies the parties entering into the employment agreement.\nExample: 'This Employment Agreement is made between ABC Corp, a corporation organized under the laws of [State], and John Doe, an individual residing at [Address].'\n\n[Clause: Job Title and Description]\nIntroduction: This clause outlines the role and duties of the employee.\nExample: 'The Employee shall serve as the Senior Software Developer, performing duties such as designing software solutions and collaborating with project managers to deliver customized applications.'\n\n[Clause: Compensation and Benefits]\nIntroduction: This clause details the employee's salary and additional benefits.\nExample: 'The Employee shall receive an annual salary of $80,000 payable biweekly, along with health insurance and a retirement savings plan.'\n\n...\n\n[Clause: Compliance with Company Policies]\nIntroduction: This clause obligates the employee to adhere to company guidelines.\nExample: 'The Employee agrees to comply with all policies and procedures of the Company as amended from time to time.'\n```\n\nThis template format allows for each clause to be easily understood and adapted to fit specific needs, ensuring clarity and comprehensiveness in the employment contract.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response provide detailed examples or templates of the clauses, as a modification to the previous answer?",
-                        "explanation": "The user is asking for an update to the previous answer to include more detailed and practical information, which aligns with the definition of a Revision Constraint."
+                        "explanation": "The user is asking for an update to the previous answer to include more detailed and practical information, which aligns with the definition of a Refinement Constraint."
                     },
                     {
                         "type": "Template Format Constraint",

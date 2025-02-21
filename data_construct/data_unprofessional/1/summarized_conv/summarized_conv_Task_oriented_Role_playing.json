@@ -10,7 +10,7 @@
             {
                 "name": "c2",
                 "description": "The user modify the teaching approach in last round's prompt to include more visual examples for better understanding.",
-                "explanation": "This follows the 'revision' structure, where the user changes the style of teaching by requesting visual examples instead of purely textual explanations."
+                "explanation": "This follows the 'refinement' structure, where the user changes the style of teaching by requesting visual examples instead of purely textual explanations."
             },
             {
                 "name": "c3",
@@ -22,12 +22,12 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "biology",
@@ -44,7 +44,7 @@
             {
                 "name": "c2",
                 "description": "str: The user modify the focus on rights in last round's prompt to emphasize responsibilities for obtaining a detailed understanding of tenant obligations.",
-                "explanation": "str: This prompt follows the 'Revision' structure by altering the focus from tenant rights to responsibilities, providing a new angle for the assistant to address."
+                "explanation": "str: This prompt follows the 'Refinement' structure by altering the focus from tenant rights to responsibilities, providing a new angle for the assistant to address."
             },
             {
                 "name": "c3",
@@ -56,7 +56,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -81,7 +81,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the request by asking for the advice to be tailored towards someone with a vegetarian lifestyle.",
-                "explanation": "The user modifies the constraint included in the last round's prompt to specify a vegetarian lifestyle, indicating a revision as defined."
+                "explanation": "The user modifies the constraint included in the last round's prompt to specify a vegetarian lifestyle, indicating a refinement as defined."
             },
             {
                 "name": "c3",
@@ -93,12 +93,12 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "health",
@@ -115,14 +115,14 @@
             {
                 "name": "c2",
                 "description": "The user modifies the request by asking for the investment strategies to be explained in simple terms because they are a beginner in finance.",
-                "explanation": "This prompt reflects the 'Revision' structure by changing the complexity level of the response to ensure it is suitable for a novice audience, without altering the overarching topic of investment strategies."
+                "explanation": "This prompt reflects the 'Refinement' structure by changing the complexity level of the response to ensure it is suitable for a novice audience, without altering the overarching topic of investment strategies."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "finance",
@@ -139,14 +139,14 @@
             {
                 "name": "c2",
                 "description": "The user modifies the description of the issue by specifying that the error occurs after installing a recent graphics driver update, asking how this might be resolved.",
-                "explanation": "The user modifies the initial description of the problem to include new details about when the issue occurs, aligning with the 'revision' structure by refining the context to gain more accurate assistance."
+                "explanation": "The user modifies the initial description of the problem to include new details about when the issue occurs, aligning with the 'refinement' structure by refining the context to gain more accurate assistance."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "computer",
@@ -199,12 +199,12 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "science",
@@ -221,7 +221,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the general request to focus on sustainable lifestyle practices that specifically reduce plastic waste.",
-                "explanation": "The user modifies the broader category of sustainable living to specifically address practices related to plastic waste reduction, demonstrating a revision by narrowing the focus."
+                "explanation": "The user modifies the broader category of sustainable living to specifically address practices related to plastic waste reduction, demonstrating a refinement by narrowing the focus."
             },
             {
                 "name": "c3",
@@ -233,7 +233,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [

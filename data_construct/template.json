@@ -3,31 +3,31 @@
         { "source": "c1", "target": "c2", "relation": "follow-up" }
     ],
     [
-        { "source": "c1", "target": "c2", "relation": "revision" }
+        { "source": "c1", "target": "c2", "relation": "refinement" }
     ],
     [
         { "source": "c1", "target": "c2", "relation": "follow-up" },
-        { "source": "c1", "target": "c3", "relation": "call-back" }
+        { "source": "c1", "target": "c3", "relation": "recall" }
     ],
     [
-        { "source": "c1", "target": "c2", "relation": "revision" },
-        { "source": "c1", "target": "c3", "relation": "call-back" }
+        { "source": "c1", "target": "c2", "relation": "refinement" },
+        { "source": "c1", "target": "c3", "relation": "recall" }
     ],
     [
         { "source": "c1", "target": "c2", "relation": "follow-up" },
         { "source": "c2", "target": "c3", "relation": "follow-up" }
     ],
     [
-        { "source": "c1", "target": "c2", "relation": "revision" },
+        { "source": "c1", "target": "c2", "relation": "refinement" },
         { "source": "c2", "target": "c3", "relation": "follow-up" }
     ],
     [
         { "source": "c1", "target": "c2", "relation": "follow-up" },
-        { "source": "c2", "target": "c3", "relation": "revision" }
+        { "source": "c2", "target": "c3", "relation": "refinement" }
     ],
     [
-        { "source": "c1", "target": "c2", "relation": "revision" },
-        { "source": "c2", "target": "c3", "relation": "revision" }
+        { "source": "c1", "target": "c2", "relation": "refinement" },
+        { "source": "c2", "target": "c3", "relation": "refinement" }
     ],
     [
         { "source": "c1", "target": ["c2","c3"], "relation": "expansion" }
@@ -37,20 +37,20 @@
         { "source": ["c1","c2"], "target": "c3", "relation": "summary" }
     ],
     [
-        { "source": "c1", "target": "c2", "relation": "revision" },
+        { "source": "c1", "target": "c2", "relation": "refinement" },
         { "source": ["c1","c2"], "target": "c3", "relation": "summary" }
     ],
     [
-        { "source": "c1", "target": "c2", "relation": "revision" },
-        { "source": "c2", "target": "c3", "relation": "revision" },
-        { "source": "c3", "target": "c4", "relation": "revision" },
-        { "source": "c4", "target": "c5", "relation": "revision" }
+        { "source": "c1", "target": "c2", "relation": "refinement" },
+        { "source": "c2", "target": "c3", "relation": "refinement" },
+        { "source": "c3", "target": "c4", "relation": "refinement" },
+        { "source": "c4", "target": "c5", "relation": "refinement" }
     ],
     [
         { "source": "c1", "target": "c2", "relation": "follow-up" },
-        { "source": "c2", "target": "c3", "relation": "revision" },
-        { "source": "c1", "target": "c4", "relation": "call-back" },
-        { "source": "c4", "target": "c5", "relation": "revision" }
+        { "source": "c2", "target": "c3", "relation": "refinement" },
+        { "source": "c1", "target": "c4", "relation": "recall" },
+        { "source": "c4", "target": "c5", "relation": "refinement" }
     ],
     [
         { "source": "c1", "target": ["c2","c3","c4"], "relation": "expansion" },

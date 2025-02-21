@@ -10,7 +10,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the poem's style in the last round's prompt to make it more reflective and introspective.",
-                "explanation": "This follows the 'Revision' structure where the user changes the style of the poem to align more closely with a desired tone."
+                "explanation": "This follows the 'Refinement' structure where the user changes the style of the poem to align more closely with a desired tone."
             },
             {
                 "name": "c3",
@@ -22,7 +22,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -64,7 +64,7 @@
                 "assistant answer": "In solitude, the autumn leaves descend,\\nCrisp air murmurs of cycles without end.\\nWinter cloaks the land in quiet grace,\\nA silent night in which dreams embrace.\\nAs spring's gentle breath melts the snow,\\nAwakening thoughts that softly flow.\\nSummer's warmth, a tender embrace for the soul,\\nThus, nature's wisdom bestowed upon all.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response revise the previous poem to adopt a more reflective and introspective tone?",
                         "explanation": "This constraint requires the LLM to modify the previously provided poem, specifically to change its tone to be more reflective and introspective."
                     },
@@ -165,9 +165,9 @@
                 "assistant answer": "In twilight’s soft crescendo, a sonnet blooms,\nWhere colors hum a gentle tune.\nEmerald notes in azure skies,\nCompose a symphony of whispered sighs.\nA violin’s whisper, in golden threads,\nEchoes histories long since shed.\nSilent strokes, a maestro’s grace,\nConducts a choir of shades in space.\nNotes ripple like a gentle stream,\nA heart’s echo in a vibrant dream.\nThe painting’s soul, in harmony, sings,\nAs beauty unfurls on timeless wings.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response enrich the prior poetic creation with elements from the realm of music, enhancing its rhythm and harmony?",
-                        "explanation": "The user explicitly requests to build upon the previous poetic creation and add new elements, which is a clear indication of a revision constraint."
+                        "explanation": "The user explicitly requests to build upon the previous poetic creation and add new elements, which is a clear indication of a refinement constraint."
                     },
                     {
                         "type": "Keyword/Element Constraint",
@@ -187,7 +187,7 @@
                 "assistant answer": "Introduction:\nIn the twilight's serene embrace,\nWhere artistry and melody entwine,\nThe colors breathe, as if to chase\nA symphony born in light’s decline.\n\nMiddle Section:\nEmerald notes and azure dreams,\nCompose a dance where shadows play,\nA canvas where history sings and seams\nWith threads of gold in a soft ballet.\nVibrant hues like violins sigh,\nIn silent interplay, they ascend on high.\n\nConclusion:\nEmotions ripple, a lilting stream,\nIn harmony's embrace, they find their form,\nThe painting’s essence, a vibrant theme,\nWhere eternal beauty weaves its storm.\n\nAs a critic, one discerns the profound marriage between visual and auditory elements. The poem not only captures the vivid imagery but also encapsulates the rhythmic nuances of a musical score, rendering a multisensory experience that transcends the boundaries of each individual art form, offering a unified aesthetic symphony.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response consolidate the artistic elements discussed in previous rounds into a comprehensive final version of the poem?",
                         "explanation": "The user is asking to integrate and enhance the content from the prior rounds, which involves modifying the previous answers."
                     },
@@ -227,14 +227,14 @@
             {
                 "name": "c2",
                 "description": "The user modify the length constraint included in last round's prompt to make the story more concise and impactful for better capturing the essence of the music within a shorter narrative.",
-                "explanation": "According to the revision structure, the user changes the previous requirement by adjusting the length constraint, suggesting a more concise version, without changing the topic or adding new constraints."
+                "explanation": "According to the refinement structure, the user changes the previous requirement by adjusting the length constraint, suggesting a more concise version, without changing the topic or adding new constraints."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "music",
@@ -268,7 +268,7 @@
                 "assistant answer": "In a bustling 19th-century European town, a young composer stood mesmerized at the heart of a vibrant festival. The rhythmic vitality of the performers mirrored the relentless hum of life around him. With each beat, a new story unfolded - of joy, struggle, and unyielding spirit. Beethoven's Symphony No. 7, with its pulsating tempo and evocative motifs, played vivid parallels in his mind. Inspired by its commanding second movement, he envisioned a composition that danced with the fervor of life itself. Vivid arpeggios and dynamic crescendos painted his sheet music, capturing both the chaos and beauty of the world. As allegro merged into vivace, his symphony resonated with the festival's zeal, leaving the audience breathless. In 200 words, the narrative captures the heart of Beethoven’s masterpiece, reflecting its power and emotion through the lens of an aspiring musician's journey.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response refine the previous narrative to make it more concise and impactful, better capturing the essence of Beethoven's Symphony No. 7, second movement?",
                         "explanation": "The user is asking for a modification of the previous answer to improve its conciseness and impact, while ensuring it captures the essence of the specified music."
                     },
@@ -303,7 +303,7 @@
             {
                 "name": "c2",
                 "description": "The user modify the narrative style included in last round's prompt to make the story more suspenseful, aiming to increase reader engagement.",
-                "explanation": "The user employs the revision structure by refining the style from the previous request, enhancing the narrative's suspense without changing the story's core theme or setting."
+                "explanation": "The user employs the refinement structure by refining the style from the previous request, enhancing the narrative's suspense without changing the story's core theme or setting."
             },
             {
                 "name": "c3",
@@ -315,7 +315,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -349,7 +349,7 @@
                 "assistant answer": "As Arin ventured deeper into the forest, an ominous silence cloaked the air, punctuated only by the occasional rustle of unseen creatures. Shadows stretched long and dark, intertwining with his path, as if warning him of the dangers that lay ahead. Each step resonated like a drumbeat, quickening the pace of Arin's heart. Suddenly, the ground trembled slightly, and from the dense fog emerged a towering silhouette—a guardian of the forest, cloaked in ancient, enchanted armor. It blocked his path with a silent, imposing presence, eyes glinting with a hint of malice. Arin gripped his sword tighter, preparing for battle, when the ground beneath him shifted once more. From the shadows, a pair of luminescent eyes watched, assessing his every move. Arin's breath caught in his throat, a bead of sweat tracing a line down his brow. He could feel the weight of each moment, each second stretching into eternity. In the midst of the tension, a sudden, unexpected ally appeared—a sprite with wings that flickered like embers. 'Beware the trials ahead,' it whispered, and with a flick of its wings, the guardian vanished, leaving Arin alone again on his path. The forest drew in a breath, ready to reveal its next challenge to the young hero, whose determination now burned brighter against the mounting suspense around him.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the previous story to incorporate more suspenseful language and structure, while maintaining the core theme and setting?",
                         "explanation": "This constraint requires the LLM to revise the previous story by enhancing its suspense without changing the main elements of the narrative."
                     },
@@ -371,7 +371,7 @@
                 "assistant answer": "As Arin continued through the forest, he came upon a clearing where the light seemed to bend and flicker, a dance of shadows and illumination. In the center stood a cloaked figure, its face obscured by the hood's deep shadows. 'Who are you?' Arin demanded, voice firm yet laced with caution. 'A traveler, like yourself,' the figure replied, the voice smooth as silk yet carrying an edge that sent a shiver down Arin's spine. 'I have heard tales of your courage, young Arin. But beware, not all who wander these woods seek what they claim.' Arin's grip tightened on his sword. 'What do you know of my quest?' he asked, eyes narrowing. The figure chuckled softly, a sound that seemed both warm and wicked. 'Oh, I know many things. For instance, the path you tread is fraught with illusions. Not everything is as it seems.' The statement hung in the air, heavy with unspoken truths. 'What do you want?' Arin pressed, his patience wearing thin. The figure paused, as if savoring the tension. 'To offer a warning,' it finally said. 'A choice lies ahead, one that will test the very fiber of your soul. Choose wisely, young hero, for even the purest hearts can be led astray.' Without another word, the figure turned and vanished into the forest, leaving Arin standing alone, heart pounding with questions and the weight of newfound uncertainty pressing on him like a shadow that refused to fade under the light of day.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response enhance the suspense of the story by adding an engaging dialogue between Arin and a mysterious character, while maintaining the intense atmosphere previously established?",
                         "explanation": "The user is asking for a modification of the previous story to include a new element (dialogue) that builds on the existing suspense. This is a clear request to revise the prior answer."
                     },
@@ -423,7 +423,7 @@
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "humanities",
@@ -477,7 +477,7 @@
                         "explanation": "The user explicitly requires that each of the three stanzas be exactly 50 words long, which is a clear example of a Quantity Format Constraint."
                     },
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response build on the poem discussed in previous conversation and enrich the poem with vivid imagery and descriptive language that highlights the grandeur and intricacies of this transformative period?",
                         "explanation": ""
                     }

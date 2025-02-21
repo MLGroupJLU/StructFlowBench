@@ -23,7 +23,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the format in last round's prompt to request a short formal paragraph instead of bullet points for a more cohesive presentation.",
-                "explanation": "The 'revision' structure is applied as the user changes the format from bullet points to a formal paragraph, maintaining the same topic, to make the information more suitable for a formal report."
+                "explanation": "The 'refinement' structure is applied as the user changes the format from bullet points to a formal paragraph, maintaining the same topic, to make the information more suitable for a formal report."
             },
             {
                 "name": "c3",
@@ -35,7 +35,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -57,7 +57,7 @@
             {
                 "name": "c2",
                 "description": "The user modify the level of detail included in last round's prompt to focus on key events and figures only for a concise presentation.",
-                "explanation": "The summarized prompt indicates a 'revision' structure as the user modifies the previous prompt by narrowing down the information scope to focus on key events and figures, allowing for a more concise write-up."
+                "explanation": "The summarized prompt indicates a 'refinement' structure as the user modifies the previous prompt by narrowing down the information scope to focus on key events and figures, allowing for a more concise write-up."
             },
             {
                 "name": "c3",
@@ -69,7 +69,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -94,7 +94,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the tone in last round's prompt to make the response more formal.",
-                "explanation": "This prompt reflects the revision structure by changing the tone constraint from neutral to formal, ensuring the email maintains professionalism."
+                "explanation": "This prompt reflects the refinement structure by changing the tone constraint from neutral to formal, ensuring the email maintains professionalism."
             },
             {
                 "name": "c3",
@@ -106,7 +106,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -194,14 +194,14 @@
             {
                 "name": "c2",
                 "description": "The user modify the tone in last round's prompt to make the response more formal to ensure the notice aligns with legal standards and professional workplace communication.",
-                "explanation": "This prompt represents a 'Revision' structure by changing the tone of the draft notice from a general to a more formal style, due to the requirement of professional and legal compliance."
+                "explanation": "This prompt represents a 'Refinement' structure by changing the tone of the draft notice from a general to a more formal style, due to the requirement of professional and legal compliance."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "law",

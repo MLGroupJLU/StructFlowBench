@@ -270,7 +270,7 @@
                         "explanation": "The user is specifically asking for a comparison of user interface design and software compatibility, which defines the content scope."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response structured in JSON format?",
                         "explanation": "The user explicitly requests that the response be formatted in JSON."
                     },
@@ -292,9 +292,9 @@
                         "explanation": "The user is explicitly asking for a comparison based on the previous discussion about Windows and MacOS, which requires the response to be based on the content from the previous conversation."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response formatted in Markdown?",
-                        "explanation": "The user specifically requests that the response be formatted in Markdown, which is a fundamental format constraint."
+                        "explanation": "The user specifically requests that the response be formatted in Markdown, which is a basic format constraint."
                     },
                     {
                         "type": "Quantity Format Constraint",

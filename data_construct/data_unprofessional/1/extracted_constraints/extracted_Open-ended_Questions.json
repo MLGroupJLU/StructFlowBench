@@ -76,7 +76,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the initial prompt by requesting the response to focus more on motivational theories rather than general psychological factors.",
-                "explanation": "Following the 'Revision' structure, the user refines the focus by narrowing down to motivational theories, enhancing specificity without altering the overall topic."
+                "explanation": "Following the 'Refinement' structure, the user refines the focus by narrowing down to motivational theories, enhancing specificity without altering the overall topic."
             },
             {
                 "name": "c3",
@@ -88,7 +88,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -125,9 +125,9 @@
                 "assistant answer": "Alright, let’s dive into some motivation theories. First, Maslow's hierarchy: people have a pyramid of needs, starting from basic (food, safety) to complex (self-actualization). Then there's Herzberg's two-factor theory: satisfaction and dissatisfaction are influenced by different factors. Next is McClelland’s need theory: people are motivated by need for achievement, power, or affiliation. Lastly, self-determination theory: focuses on autonomy, competence, and relatedness. These theories help us understand what drives people in different situations, like at work or in personal life.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to focus specifically on theories of motivation?",
-                        "explanation": "The user is asking for a modification of the previous answer, which should now be centered on theories of motivation, indicating a revision of the earlier content."
+                        "explanation": "The user is asking for a modification of the previous answer, which should now be centered on theories of motivation, indicating a refinement of the earlier content."
                     },
                     {
                         "type": "Situation Constraint",
@@ -144,7 +144,7 @@
                     {
                         "type": "Dialogue History Constraint",
                         "content": "Does the response sum up the key points from the theories of motivation?",
-                        "explanation": "The user is asking for a summary of the key points from the theories of motivation, which implies that the response should be a revision of the previous answer."
+                        "explanation": "The user is asking for a summary of the key points from the theories of motivation, which implies that the response should be a refinement of the previous answer."
                     },
                     {
                         "type": "Quantity Format Constraint",
@@ -218,7 +218,7 @@
                         "explanation": "The user specifies that the response should list 3 things, which is a requirement on the number of items to be included."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Does the response use a list format?",
                         "explanation": "The user requests the information to be presented in a list format, which is a strict template format constraint."
                     }
@@ -260,7 +260,7 @@
             {
                 "name": "c2",
                 "description": "The user modify the tone in last round's prompt to make the advice more specific to vegetarian diets, aiming for more tailored nutritional guidance.",
-                "explanation": "This follows the revision structure by narrowing down the focus from general advice to specifics about vegetarian diets without changing the overall topic."
+                "explanation": "This follows the refinement structure by narrowing down the focus from general advice to specifics about vegetarian diets without changing the overall topic."
             },
             {
                 "name": "c3",
@@ -272,12 +272,12 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "health",
@@ -306,9 +306,9 @@
                 "assistant answer": "Sure! For a vegetarian diet, make sure you're getting enough protein from sources like beans, lentils, tofu, and nuts. Eat lots of different colored fruits and veggies to cover all your vitamins and minerals. Whole grains like quinoa, brown rice, and whole wheat bread are great. Don't forget about healthy fats from avocados, seeds, and olive oil. Keep meals simple by planning ahead and prepping ingredients, so it doesn’t feel like a hassle.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the previous advice to focus on a vegetarian diet?",
-                        "explanation": "The user is asking for a modification of the previous diet advice, specifically to make it vegetarian. This fits the definition of a Revision Constraint, as it requires the latest response to be a modification of the answer from the previous round."
+                        "explanation": "The user is asking for a modification of the previous diet advice, specifically to make it vegetarian. This fits the definition of a Refinement Constraint, as it requires the latest response to be a modification of the answer from the previous round."
                     },
                     {
                         "type": "Inverse Constraint",

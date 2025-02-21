@@ -81,7 +81,7 @@
             {
                 "name": "c3",
                 "description": "The user modifies the focus from 'morning activities' to 'evening routines' to gain insights into simplifying the end-of-day processes.",
-                "explanation": "In this revision step, the user changes the constraint from morning to evening routines, maintaining the overall lifestyle topic while shifting the focus to different times of day."
+                "explanation": "In this refinement step, the user changes the constraint from morning to evening routines, maintaining the overall lifestyle topic while shifting the focus to different times of day."
             }
         ],
         "structure": [
@@ -93,7 +93,7 @@
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "lifestyle",
@@ -110,7 +110,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the prompt to focus on specific stylistic changes within the history of music genres to gain a deeper understanding of influential shifts.",
-                "explanation": "The user revises the initial broad inquiry to emphasize a particular aspect of music history, which is stylistic changes, aligning with the revision structure."
+                "explanation": "The user revises the initial broad inquiry to emphasize a particular aspect of music history, which is stylistic changes, aligning with the refinement structure."
             },
             {
                 "name": "c3",
@@ -122,7 +122,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -147,7 +147,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the request by asking for strategies in a more informal and relatable tone instead of general advice.",
-                "explanation": "This follows the 'Revision' structure as the user adjusts the tone to make the response more engaging and accessible."
+                "explanation": "This follows the 'Refinement' structure as the user adjusts the tone to make the response more engaging and accessible."
             },
             {
                 "name": "c3",
@@ -159,7 +159,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [

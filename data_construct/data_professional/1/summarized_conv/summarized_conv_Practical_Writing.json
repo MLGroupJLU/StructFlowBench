@@ -17,7 +17,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "music",
@@ -71,7 +71,7 @@
             {
                 "name": "c2",
                 "description": "The user modify the overview to focus on the impacts most relevant to corporate sustainability efforts for a more targeted response.",
-                "explanation": "This prompt relates to the definition of 'Revision' because the user changes the focus of the overview in the original request to align it with specific corporate sustainability concerns."
+                "explanation": "This prompt relates to the definition of 'Refinement' because the user changes the focus of the overview in the original request to align it with specific corporate sustainability concerns."
             },
             {
                 "name": "c3",
@@ -83,7 +83,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -189,7 +189,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [

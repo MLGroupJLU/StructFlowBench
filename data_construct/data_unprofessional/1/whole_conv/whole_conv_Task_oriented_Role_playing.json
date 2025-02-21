@@ -10,14 +10,14 @@
             {
                 "name": "c2",
                 "description": "The user modifies the request by asking for the investment strategies to be explained in simple terms because they are a beginner in finance.",
-                "explanation": "This prompt reflects the 'Revision' structure by changing the complexity level of the response to ensure it is suitable for a novice audience, without altering the overarching topic of investment strategies."
+                "explanation": "This prompt reflects the 'Refinement' structure by changing the complexity level of the response to ensure it is suitable for a novice audience, without altering the overarching topic of investment strategies."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "finance",
@@ -59,12 +59,12 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "science",
@@ -99,7 +99,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the general request to focus on sustainable lifestyle practices that specifically reduce plastic waste.",
-                "explanation": "The user modifies the broader category of sustainable living to specifically address practices related to plastic waste reduction, demonstrating a revision by narrowing the focus."
+                "explanation": "The user modifies the broader category of sustainable living to specifically address practices related to plastic waste reduction, demonstrating a refinement by narrowing the focus."
             },
             {
                 "name": "c3",
@@ -111,7 +111,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [

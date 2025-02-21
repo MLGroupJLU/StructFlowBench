@@ -39,7 +39,7 @@
                 "assistant answer": "Certainly! Here is a list of unique and lesser-known movies that you might find interesting: \n```json\n[\n    {\"title\": \"Eternal Sunshine of the Spotless Mind\", \"year\": 2004},\n    {\"title\": \"The Fall\", \"year\": 2006},\n    {\"title\": \"Moon\", \"year\": 2009},\n    {\"title\": \"Her\", \"year\": 2013},\n    {\"title\": \"Annihilation\", \"year\": 2018}\n]\n```",
                 "constraints": [
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response provided in JSON format?",
                         "explanation": "The user explicitly requests the movie recommendations to be in JSON format, which is a specified basic format for the output."
                     },
@@ -204,7 +204,7 @@
             {
                 "name": "c3",
                 "description": "The user modifies the focus from 'morning activities' to 'evening routines' to gain insights into simplifying the end-of-day processes.",
-                "explanation": "In this revision step, the user changes the constraint from morning to evening routines, maintaining the overall lifestyle topic while shifting the focus to different times of day."
+                "explanation": "In this refinement step, the user changes the constraint from morning to evening routines, maintaining the overall lifestyle topic while shifting the focus to different times of day."
             }
         ],
         "structure": [
@@ -216,7 +216,7 @@
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "lifestyle",
@@ -255,7 +255,7 @@
                         "explanation": "The user is specifically asking for information on minimalist morning routines, which sets the content scope for the response."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response presented in a Markdown table format?",
                         "explanation": "The user requests the information to be illustrated in a structured format, specifically a Markdown table."
                     }

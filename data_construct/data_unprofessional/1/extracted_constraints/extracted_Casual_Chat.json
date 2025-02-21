@@ -22,7 +22,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -115,7 +115,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -147,9 +147,9 @@
                 "assistant answer": "Okay, imagine the stock market like a marketplace. You have different stalls, each representing a company. You buy a little piece of the stall, hoping it'll sell lots of goods and your piece becomes worth more. Some days, stuff sells out, and your share's price goes up. Other days, it's slow, and prices drop. It's all about what's popular and valuable.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to explain the stock market in a more relaxed and easy-to-understand way?",
-                        "explanation": "The user is asking for a revision of the previous explanation, specifically to make it more casual and easier to understand."
+                        "explanation": "The user is asking for a refinement of the previous explanation, specifically to make it more casual and easier to understand."
                     },
                     {
                         "type": "Content Constraint",
@@ -166,7 +166,7 @@
                     {
                         "type": "Dialogue History Constraint",
                         "content": "Does the response sum up the explanation of how the stock market works in a few lines?",
-                        "explanation": "The user is asking for a summary of the previous explanation, which implies a revision of the previous response."
+                        "explanation": "The user is asking for a summary of the previous explanation, which implies a refinement of the previous response."
                     },
                     {
                         "type": "Quantity Format Constraint",
@@ -174,7 +174,7 @@
                         "explanation": "The user specifically requests that the response be kept short, indicating a constraint on the length of the response."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response output in JSON format?",
                         "explanation": "The user explicitly asks for the information to be presented in JSON format."
                     }
@@ -199,7 +199,7 @@
             {
                 "name": "c3",
                 "description": "The user modifies the tone in last round's prompt to request a more practical and easy-to-implement exercise routine suitable for beginners.",
-                "explanation": "This demonstrates the 'revision' relationship by changing the request to focus on practicality and suitability for beginners, adjusting the initial request for detailed exercise advice."
+                "explanation": "This demonstrates the 'refinement' relationship by changing the request to focus on practicality and suitability for beginners, adjusting the initial request for detailed exercise advice."
             }
         ],
         "structure": [
@@ -211,7 +211,7 @@
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "lifestyle",
@@ -257,9 +257,9 @@
                 "assistant answer": "Absolutely! Here's a simple routine:\n\n- **Morning:** 5-minute stretch (neck rolls, shoulder shrugs)\n- **After work/school:** 10-minute walk around the block or in a park\n- **Evening:** 5 push-ups, 10 squats, 15 sit-ups (do what you can, build up gradually)\n\nRemember to listen to your body and make it fun by adding music or taking scenic routes. Hope this helps!",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to include a practical and easy routine?",
-                        "explanation": "The user is asking for a revision of the previous answer to provide a specific type of exercise routine, which indicates a modification based on the new requirement."
+                        "explanation": "The user is asking for a refinement of the previous answer to provide a specific type of exercise routine, which indicates a modification based on the new requirement."
                     },
                     {
                         "type": "Situation Constraint",
@@ -300,7 +300,7 @@
                         "explanation": "The user explicitly states 'No serious stuff', indicating that the response should not include serious movies."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response provided in a table format?",
                         "explanation": "The user requests the list of movie recommendations to be given 'in a table format'."
                     }
@@ -320,7 +320,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the genre preference included in the last round's prompt to focus on electronic music for a more energetic vibe.",
-                "explanation": "This aligns with the 'revision' structure as the user changes the genre constraint to electronic music for the specific purpose of energizing workouts."
+                "explanation": "This aligns with the 'refinement' structure as the user changes the genre constraint to electronic music for the specific purpose of energizing workouts."
             },
             {
                 "name": "c3",
@@ -332,7 +332,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -366,9 +366,9 @@
                 "assistant answer": "Sure! Electronic music has some awesome options. You might enjoy house music for its steady beats, or try some trance for an uplifting feel. Both are great for keeping your energy up during workouts!",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to suggest electronic music for workouts?",
-                        "explanation": "The user is asking for a modification of the previous response to focus on electronic music, which indicates a revision of the previous answer."
+                        "explanation": "The user is asking for a modification of the previous response to focus on electronic music, which indicates a refinement of the previous answer."
                     },
                     {
                         "type": "Inverse Constraint",

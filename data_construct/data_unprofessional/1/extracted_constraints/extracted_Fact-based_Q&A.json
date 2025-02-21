@@ -10,14 +10,14 @@
             {
                 "name": "c2",
                 "description": "The user modifies the level of detail in last round's prompt to request a more succinct account for educational purposes.",
-                "explanation": "The user reviews and modifies the initial request to change the level of detail, seeking a more condensed version suitable for educational purposes, aligning with the 'revision' structure."
+                "explanation": "The user reviews and modifies the initial request to change the level of detail, seeking a more condensed version suitable for educational purposes, aligning with the 'refinement' structure."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "history",
@@ -51,9 +51,9 @@
                 "assistant answer": "Alright, here's a shorter version: The Berlin Wall fell on November 9, 1989, following growing protests demanding freedom in East Germany. People were unhappy with the regime and pushed for change. The government eventually allowed open borders, and the Wall was torn down, marking a significant moment in history.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to provide a shorter version of the events surrounding the fall of the Berlin Wall?",
-                        "explanation": "The user is asking for a revision of the previous response, specifically requesting a shorter version of the story."
+                        "explanation": "The user is asking for a refinement of the previous response, specifically requesting a shorter version of the story."
                     },
                     {
                         "type": "Keyword/Element Constraint",
@@ -125,7 +125,7 @@
                 "assistant answer": "Here's a simple explanation in JSON format:\n```json\n{\n  \"Chemical Bonds\": {\n    \"Ionic Bonds\": \"Atoms transfer electrons to achieve full outer shells, making positive and negative ions that attract each other.\",\n    \"Covalent Bonds\": \"Atoms share pairs of electrons to fill their outer shells, forming strong bonds.\",\n    \"Metallic Bonds\": \"Atoms share a 'sea' of electrons that are free to move around, leading to properties like conductivity.\"\n  }\n}\n```",
                 "constraints": [
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response in JSON format?",
                         "explanation": "The user explicitly requests that the information be provided in JSON format, which is a specific basic format requirement."
                     },
@@ -201,7 +201,7 @@
                 "assistant answer": "{\"Sun\":\"At the center, a star providing light and heat\",\"Mercury\":\"Closest planet to the Sun, small and rocky\",\"Venus\":\"Second from the Sun, hot with thick clouds\",\"Earth\":\"Third planet, supports life, has water and air\",\"Mars\":\"Fourth, red planet, rocky with thin atmosphere\",\"Jupiter\":\"Fifth, biggest planet, gas giant\",\"Saturn\":\"Sixth, known for its rings, gas giant\",\"Uranus\":\"Seventh, icy giant, rotates on its side\",\"Neptune\":\"Eighth, cold and windy, gas giant\"}",
                 "constraints": [
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response output in JSON format?",
                         "explanation": "The user explicitly requests that the information be provided in JSON format, which is a specified basic format for the response."
                     },
@@ -287,7 +287,7 @@
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "geography",
@@ -565,7 +565,7 @@
             {
                 "name": "c3",
                 "description": "The user modifies the level of detail in last round's prompt to focus on more practical examples of AI in healthcare for better understanding.",
-                "explanation": "The 'Revision' structure is used here by changing the prompt's detail level to request examples that are more practical, aiming to improve the clarity of the response."
+                "explanation": "The 'Refinement' structure is used here by changing the prompt's detail level to request examples that are more practical, aiming to improve the clarity of the response."
             }
         ],
         "structure": [
@@ -577,7 +577,7 @@
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "technology",
@@ -589,7 +589,7 @@
                 "assistant answer": "### Latest AI Advancements\n\n1. **Natural Language Processing (NLP) Improvements**: Recent models like ChatGPT have become more conversational and context-aware.\n2. **Computer Vision**: Enhanced image and video recognition capabilities, used in self-driving cars.\n3. **Healthcare Innovations**: AI-driven diagnostics and personalized medicine.\n4. **Autonomous Systems**: Drones and robotics for logistics and delivery.\n\nThese advancements are paving the way for more AI-driven solutions and applications across various sectors.",
                 "constraints": [
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response in Markdown format?",
                         "explanation": "The user specifically requested that the information be provided in Markdown, which is a specified basic format for the output."
                     },
@@ -623,7 +623,7 @@
                 "assistant answer": "In healthcare, AI is used like a doctor helper, checking X-rays for disease, planning personal treatments, and even sending reminders for pills, all to make care faster and better.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to include simpler examples of AI in healthcare?",
                         "explanation": "The user is asking for a modification of the previous answer, specifically to make it simpler and more understandable with relatable examples."
                     },
@@ -653,7 +653,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the request in the last round's prompt to include a diagram to better visualize the water cycle.",
-                "explanation": "The prompt fits the 'revision' structure by changing the format of the response to include a visual aid, aiming to enhance understanding."
+                "explanation": "The prompt fits the 'refinement' structure by changing the format of the response to include a visual aid, aiming to enhance understanding."
             },
             {
                 "name": "c3",
@@ -665,12 +665,12 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "science",
@@ -699,9 +699,9 @@
                 "assistant answer": "I can't directly create a diagram here, but I can guide you on how to visualize it. Picture a big circle: at the bottom, label 'Evaporation' from the ocean. Above that, label 'Condensation' with clouds. Next, 'Precipitation' like rain coming down, and finally, 'Collection' in bodies of water, closing the loop back to evaporation.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to include a diagram of the water cycle?",
-                        "explanation": "The user is asking for a visual representation (diagram) in addition to the previous explanation, which indicates a revision of the previous response."
+                        "explanation": "The user is asking for a visual representation (diagram) in addition to the previous explanation, which indicates a refinement of the previous response."
                     }
                 ]
             },

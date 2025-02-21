@@ -81,24 +81,24 @@
             {
                 "name": "c2",
                 "description": "The user modifies the question to inquire about potential side effects of consuming too much fiber, aiming for a more nuanced understanding.",
-                "explanation": "The user employs the 'Revision' structure by changing the focus from the benefits to any possible side effects, thereby refining the information sought while staying on topic."
+                "explanation": "The user employs the 'Refinement' structure by changing the focus from the benefits to any possible side effects, thereby refining the information sought while staying on topic."
             },
             {
                 "name": "c3",
                 "description": "The user recalls the initial benefits of fiber discussed in c1 and asks how these benefits can be maximized in a balanced diet.",
-                "explanation": "In this round, the 'Callback' structure is used as the user references the initial information about fiber's benefits to explore further into how these can be effectively integrated into a healthy diet plan."
+                "explanation": "In this round, the 'Recall' structure is used as the user references the initial information about fiber's benefits to explore further into how these can be effectively integrated into a healthy diet plan."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "health",
@@ -115,7 +115,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the previous question to exclude seasonal variations while focusing on geographic phenomena.",
-                "explanation": "This prompt follows the 'revision' structure by altering the constraint of including seasonal variations to focusing solely on geographic phenomena, to refine the response's scope for clearer educational use."
+                "explanation": "This prompt follows the 'refinement' structure by altering the constraint of including seasonal variations to focusing solely on geographic phenomena, to refine the response's scope for clearer educational use."
             },
             {
                 "name": "c3",
@@ -127,7 +127,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -161,7 +161,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -200,7 +200,7 @@
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "computer",

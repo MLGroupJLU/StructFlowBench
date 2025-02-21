@@ -22,7 +22,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -56,7 +56,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -81,24 +81,24 @@
             {
                 "name": "c2",
                 "description": "The user modifies the prompt to ask for examples of healthy habits that are easy to incorporate into a busy schedule.",
-                "explanation": "The user modifies the general inquiry to focus on practical, easy-to-implement habits, aligning with the 'revision' structure by changing the nature of the information requested."
+                "explanation": "The user modifies the general inquiry to focus on practical, easy-to-implement habits, aligning with the 'refinement' structure by changing the nature of the information requested."
             },
             {
                 "name": "c3",
                 "description": "The user modifies the asked examples to focus on dietary habits specifically, aiming for more specific guidance.",
-                "explanation": "The user further narrows the inquiry to dietary habits, which demonstrates 'revision' by requesting a more focused type of information, emphasizing dietary aspects."
+                "explanation": "The user further narrows the inquiry to dietary habits, which demonstrates 'refinement' by requesting a more focused type of information, emphasizing dietary aspects."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "health",
@@ -115,7 +115,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the level of detail in the last round's prompt to include more examples of artists or bands for each genre to better illustrate the characteristics discussed.",
-                "explanation": "In this revision, the user changes the constraint from general characteristics to include specific examples, refining the understanding through concrete illustrations."
+                "explanation": "In this refinement, the user changes the constraint from general characteristics to include specific examples, refining the understanding through concrete illustrations."
             },
             {
                 "name": "c3",
@@ -127,7 +127,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -152,14 +152,14 @@
             {
                 "name": "c2",
                 "description": "The user modifies the request to focus specifically on sustainable fashion trends for a more eco-conscious perspective.",
-                "explanation": "This round modifies the original request by narrowing down the broad topic of fashion trends to a specific aspect—sustainable fashion—illustrating the 'revision' structure."
+                "explanation": "This round modifies the original request by narrowing down the broad topic of fashion trends to a specific aspect—sustainable fashion—illustrating the 'refinement' structure."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "fashion",
@@ -181,7 +181,7 @@
             {
                 "name": "c3",
                 "description": "The user modifies the tone in last round's prompt to request a more practical and easy-to-implement exercise routine suitable for beginners.",
-                "explanation": "This demonstrates the 'revision' relationship by changing the request to focus on practicality and suitability for beginners, adjusting the initial request for detailed exercise advice."
+                "explanation": "This demonstrates the 'refinement' relationship by changing the request to focus on practicality and suitability for beginners, adjusting the initial request for detailed exercise advice."
             }
         ],
         "structure": [
@@ -193,7 +193,7 @@
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "lifestyle",
@@ -223,24 +223,24 @@
             {
                 "name": "c2",
                 "description": "The user modifies the prompt by asking for advice specifically targeted towards students dealing with exam stress.",
-                "explanation": "This prompt reflects the 'Revision' structure as the user narrows down the target audience from general advice to advice specifically for students, refining the focus to improve the response."
+                "explanation": "This prompt reflects the 'Refinement' structure as the user narrows down the target audience from general advice to advice specifically for students, refining the focus to improve the response."
             },
             {
                 "name": "c3",
                 "description": "The user modifies the tone in last round's prompt to request a less formal and more relatable approach to the advice for students.",
-                "explanation": "In this round, the 'Revision' structure is evident as the user adjusts the tone of the previous prompt to make the response more suited to a younger audience, aiming for a more engaging and relatable answer."
+                "explanation": "In this round, the 'Refinement' structure is evident as the user adjusts the tone of the previous prompt to make the response more suited to a younger audience, aiming for a more engaging and relatable answer."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "psychology",
@@ -257,7 +257,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the genre preference included in the last round's prompt to focus on electronic music for a more energetic vibe.",
-                "explanation": "This aligns with the 'revision' structure as the user changes the genre constraint to electronic music for the specific purpose of energizing workouts."
+                "explanation": "This aligns with the 'refinement' structure as the user changes the genre constraint to electronic music for the specific purpose of energizing workouts."
             },
             {
                 "name": "c3",
@@ -269,7 +269,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",

@@ -70,24 +70,24 @@
             {
                 "name": "c2",
                 "description": "The user modifies the scope from last round's prompt to require data-backed insights on how these AI trends might impact specific industries, aiming for a more data-centric perspective.",
-                "explanation": "This follows the 'Revision' structure by narrowing the focus to include specific industries and emphasizing the need for data support, refining the user's initial inquiry."
+                "explanation": "This follows the 'Refinement' structure by narrowing the focus to include specific industries and emphasizing the need for data support, refining the user's initial inquiry."
             },
             {
                 "name": "c3",
                 "description": "The user modifies the tone of the previous request to make it more suitable for publication in a technology magazine, asking for a more polished and formal style.",
-                "explanation": "This is another 'Revision' structure, where the user adjusts the tone and style to meet publication standards, ensuring the article is appropriately polished for a professional audience."
+                "explanation": "This is another 'Refinement' structure, where the user adjusts the tone and style to meet publication standards, ensuring the article is appropriately polished for a professional audience."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "technology",

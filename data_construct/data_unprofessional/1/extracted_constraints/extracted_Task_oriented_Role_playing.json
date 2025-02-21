@@ -10,14 +10,14 @@
             {
                 "name": "c2",
                 "description": "The user modifies the request by asking for the investment strategies to be explained in simple terms because they are a beginner in finance.",
-                "explanation": "This prompt reflects the 'Revision' structure by changing the complexity level of the response to ensure it is suitable for a novice audience, without altering the overarching topic of investment strategies."
+                "explanation": "This prompt reflects the 'Refinement' structure by changing the complexity level of the response to ensure it is suitable for a novice audience, without altering the overarching topic of investment strategies."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "finance",
@@ -51,9 +51,9 @@
                 "assistant answer": "Alright, imagine index funds like a big basket of different fruits that you buy all at once. This basket has little pieces of many different companies in it, which makes it a 'safe' way to save and grow your money because you’re not putting everything in just one place. If one fruit goes bad, you’ve got lots of others still good. So your money is safe and can grow with less risk.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to include an explanation of index funds in a simple way?",
-                        "explanation": "The user is asking for a modification of the previous answer to explain index funds, which indicates a revision of the previous response."
+                        "explanation": "The user is asking for a modification of the previous answer to explain index funds, which indicates a refinement of the previous response."
                     },
                     {
                         "type": "Keyword/Element Constraint",
@@ -93,12 +93,12 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "science",
@@ -132,7 +132,7 @@
                 "assistant answer": "Imagine a planet as a car driving around a track. The sun's gravity is like the track's edge, pulling the car to stay on the path. The faster you drive, the tighter you hold the wheel—that's like the planet moving in its orbit!",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to explain planet movement using visual imagery instead of scientific terminology?",
                         "explanation": "The user is asking for a modification of the previous explanation, specifically to use more visual and less technical language."
                     },
@@ -154,9 +154,9 @@
                 "assistant answer": "Think about riding a merry-go-round. The ride spins fast, and you hold on tight not to get flung out. That's like planets, they circle the sun and gravity is what stops 'em from flying off into space!",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to explain planet movement using everyday activities?",
-                        "explanation": "The user is asking for a revision of the previous explanation, specifically to use everyday activities as a metaphor for how planets move."
+                        "explanation": "The user is asking for a refinement of the previous explanation, specifically to use everyday activities as a metaphor for how planets move."
                     }
                 ]
             }
@@ -174,7 +174,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the general request to focus on sustainable lifestyle practices that specifically reduce plastic waste.",
-                "explanation": "The user modifies the broader category of sustainable living to specifically address practices related to plastic waste reduction, demonstrating a revision by narrowing the focus."
+                "explanation": "The user modifies the broader category of sustainable living to specifically address practices related to plastic waste reduction, demonstrating a refinement by narrowing the focus."
             },
             {
                 "name": "c3",
@@ -186,7 +186,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -223,7 +223,7 @@
                 "assistant answer": "Sure thing! Cutting plastic waste is huge. Start using reusable bags, bottles, and containers. Ditch plastic straws and cutlery in favor of metal or glass alternatives. Buy in bulk to reduce packaging waste, and opt for products with minimal or no plastic packaging. You could also try DIY household cleaners to avoid buying plastic bottles. Composting's another way to cut down on plastic-lined food wrappers. Hope this helps!",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the prior answer to focus on cutting plastic waste?",
                         "explanation": "The user is asking for a change in the previous response, specifically to focus on cutting plastic waste instead of general eco-friendly tips."
                     }

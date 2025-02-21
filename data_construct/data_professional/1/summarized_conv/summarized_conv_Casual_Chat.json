@@ -34,24 +34,24 @@
             {
                 "name": "c2",
                 "description": "The user modifies the request for a simple explanation by asking for a more detailed description, focusing on the technical aspects of digital photography to deepen their understanding.",
-                "explanation": "The user revises the initial request by adjusting the level of detail they seek, aligning with the 'revision' structure where specific changes are made to the constraints of the prompt without altering the topic."
+                "explanation": "The user revises the initial request by adjusting the level of detail they seek, aligning with the 'refinement' structure where specific changes are made to the constraints of the prompt without altering the topic."
             },
             {
                 "name": "c3",
                 "description": "The user modifies the previously detailed request by asking for real-world applications and examples in the context of digital photography to connect theory with practice.",
-                "explanation": "In this round, the user further revises the previous requirements, specifying the need for practical examples, which follows the 'revision' structure by making a specific change to enrich the understanding of the discussed topic."
+                "explanation": "In this round, the user further revises the previous requirements, specifying the need for practical examples, which follows the 'refinement' structure by making a specific change to enrich the understanding of the discussed topic."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "digital",
@@ -68,7 +68,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the tone in the last round's prompt to make the response more detailed by requesting examples of budgeting strategies.",
-                "explanation": "This reflects the 'revision' structure as the user refines their initial broad request by specifying a need for examples, enhancing the detail and practicality of the information."
+                "explanation": "This reflects the 'refinement' structure as the user refines their initial broad request by specifying a need for examples, enhancing the detail and practicality of the information."
             },
             {
                 "name": "c3",
@@ -80,7 +80,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
@@ -102,24 +102,24 @@
             {
                 "name": "c2",
                 "description": "The user modifies the request by asking for suggestions that exclude the use of denim, aiming for a more unique style.",
-                "explanation": "The user introduces a revision by refining the constraints, excluding denim to receive more tailored advice on the casual outfit."
+                "explanation": "The user introduces a refinement by refining the constraints, excluding denim to receive more tailored advice on the casual outfit."
             },
             {
                 "name": "c3",
                 "description": "The user further revises the criteria by requesting options that incorporate more vibrant colors to add flair to the outfit.",
-                "explanation": "The user adds another revision, changing the criterion to include vibrant colors, ensuring the fashion advice aligns more closely with their personal style preferences."
+                "explanation": "The user adds another refinement, changing the criterion to include vibrant colors, ensuring the fashion advice aligns more closely with their personal style preferences."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "fashion",
@@ -136,24 +136,24 @@
             {
                 "name": "c2",
                 "description": "The user modifies the requirement for the suggested routine to include exercises that can be completed in 20 minutes, aiming to make the routine more time-efficient.",
-                "explanation": "The user revises the original constraint of the exercise routine duration to make it more time-efficient, aligning with the 'Revision' structure."
+                "explanation": "The user revises the original constraint of the exercise routine duration to make it more time-efficient, aligning with the 'Refinement' structure."
             },
             {
                 "name": "c3",
                 "description": "The user further modifies the requirement to include exercises that focus on both strength and flexibility.",
-                "explanation": "The user revises the constraints again, this time to include a focus on both strength and flexibility exercises, demonstrating another layer of refinement in the 'Revision' structure."
+                "explanation": "The user revises the constraints again, this time to include a focus on both strength and flexibility exercises, demonstrating another layer of refinement in the 'Refinement' structure."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "lifestyle",
@@ -170,7 +170,7 @@
             {
                 "name": "c2",
                 "description": "The user modify the depth of discussion in last round's prompt to include more detailed descriptions of each genre's origins for a deeper understanding.",
-                "explanation": "This round reflects the 'revision' structure by changing the depth of the information requested, without altering the overall topic, to gain more insights."
+                "explanation": "This round reflects the 'refinement' structure by changing the depth of the information requested, without altering the overall topic, to gain more insights."
             },
             {
                 "name": "c3",
@@ -182,7 +182,7 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": [
@@ -248,7 +248,7 @@
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "entertainment",
@@ -265,24 +265,24 @@
             {
                 "name": "c2",
                 "description": "The user modifies the question to focus on the specific ways classical music has impacted modern rock music, seeking a more tailored understanding.",
-                "explanation": "This follows the 'Revision' structure as the user specifies the inquiry to narrow the focus onto rock music, altering the previous broad inquiry about modern genres."
+                "explanation": "This follows the 'Refinement' structure as the user specifies the inquiry to narrow the focus onto rock music, altering the previous broad inquiry about modern genres."
             },
             {
                 "name": "c3",
                 "description": "The user recalls the influence of classical music on modern genres discussed in the first round and seeks examples of specific classical composers whose work is evident in today's music.",
-                "explanation": "This follows the 'Callback' structure since the user refers back to the main topic introduced in c1 about the influence of classical music to explore it further with examples."
+                "explanation": "This follows the 'Recall' structure since the user refers back to the main topic introduced in c1 about the influence of classical music to explore it further with examples."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "music",

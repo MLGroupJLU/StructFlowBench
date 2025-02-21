@@ -10,14 +10,14 @@
             {
                 "name": "c2",
                 "description": "The user modifies the style of the poem from descriptive to more metaphorical, aiming to convey deeper emotions associated with the season.",
-                "explanation": "The summarized prompt follows the 'Revision' structure by changing the poem's style to enhance emotional depth without changing the topic or adding new constraints."
+                "explanation": "The summarized prompt follows the 'Refinement' structure by changing the poem's style to enhance emotional depth without changing the topic or adding new constraints."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "literature",
@@ -51,7 +51,7 @@
                 "assistant answer": "Absolutely, let's add some depth to it:\n\nIn autumn's embrace, whispers of farewell,\nLeaves descend like echoes of secrets unspoken.\nThe earth, a canvas brushed with fleeting dreams,\nBears the weight of time’s gentle token.\n\nCrisp airs weave stories in the twilight glow,\nClouds gather like thoughts in introspection.\nA symphony of stillness, where silence speaks,\nReflecting the heart's quiet introspection.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response modify the previous poem to include metaphors that convey deeper feelings?",
                         "explanation": "The user is asking for a modification of the previously provided poem, specifically to add depth and metaphorical elements."
                     },
@@ -76,7 +76,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the style of the poem requested in the last round's prompt to include more vivid imagery for enhancing emotional depth.",
-                "explanation": "This follows the 'revision' structure by altering the constraint regarding style, aiming to deepen the poem's emotional expression without changing its theme or adding new constraints."
+                "explanation": "This follows the 'refinement' structure by altering the constraint regarding style, aiming to deepen the poem's emotional expression without changing its theme or adding new constraints."
             },
             {
                 "name": "c3",
@@ -88,12 +88,12 @@
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "humanities",
@@ -122,9 +122,9 @@
                 "assistant answer": "In the dawn's golden embrace, joy arises,\\nA gentle glow that paints the skies.\\nSadness, the silver moon's soft guise,\\nIlluminating the night, where silence lies.\\nJoy's laughter like a river's flow,\\nSparkling in the sun, where wildflowers grow.\\nSadness whispers in the rustling leaves,\\nA midnight breeze that softly grieves.\\nIn the dance of light and shadow's play,\\nThe colors of life both fade and sway.\\nFor in each tear, a rainbow gleams,\\nAnd within each sorrow, a dream redeems.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response revise the previous poem to include more vivid imagery and make the emotions stand out?",
-                        "explanation": "The user is asking for a modification of the previous response to add more vivid imagery and enhance the emotional impact, which aligns with the definition of a Revision Constraint."
+                        "explanation": "The user is asking for a modification of the previous response to add more vivid imagery and enhance the emotional impact, which aligns with the definition of a Refinement Constraint."
                     }
                 ]
             },
@@ -134,9 +134,9 @@
                 "assistant answer": "Embark on a journey through twilight's hue,\\nWhere joy and sadness, as companions, grew.\\nJoy strides through fields of golden dawn,\\nWith laughter's echo softly drawn.\\nSadness walks a path of moonlit mist,\\nAs shadows and dreams quietly coexist.\\nTogether they traverse mountains high,\\nWhere echoes of laughter and tears comply.\\nIn valleys, where wild rivers starkly divide,\\nTheir journey entwines, side by side.\\nFor every peak touched by sunrise gold,\\nMeets a valley where tales of tears unfold.\\nIn this voyage, where paths endlessly unfurl,\\nJoy and sadness, a tapestry of the world.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response expand on the previous poem to incorporate a journey-like narrative with metaphors, while maintaining the themes of joy and sadness?",
-                        "explanation": "This constraint is classified as a Revision Constraint because it explicitly requires the new response to be a modification of the answer from the previous round, adding new elements like a journey and metaphors, while keeping the original themes."
+                        "explanation": "This constraint is classified as a Refinement Constraint because it explicitly requires the new response to be a modification of the answer from the previous round, adding new elements like a journey and metaphors, while keeping the original themes."
                     },
                     {
                         "type": "Dialogue History Constraint",
@@ -218,7 +218,7 @@
                         "explanation": "This constraint requires the response to revolve around specific turning points in the artist's journey, ensuring that the content is focused and relevant."
                     },
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response narrow down the ideas from the previous brainstorming session and provide more detailed moments?",
                         "explanation": "This constraint requires the response to be a modification of the previous answer, focusing on narrowing down the ideas and providing more detailed moments."
                     },
@@ -301,9 +301,9 @@
                 "assistant answer": "Alright! Let's introduce Mia, a brilliant violinist who plays in the local orchestra. She joins the band after hearing Alex and Jamie play, bringing her unique classical touch to their rock sound. Mia's passion for blending different musical genres makes her a perfect fit for the group, adding new layers to their harmony and rhythm.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response add a character to the story who is deeply into music, based on the previous story about music?",
-                        "explanation": "The user is asking for a modification of the previous answer by adding a new character, which aligns with the definition of a Revision Constraint."
+                        "explanation": "The user is asking for a modification of the previous answer by adding a new character, which aligns with the definition of a Refinement Constraint."
                     },
                     {
                         "type": "Inverse Constraint",
@@ -348,7 +348,7 @@
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "entertainment",
@@ -414,9 +414,9 @@
                         "explanation": "The user explicitly asks for the story to begin with 'Once upon...' and end with '...to be continued.', which fits the definition of a Template Format Constraint."
                     },
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response incorporate the time-related ideas and forest elements previously discussed?",
-                        "explanation": "The user requests that the story should use the time-related concepts and forest details from the previous responses, indicating a Revision Constraint."
+                        "explanation": "The user requests that the story should use the time-related concepts and forest details from the previous responses, indicating a Refinement Constraint."
                     },
                     {
                         "type": "Dialogue History Constraint",

@@ -8,15 +8,15 @@
         "Keyword/Element Constraint": 0.98,
         "Style Constraint": 0.99,
         "Situation Constraint": 0.96,
-        "Fundamental Format Constraint": 0.97,
+        "Basic Format Constraint": 0.97,
         "Quantity Format Constraint": 0.95,
         "Template Format Constraint": 0.95,
         "Content Constraint": 0.99,
         "follow-up": 0.95,
-        "revision": 0.75,
+        "refinement": 0.75,
         "expansion": 0.84,
         "summary": 0.97,
-        "call-back": 0.94
+        "recall": 0.94
     },
     "tasks": {
         "Fact-based Q&A": {

@@ -87,9 +87,9 @@
                         "explanation": "The user specifies that the response should cover the principles of quantum mechanics, their historical development, and emphasize historical context and major breakthroughs, which is a clear Content Constraint."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response formatted as a well-structured markdown document?",
-                        "explanation": "The user explicitly asks for the response to be in a well-structured markdown document format, which is a Fundamental Format Constraint."
+                        "explanation": "The user explicitly asks for the response to be in a well-structured markdown document format, which is a Basic Format Constraint."
                     }
                 ]
             },
@@ -109,9 +109,9 @@
                         "explanation": "The user specifies that the response should cover quantum superposition and its applications in modern computing, which is a clear Content Constraint."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response provided in JSON format?",
-                        "explanation": "The user explicitly requests the response to be in JSON format, which is a Fundamental Format Constraint."
+                        "explanation": "The user explicitly requests the response to be in JSON format, which is a Basic Format Constraint."
                     },
                     {
                         "type": "Dialogue History Constraint",
@@ -240,9 +240,9 @@
                 "assistant answer": "Here are some precedential cases illustrating key contract principles:\n```json\n[\n    {\n        \"Case Name\": \"Carlill v Carbolic Smoke Ball Co\",\n        \"Jurisdiction\": \"United Kingdom\",\n        \"Principle Illustrated\": \"Offer and Acceptance\"\n    },\n    {\n        \"Case Name\": \"Peevyhouse v. Garland Coal & Mining Co.\",\n        \"Jurisdiction\": \"United States\",\n        \"Principle Illustrated\": \"Consideration and Damages\"\n    },\n    {\n        \"Case Name\": \"Hadley v Baxendale\",\n        \"Jurisdiction\": \"United Kingdom\",\n        \"Principle Illustrated\": \"Foreseeability of Damages\"\n    },\n    {\n        \"Case Name\": \"Lucy v. Zehmer\",\n        \"Jurisdiction\": \"United States\",\n        \"Principle Illustrated\": \"Intention to Create Legal Relations\"\n    }\n]\n```\nThese cases should provide a strong foundation for understanding how contract principles are applied in real-world scenarios.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response include examples of precedential cases that illustrate contract principles in action, as a follow-up to the previous request for an overview of legal principles?",
-                        "explanation": "The user is asking for additional information (examples of precedential cases) to build upon the previously provided overview of legal principles, indicating a revision of the prior response."
+                        "explanation": "The user is asking for additional information (examples of precedential cases) to build upon the previously provided overview of legal principles, indicating a refinement of the prior response."
                     },
                     {
                         "type": "Content Constraint",
@@ -250,9 +250,9 @@
                         "explanation": "The user specifically requests examples from two jurisdictions, which sets the content scope of the response."
                     },
                     {
-                        "type": "Fundamental Format Constraint",
+                        "type": "Basic Format Constraint",
                         "content": "Is the response formatted as a JSON object?",
-                        "explanation": "The user explicitly asks for the response to be in JSON format, which is a fundamental format constraint."
+                        "explanation": "The user explicitly asks for the response to be in JSON format, which is a basic format constraint."
                     },
                     {
                         "type": "Template Format Constraint",
@@ -267,7 +267,7 @@
                 "assistant answer": "Here are potential defenses against a breach of contract claim:\n\n**1. Defense Description**: Impossibility of Performance\n- **Legal Justification**: This defense argues that unforeseen events have rendered fulfilling the contract impossible. The defense is applicable when no party is at fault and the event was unanticipated.\n- **Case Example**: Taylor v. Caldwell, where a music hall burned down, making performance impossible.\n\n**2. Defense Description**: Frustration of Purpose\n- **Legal Justification**: Invoked when the underlying reason for the contract is destroyed by unforeseen events, making the contract pointless for both parties.\n- **Case Example**: Krell v. Henry involved the cancellation of the King’s coronation parade due to illness, which frustrated the contract's purpose.\n\n**3. Defense Description**: Force Majeure\n- **Legal Justification**: This defense is applicable when a contract contains a Force Majeure clause, which exempts performance due to extraordinary events such as natural disasters, war, or pandemics.\n- **Case Example**: A hypothetical situation where a pandemic halts production, impacting contract fulfillment.\nThese defenses can help illustrate viable strategies for a defendant facing a breach of contract claim.",
                 "constraints": [
                     {
-                        "type": "Revision Constraint",
+                        "type": "Refinement Constraint",
                         "content": "Does the response build upon the previous discussion of breach of contract scenarios to explore potential defenses available to the defendant?",
                         "explanation": "The user is asking for a continuation and expansion of the topic discussed in the previous prompt, specifically focusing on defenses in breach of contract cases."
                     },

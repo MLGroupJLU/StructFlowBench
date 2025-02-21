@@ -36,24 +36,24 @@
             {
                 "name": "c2",
                 "description": "The user modifies the draft's tone to be more formal, aiming for a professional style suitable for a business journal.",
-                "explanation": "The modification to the tone reflects the 'Revision' structure by changing an existing constraint to better align with the target audience's expectations."
+                "explanation": "The modification to the tone reflects the 'Refinement' structure by changing an existing constraint to better align with the target audience's expectations."
             },
             {
                 "name": "c3",
                 "description": "The user modifies the structure of the article to include case studies as examples, intending to provide concrete evidence to support the arguments.",
-                "explanation": "This further 'Revision' involves altering the article's structure to enhance its persuasive power and engagement by adding specific elements."
+                "explanation": "This further 'Refinement' involves altering the article's structure to enhance its persuasive power and engagement by adding specific elements."
             }
         ],
         "structure": [
             {
                 "source": "c1",
                 "target": "c2",
-                "relation": "revision"
+                "relation": "refinement"
             },
             {
                 "source": "c2",
                 "target": "c3",
-                "relation": "revision"
+                "relation": "refinement"
             }
         ],
         "conv_topic": "technology",
@@ -105,7 +105,7 @@
             {
                 "source": "c1",
                 "target": "c3",
-                "relation": "call-back"
+                "relation": "recall"
             }
         ],
         "conv_topic": "environment",
