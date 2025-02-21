@@ -1257,7 +1257,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the poem's style in the last round's prompt to make it more reflective and introspective.",
-                "explanation": "This follows the 'Revision' structure where the user changes the style of the poem to align more closely with a desired tone."
+                "explanation": "This follows the 'Refinement' structure where the user changes the style of the poem to align more closely with a desired tone."
             },
             {
                 "name": "c3",
@@ -2060,12 +2060,12 @@
             {
                 "name": "c2",
                 "description": "The user modifies the requirement for the suggested routine to include exercises that can be completed in 20 minutes, aiming to make the routine more time-efficient.",
-                "explanation": "The user revises the original constraint of the exercise routine duration to make it more time-efficient, aligning with the 'Revision' structure."
+                "explanation": "The user revises the original constraint of the exercise routine duration to make it more time-efficient, aligning with the 'Refinement' structure."
             },
             {
                 "name": "c3",
                 "description": "The user further modifies the requirement to include exercises that focus on both strength and flexibility.",
-                "explanation": "The user revises the constraints again, this time to include a focus on both strength and flexibility exercises, demonstrating another layer of refinement in the 'Revision' structure."
+                "explanation": "The user revises the constraints again, this time to include a focus on both strength and flexibility exercises, demonstrating another layer of refinement in the 'Refinement' structure."
             }
         ],
         "structure": [
@@ -2421,12 +2421,12 @@
             {
                 "name": "c2",
                 "description": "The user modifies the question to focus on the specific ways classical music has impacted modern rock music, seeking a more tailored understanding.",
-                "explanation": "This follows the 'Revision' structure as the user specifies the inquiry to narrow the focus onto rock music, altering the previous broad inquiry about modern genres."
+                "explanation": "This follows the 'Refinement' structure as the user specifies the inquiry to narrow the focus onto rock music, altering the previous broad inquiry about modern genres."
             },
             {
                 "name": "c3",
                 "description": "The user recalls the influence of classical music on modern genres discussed in the first round and seeks examples of specific classical composers whose work is evident in today's music.",
-                "explanation": "This follows the 'Callback' structure since the user refers back to the main topic introduced in c1 about the influence of classical music to explore it further with examples."
+                "explanation": "This follows the 'Recall' structure since the user refers back to the main topic introduced in c1 about the influence of classical music to explore it further with examples."
             }
         ],
         "structure": [
@@ -3721,7 +3721,7 @@
             {
                 "name": "c3",
                 "description": "The user modifies the level of detail in last round's prompt to focus on more practical examples of AI in healthcare for better understanding.",
-                "explanation": "The 'Revision' structure is used here by changing the prompt's detail level to request examples that are more practical, aiming to improve the clarity of the response."
+                "explanation": "The 'Refinement' structure is used here by changing the prompt's detail level to request examples that are more practical, aiming to improve the clarity of the response."
             }
         ],
         "structure": [
@@ -3958,7 +3958,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the initial prompt by requesting the response to focus more on motivational theories rather than general psychological factors.",
-                "explanation": "Following the 'Revision' structure, the user refines the focus by narrowing down to motivational theories, enhancing specificity without altering the overall topic."
+                "explanation": "Following the 'Refinement' structure, the user refines the focus by narrowing down to motivational theories, enhancing specificity without altering the overall topic."
             },
             {
                 "name": "c3",
@@ -4234,12 +4234,12 @@
             {
                 "name": "c2",
                 "description": "The user modifies the draft's tone to be more formal, aiming for a professional style suitable for a business journal.",
-                "explanation": "The modification to the tone reflects the 'Revision' structure by changing an existing constraint to better align with the target audience's expectations."
+                "explanation": "The modification to the tone reflects the 'Refinement' structure by changing an existing constraint to better align with the target audience's expectations."
             },
             {
                 "name": "c3",
                 "description": "The user modifies the structure of the article to include case studies as examples, intending to provide concrete evidence to support the arguments.",
-                "explanation": "This further 'Revision' involves altering the article's structure to enhance its persuasive power and engagement by adding specific elements."
+                "explanation": "This further 'Refinement' involves altering the article's structure to enhance its persuasive power and engagement by adding specific elements."
             }
         ],
         "structure": [
@@ -4998,7 +4998,7 @@
             {
                 "name": "c2",
                 "description": "The user modify the tone in last round's prompt to make the response more formal to ensure the notice aligns with legal standards and professional workplace communication.",
-                "explanation": "This prompt represents a 'Revision' structure by changing the tone of the draft notice from a general to a more formal style, due to the requirement of professional and legal compliance."
+                "explanation": "This prompt represents a 'Refinement' structure by changing the tone of the draft notice from a general to a more formal style, due to the requirement of professional and legal compliance."
             }
         ],
         "structure": [
@@ -5073,7 +5073,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the style of the poem from descriptive to more metaphorical, aiming to convey deeper emotions associated with the season.",
-                "explanation": "The summarized prompt follows the 'Revision' structure by changing the poem's style to enhance emotional depth without changing the topic or adding new constraints."
+                "explanation": "The summarized prompt follows the 'Refinement' structure by changing the poem's style to enhance emotional depth without changing the topic or adding new constraints."
             }
         ],
         "structure": [
@@ -5846,7 +5846,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the request by asking for the investment strategies to be explained in simple terms because they are a beginner in finance.",
-                "explanation": "This prompt reflects the 'Revision' structure by changing the complexity level of the response to ensure it is suitable for a novice audience, without altering the overarching topic of investment strategies."
+                "explanation": "This prompt reflects the 'Refinement' structure by changing the complexity level of the response to ensure it is suitable for a novice audience, without altering the overarching topic of investment strategies."
             }
         ],
         "structure": [
@@ -7263,22 +7263,22 @@
             {
                 "name": "c2",
                 "description": "The user modifies the structure of the draft to include section headings for a clearer organization of AI applications by industry.",
-                "explanation": "The user modifies the structure in the last round's prompt to clarify the article's format, aligning with a 'Revision' structure."
+                "explanation": "The user modifies the structure in the last round's prompt to clarify the article's format, aligning with a 'Refinement' structure."
             },
             {
                 "name": "c3",
                 "description": "The user modifies the language and tone to be more suitable for a scholarly publication, ensuring formal and precise language.",
-                "explanation": "The user modifies the tone in the last round's prompt to elevate the professionalism of the writing, reflecting a 'Revision' structure."
+                "explanation": "The user modifies the tone in the last round's prompt to elevate the professionalism of the writing, reflecting a 'Refinement' structure."
             },
             {
                 "name": "c4",
                 "description": "The user modifies the examples for each AI application to include more recent case studies, providing updated relevance to readers.",
-                "explanation": "The user modifies the examples in the last round's prompt to ensure the content is current, which is a 'Revision' structure."
+                "explanation": "The user modifies the examples in the last round's prompt to ensure the content is current, which is a 'Refinement' structure."
             },
             {
                 "name": "c5",
                 "description": "The user modifies the conclusion to include a forward-looking statement on potential future trends in AI technology.",
-                "explanation": "The user modifies the conclusion in the last round's prompt to provide future insights, aligning with a 'Revision' structure."
+                "explanation": "The user modifies the conclusion in the last round's prompt to provide future insights, aligning with a 'Refinement' structure."
             }
         ],
         "structure": [
@@ -8133,17 +8133,17 @@
             {
                 "name": "c3",
                 "description": "The user modify the request for examples of introductions included in last round's prompt to focus on examples in the field of biology specifically for more relevant material.",
-                "explanation": "This prompt demonstrates a 'Revision' as the user refines the previous request by narrowing the field to biology."
+                "explanation": "This prompt demonstrates a 'Refinement' as the user refines the previous request by narrowing the field to biology."
             },
             {
                 "name": "c4",
                 "description": "The user recall details about the order of components in a scientific report from c1 and seeks guidance on common mistakes to avoid when writing each section.",
-                "explanation": "This prompt illustrates a 'Callback' by referencing the initial guidelines to explore potential pitfalls."
+                "explanation": "This prompt illustrates a 'Recall' by referencing the initial guidelines to explore potential pitfalls."
             },
             {
                 "name": "c5",
                 "description": "The user modify the request for common mistakes included in last round's prompt to get suggestions on how to correct these mistakes for practical application.",
-                "explanation": "This prompt follows a 'Revision' structure by changing the focus from identifying mistakes to offering corrective strategies."
+                "explanation": "This prompt follows a 'Refinement' structure by changing the focus from identifying mistakes to offering corrective strategies."
             }
         ],
         "structure": [
@@ -8537,17 +8537,17 @@
             {
                 "name": "c3",
                 "description": "The user modifies the technical jargon included in last round's prompt to ensure the instructions are understandable for non-technical staff.",
-                "explanation": "This prompt represents a 'Revision' structure as the user adjusts the prompt to change the complexity of the language used, thereby aligning with the user's goal of clarity."
+                "explanation": "This prompt represents a 'Refinement' structure as the user adjusts the prompt to change the complexity of the language used, thereby aligning with the user's goal of clarity."
             },
             {
                 "name": "c4",
                 "description": "The user recalls the initial request for slow computer troubleshooting in c1 and asks how disk space management can impact this process.",
-                "explanation": "This prompt follows the 'Callback' structure, as the user refers back to the initial query to further explore the topic of disk management in relation to computer speed."
+                "explanation": "This prompt follows the 'Recall' structure, as the user refers back to the initial query to further explore the topic of disk management in relation to computer speed."
             },
             {
                 "name": "c5",
                 "description": "The user modifies the explanation format included in last round's prompt to include bullet points for easier readability.",
-                "explanation": "This prompt again embodies a 'Revision' structure, as the user changes the format for enhanced readability, keeping in line with the overall purpose of creating a clear, user-friendly guide."
+                "explanation": "This prompt again embodies a 'Refinement' structure, as the user changes the format for enhanced readability, keeping in line with the overall purpose of creating a clear, user-friendly guide."
             }
         ],
         "structure": [
@@ -9122,22 +9122,22 @@
             {
                 "name": "c2",
                 "description": "The user modifies the narrative style in the previous request to make the story more whimsical and light-hearted.",
-                "explanation": "The user employs the 'Revision' structure by changing the narrative style constraint from the previous prompt to enhance the mood and tone of the story."
+                "explanation": "The user employs the 'Refinement' structure by changing the narrative style constraint from the previous prompt to enhance the mood and tone of the story."
             },
             {
                 "name": "c3",
                 "description": "The user modifies the perspective to first-person to personalize the experience of the guardian character.",
-                "explanation": "This prompt involves a 'Revision' where the constraint on narrative perspective is altered to deepen character engagement and offer an immersive viewpoint."
+                "explanation": "This prompt involves a 'Refinement' where the constraint on narrative perspective is altered to deepen character engagement and offer an immersive viewpoint."
             },
             {
                 "name": "c4",
                 "description": "The user modifies the timeline of the story to include a significant event in the past that shapes the current setting.",
-                "explanation": "By revising the timeline aspect, the user employs 'Revision' to incorporate historical context, enriching the backstory and depth."
+                "explanation": "By revising the timeline aspect, the user employs 'Refinement' to incorporate historical context, enriching the backstory and depth."
             },
             {
                 "name": "c5",
                 "description": "The user modifies the language of the dialogue to incorporate more archaic terms, enhancing the mystical atmosphere.",
-                "explanation": "In this final refinement, the language style is altered, demonstrating 'Revision' by adjusting lexical choices to better fit the intended thematic ambiance."
+                "explanation": "In this final refinement, the language style is altered, demonstrating 'Refinement' by adjusting lexical choices to better fit the intended thematic ambiance."
             }
         ],
         "structure": [
@@ -9569,12 +9569,12 @@
             {
                 "name": "c2",
                 "description": "The user modifies the style in last round's prompt to have the poem reflect a more romantic tone.",
-                "explanation": "Following the Revision structure, the user adjusts the style constraint from a whimsical to a romantic tone, seeking a different emotional expression in the poem."
+                "explanation": "Following the Refinement structure, the user adjusts the style constraint from a whimsical to a romantic tone, seeking a different emotional expression in the poem."
             },
             {
                 "name": "c3",
                 "description": "The user modifies the perspective in last round's prompt to include a narrative from an instrument's point of view.",
-                "explanation": "In this Revision, the user changes the perspective constraint to explore the concept of music from the viewpoint of an instrument, adding a fresh narrative angle."
+                "explanation": "In this Refinement, the user changes the perspective constraint to explore the concept of music from the viewpoint of an instrument, adding a fresh narrative angle."
             },
             {
                 "name": "c4",
@@ -9584,7 +9584,7 @@
             {
                 "name": "c5",
                 "description": "The user modifies the imagery in last round's prompt to focus on nature and its connection to musical harmony.",
-                "explanation": "In the final Revision, the user alters the imagery constraints to incorporate elements of nature, aiming to intertwine natural harmony with musical themes."
+                "explanation": "In the final Refinement, the user alters the imagery constraints to incorporate elements of nature, aiming to intertwine natural harmony with musical themes."
             }
         ],
         "structure": [
@@ -9997,17 +9997,17 @@
             {
                 "name": "c3",
                 "description": "The user modifies the requirement for a simplified list included in last round's prompt to ask for a detailed explanation for each food's impact on blood pressure for better understanding.",
-                "explanation": "The 'Revision' structure is utilized here where the user changes the format or depth of information requested in the previous prompt for clarity and comprehension."
+                "explanation": "The 'Refinement' structure is utilized here where the user changes the format or depth of information requested in the previous prompt for clarity and comprehension."
             },
             {
                 "name": "c4",
                 "description": "The user recalls the initial dietary advice discussed in the first dialogue and asks about how physical activity could complement these dietary changes in managing blood pressure.",
-                "explanation": "The 'Callback' structure is used here to connect the new question about physical activity with the dietary advice given in the initial dialogue, maintaining the context."
+                "explanation": "The 'Recall' structure is used here to connect the new question about physical activity with the dietary advice given in the initial dialogue, maintaining the context."
             },
             {
                 "name": "c5",
                 "description": "The user modifies the focus from physical activity included in last round's prompt to specifically ask about low-impact exercises suited for older adults with mobility issues.",
-                "explanation": "This 'Revision' structure demonstrates how the user changes the type of exercise or activity referenced for a specific purpose, ensuring the advice is actionable and relevant."
+                "explanation": "This 'Refinement' structure demonstrates how the user changes the type of exercise or activity referenced for a specific purpose, ensuring the advice is actionable and relevant."
             }
         ],
         "structure": [
@@ -10612,22 +10612,22 @@
             {
                 "name": "c2",
                 "description": "The user modifies the last round's prompt by requesting a focus on how hydration affects mental clarity.",
-                "explanation": "This prompt follows the 'Revision' structure by narrowing the focus to a specific aspect of health, demonstrating a desire for a tailored response."
+                "explanation": "This prompt follows the 'Refinement' structure by narrowing the focus to a specific aspect of health, demonstrating a desire for a tailored response."
             },
             {
                 "name": "c3",
                 "description": "The user modifies the response style in last round's prompt to request a bullet-point format for easier analysis.",
-                "explanation": "In this round, the user employs 'Revision' by seeking a different presentation style, not changing the topic or adding constraints, but improving clarity."
+                "explanation": "In this round, the user employs 'Refinement' by seeking a different presentation style, not changing the topic or adding constraints, but improving clarity."
             },
             {
                 "name": "c4",
                 "description": "The user modifies the depth of detail in last round's prompt to make the response more detailed, aiming for comprehensive insights.",
-                "explanation": "Here, the 'Revision' structure is demonstrated by altering the level of detail required, enhancing the depth of information without altering the topic."
+                "explanation": "Here, the 'Refinement' structure is demonstrated by altering the level of detail required, enhancing the depth of information without altering the topic."
             },
             {
                 "name": "c5",
                 "description": "The user modifies the focus from mental clarity to understanding the role of hydration in physical performance based on last round's response.",
-                "explanation": "The final 'Revision' is applied by changing the specific health aspect of focus to explore another significant area, maintaining the conversation's coherence."
+                "explanation": "The final 'Refinement' is applied by changing the specific health aspect of focus to explore another significant area, maintaining the conversation's coherence."
             }
         ],
         "structure": [
@@ -14196,17 +14196,17 @@
             {
                 "name": "c3",
                 "description": "The user modifies the level of detail requested in the previous prompt to focus on including relevant literature without overwhelming detail in the introduction.",
-                "explanation": "This satisfies the Revision structure by altering the specific focus from more general guidance to addressing concerns about detail level."
+                "explanation": "This satisfies the Refinement structure by altering the specific focus from more general guidance to addressing concerns about detail level."
             },
             {
                 "name": "c4",
                 "description": "The user recalls the overall structure of a lab report discussed in the first dialogue and asks for tips on the best practices for writing a concise yet comprehensive discussion section.",
-                "explanation": "This fits the Callback structure as it refers back to a concept from an earlier dialogue and applies it to a new section of the report."
+                "explanation": "This fits the Recall structure as it refers back to a concept from an earlier dialogue and applies it to a new section of the report."
             },
             {
                 "name": "c5",
                 "description": "The user modifies the explanation style from the last round's prompt to include more examples for better understanding.",
-                "explanation": "This adheres to the Revision structure by requesting a change in the explanation method to make the response more illustrative."
+                "explanation": "This adheres to the Refinement structure by requesting a change in the explanation method to make the response more illustrative."
             }
         ],
         "structure": [
@@ -15198,17 +15198,17 @@
             {
                 "name": "c3",
                 "description": "The user modifies the organization approach discussed in the last round's prompt to include an emphasis on chronological order for clarity in tracking maintenance history.",
-                "explanation": "This round involves revising the organization strategy by introducing a new emphasis on chronological order, which reflects the 'Revision' structure."
+                "explanation": "This round involves revising the organization strategy by introducing a new emphasis on chronological order, which reflects the 'Refinement' structure."
             },
             {
                 "name": "c4",
                 "description": "The user recalls the essential details required in a vehicle maintenance log, as discussed in c1, and asks how these can be adapted for digital record-keeping.",
-                "explanation": "The user refers back to information from c1 to explore adapting it for a specific context, demonstrating the 'Callback' structure."
+                "explanation": "The user refers back to information from c1 to explore adapting it for a specific context, demonstrating the 'Recall' structure."
             },
             {
                 "name": "c5",
                 "description": "The user modifies the focus in the last round's prompt to consider data security measures when keeping digital maintenance logs.",
-                "explanation": "This round involves altering the focus to include data security concerns in digital record-keeping, adhering to the 'Revision' structure."
+                "explanation": "This round involves altering the focus to include data security concerns in digital record-keeping, adhering to the 'Refinement' structure."
             }
         ],
         "structure": [
@@ -16715,7 +16715,7 @@
             {
                 "name": "c5",
                 "description": "The user modifies the request to focus specifically on ensuring the tone is more formal and aligned with academic standards, as the previous response needed refinement.",
-                "explanation": "This follows the 'Revision' structure as the user changes the style constraint (tone) to achieve a more formal result, reflecting dissatisfaction with the initial response."
+                "explanation": "This follows the 'Refinement' structure as the user changes the style constraint (tone) to achieve a more formal result, reflecting dissatisfaction with the initial response."
             },
             {
                 "name": "c6",
@@ -17081,12 +17081,12 @@
             {
                 "name": "c5",
                 "description": "The user modifies the tone of the short story in the previous prompt to make the atmosphere more mysterious and suspenseful.",
-                "explanation": "This aligns with the 'Revision' structure as the user is changing the tone to evoke a different emotional response without altering the topic or adding new constraints."
+                "explanation": "This aligns with the 'Refinement' structure as the user is changing the tone to evoke a different emotional response without altering the topic or adding new constraints."
             },
             {
                 "name": "c6",
                 "description": "The user recalls the adventurous protagonist from the initial story and requests the inclusion of a subplot involving a hidden treasure map.",
-                "explanation": "This follows the 'Callback' structure because the user is building on elements introduced in the first round, referencing the protagonist to introduce a new subplot."
+                "explanation": "This follows the 'Recall' structure because the user is building on elements introduced in the first round, referencing the protagonist to introduce a new subplot."
             }
         ],
         "structure": [
@@ -17259,7 +17259,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the prompt to request more examples of digital tools in communication for a clearer understanding.",
-                "explanation": "This reflects a 'Revision' structure where the user changes the initial request by asking for specific examples, aiming to get a more detailed response."
+                "explanation": "This reflects a 'Refinement' structure where the user changes the initial request by asking for specific examples, aiming to get a more detailed response."
             },
             {
                 "name": "c3",
@@ -18359,7 +18359,7 @@
             {
                 "name": "c3",
                 "description": "The user recalls the theme of music's influence on emotions in the initial dialogue and requests a setting for the poem where this influence is vividly illustrated.",
-                "explanation": "This follows the 'Callback' structure by linking back to the primary theme introduced in the first round to establish a creative context."
+                "explanation": "This follows the 'Recall' structure by linking back to the primary theme introduced in the first round to establish a creative context."
             },
             {
                 "name": "c4",
@@ -18847,7 +18847,7 @@
             {
                 "name": "c6",
                 "description": "The user modifies the language style in the last round's prompt to prioritize clarity and precision for a professional audience.",
-                "explanation": "The user revises the previous prompt's style, focusing on improving the precision of language to align with the expectations of a professional audience, which reflects the 'Revision' structure."
+                "explanation": "The user revises the previous prompt's style, focusing on improving the precision of language to align with the expectations of a professional audience, which reflects the 'Refinement' structure."
             }
         ],
         "structure": [
@@ -19649,7 +19649,7 @@
             {
                 "name": "c5",
                 "description": "The user modify the detail level in last round's prompt to request a deeper dive into the unique instruments used in each genre for better understanding of their sounds.",
-                "explanation": "This follows the 'Revision' structure, as the user changes the request to focus more specifically on the instruments involved in the genres."
+                "explanation": "This follows the 'Refinement' structure, as the user changes the request to focus more specifically on the instruments involved in the genres."
             }
         ],
         "structure": [
@@ -19798,7 +19798,7 @@
             {
                 "name": "c2",
                 "description": "The user modify the complexity level in last round's prompt to make it more detailed for advanced high school students.",
-                "explanation": "The user employs the 'Revision' structure by adjusting the audience level from middle school to advanced high school students, seeking a more in-depth explanation of photosynthesis."
+                "explanation": "The user employs the 'Refinement' structure by adjusting the audience level from middle school to advanced high school students, seeking a more in-depth explanation of photosynthesis."
             },
             {
                 "name": "c3",
@@ -19975,7 +19975,7 @@
             {
                 "name": "c3",
                 "description": "The user modifies the tone in the last round's prompt to make the story more suspenseful, emphasizing the eerie atmosphere during the storm.",
-                "explanation": "Here, the user revises the initial prompt by changing the story's tone, following the 'Revision' structure definition by altering the style to enhance suspense."
+                "explanation": "Here, the user revises the initial prompt by changing the story's tone, following the 'Refinement' structure definition by altering the style to enhance suspense."
             },
             {
                 "name": "c4",
@@ -20096,7 +20096,7 @@
             {
                 "name": "c2",
                 "description": "The user modifies the tone in last round's prompt to make the response more formal for professional communication purposes.",
-                "explanation": "The user is revising the initial request by changing the tone of the email to suit a professional context better, adhering to the 'Revision' structure."
+                "explanation": "The user is revising the initial request by changing the tone of the email to suit a professional context better, adhering to the 'Refinement' structure."
             },
             {
                 "name": "c3",
