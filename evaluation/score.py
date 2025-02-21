@@ -8,15 +8,15 @@ weights = {
     "Keyword/Element Constraint": 1,
     "Style Constraint": 1,
     "Situation Constraint": 1,
-    "Fundamental Format Constraint": 1,
+    "Basic Format Constraint": 1,
     "Quantity Format Constraint": 1,
     "Template Format Constraint": 1,
     "Content Constraint": 1,
     "follow-up": 2,
-    "revision": 2,
+    "refinement": 2,
     "expansion": 2,
     "summary": 2,
-    "call-back": 2
+    "recall": 2
 }
 
 task_list = [
