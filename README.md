@@ -1,7 +1,8 @@
 # StructFlowBench: A Structured Flow Benchmark for Multi-turn Instruction Following
 
 We introduce **StructFlowBench**, a novel instruction-following benchmark integrating a multi-turn structural flow framework. 
-- We propose a six-category structured taxonomy for multi-turn instruction-following evaluation, offering an interpretable framework for analyzing dialogue structural flow.- We introduce StructFlowBench, a structurally annotated multi-turn benchmark that leverages a structure-driven generation paradigm to enhance the simulation of complex dialogue scenarios.
+- We propose a six-category structured taxonomy for multi-turn instruction-following evaluation, offering an interpretable framework for analyzing dialogue structural flow
+- We introduce StructFlowBench, a structurally annotated multi-turn benchmark that leverages a structure-driven generation paradigm to enhance the simulation of complex dialogue scenarios.
 - We systematically evaluate 13 state-of-the-art LLMs (3 closed-source and 10 open-source), unveiling disparities in structural processing capabilities and providing empirical insights for optimizing dialogue systems.
 
 ## 1. Updates
@@ -33,4 +34,15 @@ The radar chart
 
 
 ## 5. Citation
-
+```
+@misc{li2025structflowbenchstructuredflowbenchmark,
+      title={StructFlowBench: A Structured Flow Benchmark for Multi-turn Instruction Following}, 
+      author={Jinnan Li and Jinzhe Li and Yue Wang and Yi Chang and Yuan Wu},
+      year={2025},
+      eprint={2502.14494},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.14494}, 
+}
+```
+Please cite our paper if you find our research and code useful.
