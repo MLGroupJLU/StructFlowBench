@@ -20,8 +20,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -29,7 +33,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -124,13 +130,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -225,13 +239,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -326,8 +348,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -406,13 +432,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -507,7 +541,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3"
@@ -601,13 +637,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -697,13 +741,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -813,13 +865,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -914,8 +974,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -989,8 +1053,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -998,7 +1066,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -1088,8 +1158,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -1097,7 +1171,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -1197,8 +1273,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -1267,8 +1347,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
@@ -1276,7 +1360,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -1366,8 +1452,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -1375,7 +1465,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -1470,8 +1562,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -1550,13 +1646,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -1646,13 +1750,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             }
         ],
@@ -1762,13 +1874,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -1863,13 +1983,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -1959,13 +2087,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -2070,13 +2206,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -2171,8 +2315,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
@@ -2180,7 +2328,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -2265,8 +2415,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -2340,13 +2494,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             }
         ],
@@ -2431,13 +2593,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             }
         ],
@@ -2527,13 +2697,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -2623,13 +2801,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -2729,8 +2915,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -2738,7 +2928,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -2848,13 +3040,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -2959,8 +3159,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -2968,7 +3172,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -3068,8 +3274,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
@@ -3077,7 +3287,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -3162,8 +3374,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -3237,7 +3453,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3"
@@ -3336,13 +3554,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -3437,13 +3663,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             }
         ],
@@ -3533,8 +3767,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -3542,7 +3780,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -3632,8 +3872,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -3641,7 +3885,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -3694,7 +3940,7 @@
                     {
                         "type": "Inverse Constraint",
                         "content": "Does the response avoid including unnecessary or additional information (fluff)?",
-                        "exclusion": "The user explicitly states 'no fluff,' which means the response should not include any extra, unnecessary information, fitting the definition of an Inverse Constraint."
+                        "explanation": "The user explicitly states 'no fluff,' which means the response should not include any extra, unnecessary information, fitting the definition of an Inverse Constraint."
                     },
                     {
                         "type": "summary",
@@ -3726,13 +3972,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -3817,13 +4071,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             }
         ],
@@ -3898,8 +4160,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -3968,8 +4234,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
@@ -3977,7 +4247,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -4057,13 +4329,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -4153,13 +4433,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             }
         ],
@@ -4244,13 +4532,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -4340,13 +4636,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             }
         ],
@@ -4441,13 +4745,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -4532,13 +4844,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -4608,8 +4928,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
@@ -4617,7 +4941,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -4707,13 +5033,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -4803,13 +5137,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -4909,7 +5251,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3"
@@ -5003,8 +5347,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -5078,8 +5426,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -5143,13 +5495,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             }
         ],
@@ -5219,8 +5579,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -5228,7 +5592,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -5308,8 +5674,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -5383,13 +5753,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             }
         ],
@@ -5484,13 +5862,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -5575,8 +5961,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
@@ -5584,7 +5974,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -5664,13 +6056,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -5755,13 +6155,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -5851,8 +6259,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -5926,13 +6338,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -6017,8 +6437,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
@@ -6026,7 +6450,9 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             }
         ],
@@ -6116,23 +6542,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -6244,7 +6686,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -6259,7 +6703,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -6401,7 +6847,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -6416,7 +6864,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -6533,7 +6983,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -6548,7 +7000,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -6680,7 +7134,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -6695,7 +7151,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -6817,7 +7275,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -6832,7 +7292,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -6969,7 +7431,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -6984,7 +7448,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -7126,7 +7592,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -7141,7 +7609,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -7283,23 +7753,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -7406,23 +7892,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -7544,7 +8046,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -7559,7 +8063,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -7691,23 +8197,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -7829,7 +8351,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -7844,7 +8368,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -7981,7 +8507,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -7996,7 +8524,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -8148,23 +8678,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -8286,23 +8832,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -8414,23 +8976,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -8552,23 +9130,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -8700,7 +9294,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -8715,7 +9311,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -8852,23 +9450,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -8985,7 +9599,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -9000,7 +9616,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -9142,23 +9760,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -9270,7 +9904,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -9285,7 +9921,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -9437,7 +10075,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -9452,7 +10092,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -9589,23 +10231,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -9717,23 +10375,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -9845,7 +10519,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -9860,7 +10536,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -10012,23 +10690,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -10165,23 +10859,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -10303,7 +11013,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -10318,7 +11030,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -10465,7 +11179,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -10480,7 +11196,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -10632,23 +11350,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -10745,7 +11479,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -10760,7 +11496,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -10902,23 +11640,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -11065,23 +11819,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -11208,23 +11978,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -11361,7 +12147,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -11376,7 +12164,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -11533,7 +12323,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -11548,7 +12340,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -11695,7 +12489,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -11710,7 +12506,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -11882,7 +12680,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -11897,7 +12697,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -12049,7 +12851,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -12064,7 +12868,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -12216,7 +13022,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -12231,7 +13039,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -12393,7 +13203,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -12408,7 +13220,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -12570,7 +13384,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -12585,7 +13401,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -12732,7 +13550,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -12747,7 +13567,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -12914,23 +13736,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -13067,7 +13905,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -13082,7 +13922,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -13244,7 +14086,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -13259,7 +14103,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -13406,23 +14252,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -13564,23 +14426,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -13722,23 +14600,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -13880,23 +14774,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -14053,23 +14963,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -14211,23 +15137,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -14374,23 +15316,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -14542,23 +15500,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -14705,7 +15679,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -14720,7 +15696,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -14872,23 +15850,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -15035,23 +16029,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -15213,23 +16223,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -15371,7 +16397,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -15386,7 +16414,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -15543,7 +16573,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -15558,7 +16590,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -15725,23 +16759,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c1",
-                "target": "c4",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -15893,7 +16943,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -15908,7 +16960,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -16060,23 +17114,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -16188,7 +17258,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3",
@@ -16203,7 +17275,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -16370,28 +17444,48 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c5",
-                "target": "c6",
+                "source": [
+                    "c5"
+                ],
+                "target": [
+                    "c6"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -16550,28 +17644,48 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c6",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c6"
+                ],
                 "relation": "recall"
             }
         ],
@@ -16725,8 +17839,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -16734,17 +17852,27 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             },
             {
@@ -16752,7 +17880,9 @@
                     "c4",
                     "c5"
                 ],
-                "target": "c6",
+                "target": [
+                    "c6"
+                ],
                 "relation": "summary"
             }
         ],
@@ -16906,28 +18036,48 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c5",
-                "target": "c6",
+                "source": [
+                    "c5"
+                ],
+                "target": [
+                    "c6"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -17091,7 +18241,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3"
@@ -17099,18 +18251,30 @@
                 "relation": "expansion"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c4",
-                "target": "c6",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c6"
+                ],
                 "relation": "recall"
             }
         ],
@@ -17284,8 +18448,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
@@ -17293,22 +18461,36 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c5",
-                "target": "c6",
+                "source": [
+                    "c5"
+                ],
+                "target": [
+                    "c6"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -17457,8 +18639,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
@@ -17466,16 +18652,24 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
+                "source": [
+                    "c4"
+                ],
                 "target": [
                     "c5",
                     "c6"
@@ -17648,8 +18842,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -17657,22 +18855,36 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c5",
-                "target": "c6",
+                "source": [
+                    "c5"
+                ],
+                "target": [
+                    "c6"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -17816,18 +19028,30 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -17835,7 +19059,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
@@ -17978,23 +19204,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             },
             {
@@ -18002,7 +19244,9 @@
                     "c4",
                     "c5"
                 ],
-                "target": "c6",
+                "target": [
+                    "c6"
+                ],
                 "relation": "summary"
             }
         ],
@@ -18181,7 +19425,9 @@
         ],
         "structure": [
             {
-                "source": "c1",
+                "source": [
+                    "c1"
+                ],
                 "target": [
                     "c2",
                     "c3"
@@ -18189,18 +19435,30 @@
                 "relation": "expansion"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c5",
-                "target": "c6",
+                "source": [
+                    "c5"
+                ],
+                "target": [
+                    "c6"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -18379,22 +19637,36 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
+                "source": [
+                    "c4"
+                ],
                 "target": [
                     "c5",
                     "c6"
@@ -18552,13 +19824,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -18566,7 +19846,9 @@
                     "c2",
                     "c3"
                 ],
-                "target": "c4",
+                "target": [
+                    "c4"
+                ],
                 "relation": "summary"
             }
         ],
@@ -18688,23 +19970,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -18852,28 +20150,48 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c5",
-                "target": "c6",
+                "source": [
+                    "c5"
+                ],
+                "target": [
+                    "c6"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -19042,13 +20360,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -19056,7 +20382,9 @@
                     "c2",
                     "c3"
                 ],
-                "target": "c4",
+                "target": [
+                    "c4"
+                ],
                 "relation": "summary"
             }
         ],
@@ -19183,23 +20511,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -19357,23 +20701,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "follow-up"
             }
         ],
@@ -19516,18 +20876,30 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -19654,23 +21026,39 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "follow-up"
             },
             {
-                "source": "c1",
-                "target": "c3",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "recall"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             }
         ],
@@ -19818,17 +21206,27 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c3",
+                "source": [
+                    "c3"
+                ],
                 "target": [
                     "c4",
                     "c5"
@@ -19985,13 +21383,21 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "refinement"
             },
             {
@@ -19999,7 +21405,9 @@
                     "c2",
                     "c3"
                 ],
-                "target": "c4",
+                "target": [
+                    "c4"
+                ],
                 "relation": "summary"
             }
         ],
@@ -20121,8 +21529,12 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
@@ -20130,17 +21542,27 @@
                     "c1",
                     "c2"
                 ],
-                "target": "c3",
+                "target": [
+                    "c3"
+                ],
                 "relation": "summary"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c4",
-                "target": "c5",
+                "source": [
+                    "c4"
+                ],
+                "target": [
+                    "c5"
+                ],
                 "relation": "refinement"
             },
             {
@@ -20148,7 +21570,9 @@
                     "c4",
                     "c5"
                 ],
-                "target": "c6",
+                "target": [
+                    "c6"
+                ],
                 "relation": "summary"
             }
         ],
@@ -20327,18 +21751,30 @@
         ],
         "structure": [
             {
-                "source": "c1",
-                "target": "c2",
+                "source": [
+                    "c1"
+                ],
+                "target": [
+                    "c2"
+                ],
                 "relation": "refinement"
             },
             {
-                "source": "c2",
-                "target": "c3",
+                "source": [
+                    "c2"
+                ],
+                "target": [
+                    "c3"
+                ],
                 "relation": "unrelatedness"
             },
             {
-                "source": "c3",
-                "target": "c4",
+                "source": [
+                    "c3"
+                ],
+                "target": [
+                    "c4"
+                ],
                 "relation": "follow-up"
             },
             {
@@ -20346,7 +21782,9 @@
                     "c3",
                     "c4"
                 ],
-                "target": "c5",
+                "target": [
+                    "c5"
+                ],
                 "relation": "summary"
             }
         ],
