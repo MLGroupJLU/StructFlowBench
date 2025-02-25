@@ -128,8 +128,8 @@ if __name__=="__main__":
     args = parser.parse_args()
     Evaluate(
         model_name=args.model_name,
-        response_dir=args.response_dir,
-        eval_dir=args.eval_dir,
+        in_dir=args.response_dir,
+        out_dir=args.eval_dir,
         max_try=args.max_try,
         max_workers=args.max_workers,
         base_url=args.base_url,
