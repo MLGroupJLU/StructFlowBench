@@ -1,14 +1,14 @@
 # StructFlowBench: A Structured Flow Benchmark for Multi-turn Instruction Following
 
-</div align="center">
-<a href="https://arxiv.org/abs/2502.14494">
-  <strong>📃 Paper</strong>
-</a>
-• <a href="https://huggingface.co/datasets/Jinnan/StructFlowBench">
-  <strong>🤗 Dataset</strong>
-</a></div>
-
----
+<div align="center">
+  <a href="https://arxiv.org/abs/2502.14494">
+    <strong>📃 Paper</strong>
+  </a>
+  •
+  <a href="https://huggingface.co/datasets/Jinnan/StructFlowBench">
+    <strong>🤗 Dataset</strong>
+  </a>
+</div>
 
 ## 1. Updates
 - 2025/02/20: We released the first version of our [paper](https://arxiv.org/abs/2502.14494).
