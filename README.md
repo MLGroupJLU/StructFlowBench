@@ -8,10 +8,17 @@
   <a href="https://huggingface.co/datasets/Jinnan/StructFlowBench">
     <strong>🤗 Dataset</strong>
   </a>
+  •
+  <a href="https://github.com/MLGroupJLU/StructFlowBench">
+    <strong>🖥️ Code</strong>
+  </a>
 </div>
 
 ## 1. Updates
-- 2025/02/20: We released the first version of our [paper](https://arxiv.org/abs/2502.14494).
+- 2025/02/26: We enhanced the code documentation on GitHub with detailed implementation guidelines.
+- 2025/02/24: We submitted our paper to Hugging Face's [Daily Papers](https://huggingface.co/papers/2502.14494).
+- 2025/02/23: We released StructFlowBench dataset on [huggingface](https://huggingface.co/datasets/Jinnan/StructFlowBench).
+- 2025/02/20: We released the first version of our [paper](https://arxiv.org/abs/2502.14494) along with the dataset and codebase.
 
 ## 2. Introduction
 
@@ -128,14 +135,11 @@ All models' evaluation scores will be saved in the `output\score` directory.
 
 ## 7. Citation
 ```
-@misc{li2025structflowbenchstructuredflowbenchmark,
-      title={StructFlowBench: A Structured Flow Benchmark for Multi-turn Instruction Following}, 
-      author={Jinnan Li and Jinzhe Li and Yue Wang and Yi Chang and Yuan Wu},
-      year={2025},
-      eprint={2502.14494},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.14494}, 
+@article{li2025structflowbench,
+  title={StructFlowBench: A Structured Flow Benchmark for Multi-turn Instruction Following},
+  author={Li, Jinnan and Li, Jinzhe and Wang, Yue and Chang, Yi and Wu, Yuan},
+  journal={arXiv preprint arXiv:2502.14494},
+  year={2025}
 }
 ```
 Please cite our paper if you find our research and code useful.
