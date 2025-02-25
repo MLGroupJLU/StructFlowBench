@@ -1,7 +1,7 @@
 {
     "overall": {
         "CSR": 0.95,
-        "ISR": 0.86,
+        "ISR": 0.87,
         "WCSR": 0.93,
         "DRFR": 0.95,
         "Inverse Constraint": 0.98,
@@ -20,51 +20,51 @@
     },
     "tasks": {
         "Fact-based Q&A": {
-            "CSR": 0.92,
-            "ISR": 0.8,
-            "DRFR": 0.92,
+            "CSR": 0.9,
+            "ISR": 0.81,
+            "DRFR": 0.91,
             "WCSR": 0.89
         },
         "Open-ended Questions": {
-            "CSR": 0.95,
+            "CSR": 0.94,
             "ISR": 0.86,
             "DRFR": 0.95,
             "WCSR": 0.93
         },
         "Professional Writing": {
             "CSR": 0.97,
-            "ISR": 0.9,
+            "ISR": 0.91,
             "DRFR": 0.97,
             "WCSR": 0.96
         },
         "Practical Writing": {
-            "CSR": 0.95,
-            "ISR": 0.81,
-            "DRFR": 0.94,
+            "CSR": 0.94,
+            "ISR": 0.82,
+            "DRFR": 0.93,
             "WCSR": 0.92
         },
         "Creative Writing": {
             "CSR": 0.95,
             "ISR": 0.88,
-            "DRFR": 0.94,
+            "DRFR": 0.93,
             "WCSR": 0.94
         },
         "Casual Chat": {
             "CSR": 0.97,
             "ISR": 0.9,
-            "DRFR": 0.97,
+            "DRFR": 0.96,
             "WCSR": 0.95
         },
         "Task-oriented Role-playing": {
-            "CSR": 0.96,
+            "CSR": 0.94,
             "ISR": 0.88,
-            "DRFR": 0.97,
+            "DRFR": 0.96,
             "WCSR": 0.93
         },
         "mix": {
             "CSR": 0.98,
             "ISR": 0.93,
-            "DRFR": 0.98,
+            "DRFR": 0.97,
             "WCSR": 0.97
         }
     }

@@ -1,9 +1,9 @@
 {
     "overall": {
         "CSR": 0.95,
-        "ISR": 0.88,
+        "ISR": 0.89,
         "WCSR": 0.94,
-        "DRFR": 0.96,
+        "DRFR": 0.95,
         "Inverse Constraint": 0.98,
         "Keyword/Element Constraint": 0.97,
         "Style Constraint": 0.99,
@@ -20,51 +20,51 @@
     },
     "tasks": {
         "Fact-based Q&A": {
-            "CSR": 0.95,
+            "CSR": 0.94,
             "ISR": 0.9,
             "DRFR": 0.96,
             "WCSR": 0.93
         },
         "Open-ended Questions": {
             "CSR": 0.96,
-            "ISR": 0.86,
+            "ISR": 0.87,
             "DRFR": 0.96,
             "WCSR": 0.95
         },
         "Professional Writing": {
-            "CSR": 0.97,
-            "ISR": 0.93,
-            "DRFR": 0.98,
-            "WCSR": 0.97
-        },
-        "Practical Writing": {
-            "CSR": 0.9,
-            "ISR": 0.79,
-            "DRFR": 0.91,
-            "WCSR": 0.88
-        },
-        "Creative Writing": {
-            "CSR": 0.95,
-            "ISR": 0.92,
-            "DRFR": 0.96,
-            "WCSR": 0.94
-        },
-        "Casual Chat": {
-            "CSR": 0.95,
-            "ISR": 0.87,
-            "DRFR": 0.94,
-            "WCSR": 0.92
-        },
-        "Task-oriented Role-playing": {
             "CSR": 0.98,
             "ISR": 0.94,
             "DRFR": 0.98,
             "WCSR": 0.97
         },
+        "Practical Writing": {
+            "CSR": 0.89,
+            "ISR": 0.79,
+            "DRFR": 0.9,
+            "WCSR": 0.88
+        },
+        "Creative Writing": {
+            "CSR": 0.95,
+            "ISR": 0.92,
+            "DRFR": 0.95,
+            "WCSR": 0.94
+        },
+        "Casual Chat": {
+            "CSR": 0.94,
+            "ISR": 0.87,
+            "DRFR": 0.94,
+            "WCSR": 0.92
+        },
+        "Task-oriented Role-playing": {
+            "CSR": 0.97,
+            "ISR": 0.94,
+            "DRFR": 0.97,
+            "WCSR": 0.97
+        },
         "mix": {
             "CSR": 0.96,
             "ISR": 0.91,
-            "DRFR": 0.97,
+            "DRFR": 0.96,
             "WCSR": 0.95
         }
     }
