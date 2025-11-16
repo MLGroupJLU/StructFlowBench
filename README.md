@@ -1,7 +1,7 @@
 # StructFlowBench: A Structured Flow Benchmark for Multi-turn Instruction Following
 
 <div align="center">
-  <a href="https://arxiv.org/abs/2502.14494">
+  <a href="https://aclanthology.org/2025.findings-acl.486/">
     <strong>📃 Paper</strong>
   </a>
   •
@@ -15,6 +15,8 @@
 </div>
 
 ## 1. Updates
+- 2025/11/16: Added data and code for Section 4.3.1 (Complex Scenario Suitability Study).
+- 2025/05/16: We are delighted that StructFlowBench has been accepted to ACL 2025 Findings!
 - 2025/02/26: We enhanced the code documentation on GitHub with detailed implementation guidelines.
 - 2025/02/24: We submitted our paper to Hugging Face's [Daily Papers](https://huggingface.co/papers/2502.14494).
 - 2025/02/23: We released StructFlowBench dataset on [huggingface](https://huggingface.co/datasets/Jinnan/StructFlowBench).
@@ -135,11 +137,27 @@ All models' evaluation scores will be saved in the `output\score` directory.
 
 ## 7. Citation
 ```
-@article{li2025structflowbench,
-  title={StructFlowBench: A Structured Flow Benchmark for Multi-turn Instruction Following},
-  author={Li, Jinnan and Li, Jinzhe and Wang, Yue and Chang, Yi and Wu, Yuan},
-  journal={arXiv preprint arXiv:2502.14494},
-  year={2025}
+@inproceedings{li-etal-2025-structflowbench,
+    title = "{S}truct{F}low{B}ench: A Structured Flow Benchmark for Multi-turn Instruction Following",
+    author = "Li, Jinnan  and
+      Li, Jinzhe  and
+      Wang, Yue  and
+      Chang, Yi  and
+      Wu, Yuan",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.486/",
+    doi = "10.18653/v1/2025.findings-acl.486",
+    pages = "9322--9341",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Multi-turn instruction following capability constitutes a core competency of large language models (LLMs) in real-world applications. Existing evaluation benchmarks predominantly focus on fine-grained constraint satisfaction and domain-specific capability assessment, yet overlook the crucial structural dependencies between dialogue turns that distinguish multi-turn from single-turn interactions. These structural dependencies not only reflect user intent but also establish an essential second dimension for the instruction following evaluation beyond constraint satisfaction. To address this gap, we propose StructFlowBench, a multi-turn instruction following benchmark with structural flow modeling. The benchmark defines an innovative structural flow framework with six fundamental inter-turn relationships. These relationships introduce novel structural constraints for model evaluation and also serve as generation parameters for creating customized dialogue flows tailored to specific scenarios. Adopting established LLM-based automatic evaluation methodologies, we conduct systematic evaluations of 13 leading open-source and closed-source LLMs. Experimental results reveal significant deficiencies in current models' comprehension of multi-turn dialogue structures. The code is available at https://github.com/MLGroupJLU/StructFlowBench."
 }
 ```
 Please cite our paper if you find our research and code useful.

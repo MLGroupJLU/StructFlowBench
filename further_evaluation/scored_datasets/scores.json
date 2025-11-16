@@ -1,0 +1,1335 @@
+[
+    {
+        "dataset": "wildchat",
+        "metrics": {
+            "logical_coherence": {
+                "avg": 2.62,
+                "cf": 0.2
+            },
+            "goal_clarity": {
+                "avg": 3.12,
+                "cf": 0.42
+            },
+            "transition_naturalness": {
+                "avg": 2.0,
+                "cf": 0.04
+            }
+        },
+        "raw_scores": [
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 4,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 1,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 3,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 2,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 5,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 5,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 4,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 1,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 3,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 1,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 1,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 2
+            }
+        ]
+    },
+    {
+        "dataset": "struct-flow-bench",
+        "metrics": {
+            "logical_coherence": {
+                "avg": 4.64,
+                "cf": 0.9
+            },
+            "goal_clarity": {
+                "avg": 4.66,
+                "cf": 1.0
+            },
+            "transition_naturalness": {
+                "avg": 3.72,
+                "cf": 0.6
+            }
+        },
+        "raw_scores": [
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            }
+        ]
+    },
+    {
+        "dataset": "mt-eval",
+        "metrics": {
+            "logical_coherence": {
+                "avg": 3.76,
+                "cf": 0.68
+            },
+            "goal_clarity": {
+                "avg": 4.26,
+                "cf": 0.8
+            },
+            "transition_naturalness": {
+                "avg": 2.58,
+                "cf": 0.22
+            }
+        },
+        "raw_scores": [
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 5,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 5,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 5,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 4,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 1,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 5,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 1,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            }
+        ]
+    },
+    {
+        "dataset": "multi-if",
+        "metrics": {
+            "logical_coherence": {
+                "avg": 4.48,
+                "cf": 0.9
+            },
+            "goal_clarity": {
+                "avg": 4.18,
+                "cf": 0.86
+            },
+            "transition_naturalness": {
+                "avg": 2.76,
+                "cf": 0.06
+            }
+        },
+        "raw_scores": [
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 3,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {}
+        ]
+    },
+    {
+        "dataset": "mt-bench-101",
+        "metrics": {
+            "logical_coherence": {
+                "avg": 4.46,
+                "cf": 0.82
+            },
+            "goal_clarity": {
+                "avg": 4.44,
+                "cf": 0.94
+            },
+            "transition_naturalness": {
+                "avg": 3.52,
+                "cf": 0.48
+            }
+        },
+        "raw_scores": [
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {},
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 2,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            },
+            {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 5
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            },
+            {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            },
+            {},
+            {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            }
+        ]
+    }
+]

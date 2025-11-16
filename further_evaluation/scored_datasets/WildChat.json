@@ -1,0 +1,1184 @@
+[
+    [
+        {
+            "user prompt": "Act like you walking this morning on frosty and snowy Main Street and write 10 tweet tweets about how you feel and what you see after yesterday’s strong winds and that new snow."
+        },
+        {
+            "user prompt": "Write more in negative ways and ad words that winters here , one day we have storms another day high winds or snow after few days we gonna have rain "
+        },
+        {
+            "user prompt": "Write more and add that just today looks frosty and snow everywhere "
+        },
+        {
+            "user prompt": "Write more how I walking on frosty crispy Main Street this morning and that snow is everywhere "
+        },
+        {
+            "user prompt": "Write about snow covered beach this morning "
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "A compound used to generate O2 gas in the laboratory has mass percentage composition 31.91% K, and 28.93% Cl, the remainder being oxygen. What is the empirical formula of the compound?"
+        },
+        {
+            "user prompt": "A chemist found that 4.69 g of sulfur combined with fluorine to produce 15.81 g of a gas. What is the empirical formula of the gas?"
+        },
+        {
+            "user prompt": "Using a mass spectrum, the molecule with an empirical formula of OsC4O4 was determined to have a molar mass of 907 g/mol. What is its molecular formula?"
+        },
+        {
+            "user prompt": "A stimulant in coffee and tea, has a molar mass of 194.19 g/mol and a mass percentage composition of 49.48% C, 5.19% H, 28.85% N, and 16.48% O. What is the molecular formula of caffeine?"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 4,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "I received this email I want to respond this email and thank the sender regarding her guidance, please give me response: \n\nDr. Ahmad, \n \nCongratulations on your visiting appointment with Memorial.  Additional information on this exemption can be found at…(And give me a lot of guidance that i don’t mentioned here) \n\nBest Regards,\n\nAnna. \n"
+        },
+        {
+            "user prompt": "edit:Dear Anna,\nI hope this email finds you well.\nThank you so much for reaching out to me and providing such valuable guidance. I truly appreciate your assistance in pointing me in the right direction.\n\nIf I need more guidance during the process, I will ask for your help again.\n\nI am truly fortunate to have you as a resource, and I feel more confident moving forward with the necessary documentation.\n\nBest Regards,\nAhmad \n"
+        },
+        {
+            "user prompt": "edit: Dear Anna,\n\nI hope this email finds you well.\n\nThank you so much for reaching out to me and providing such valuable guidance. I truly appreciate your assistance in pointing me in the right direction. \n\nIf I encounter any further questions or require additional guidance during the documentation process, I will seek your help again. Your expertise and support are greatly appreciated.\n\nOnce again, I am truly fortunate to have you as a resource. Thank you again. \n\nBest Regards,\n\nAhmad\n\n"
+        },
+        {
+            "user prompt": "edit: Dear Anna,\n\nI hope this email finds you well.\n\nThank you so much for reaching out to me and providing such valuable guidance. I am extremely grateful for your assistance in pointing me in the right direction. \nIf I encounter any further questions or require additional guidance, I will  seek your help again. Your willingness to assist is much appreciated.\n\nOnce again, I feel truly fortunate to have you as a resource . Thank you again for your assistance.\n\nBest Regards,\n\nAhmad"
+        },
+        {
+            "scores": {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 4
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "I read that  XG349C is very bright. Is it possible to decrease brightness in  XG349C in large extent?"
+        },
+        {
+            "user prompt": "which is better for programming  XG349C  asus or  DELL Alienware AW3423DWF ?"
+        },
+        {
+            "user prompt": "Which in your opinion would be the best chice?"
+        },
+        {
+            "user prompt": "what kind of monitor is better for programming - matt or glossy?"
+        },
+        {
+            "user prompt": "is it possible to deactivate illumination in JBL Quantum 910X  ?"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 1,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "In the context of a  hypothetical -  A hypothetical \"Play for Today\" (1975)  \"Two paths\",   The play is about a Trasngender woman deciding which 'path' to confrom to, based on a conflict between personal goals and societal expectations.    Synopsis (2-3 paragraphs)"
+        },
+        {
+            "user prompt": "In the context of a hypothetical - A hypothetical “Play for Today” (1975)  - Using the medium of a simulated outside live broadcast ,(although scripted) the play presents a modern Ghost Story, told as a fictionalised investigation of  haunting.   Title: \" Phantoms- Fact or Fiction?\". "
+        },
+        {
+            "user prompt": "In the context of a hypothetical - A hypothetical “Play for Today” (1976)  - \"The Button\" -   Speculative fiction - 2 people are sitting in a sterlie white room,   on a table in the centre is a single red button. The Play is the 2 people debating, what will happen if they push the button..  (Shades of Beckett, but with nods to various allegoricial scenarios as well.) "
+        },
+        {
+            "user prompt": "And with it's very simple set, cheap to mount on a BBC budget :) "
+        },
+        {
+            "user prompt": "In the context of a hypothetical - A hypothetical “Play for Today” (1976) - \"Prisoner at the Bar\" -  A monolouge by Donald Plesance, as a judge delivering his summary of a complex murder trial (Guilty Verdict) to the accused \"Priosner at the Bar\" before pronouncing a sentence.  (A 2 hour summary of a case?  It could happen for a long one. ). "
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "problem in renoise  app music tracker: its concept demands, that notes edited are not assigned to a track but to a vst or instrument slot. Anyway, can i assign notes to a different vst slot after they have beeing played ?   may be its impossible"
+        },
+        {
+            "user prompt": "so the notes have hidden metadata, that assigns them hardwired to a vst slot ?"
+        },
+        {
+            "user prompt": "so it would be usefull to provide a copy and paste function that assigns to a new vst"
+        },
+        {
+            "user prompt": "yes,  what i wanted is to play two vst sounds in sync, without altering midi routing"
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "In a hypothetical , what uses might the mythical British Rail Flying Suacer have been put to? "
+        },
+        {
+            "user prompt": "In the vien of this hypothetical -  Write an APTIS style ticket issue of a \"Violet Echo\" flight pass for a London- Cardiff flight of a passenger flight of the BR \"Space Vehicle\".   "
+        },
+        {
+            "user prompt": "I can also imagine  the BR \"Space Vehicle\"  being marketed like the BR Hoverspeed service had been :) "
+        },
+        {
+            "user prompt": "And the very British image of a  BR  logo, on a Mars base! :)  "
+        },
+        {
+            "scores": {
+                "logical_coherence": 4,
+                "goal_clarity": 3,
+                "transition_naturalness": 3
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "uniapp  Cannot read property 'getElementById' of undefined\n    at Image.img.onload (index.vue:71)"
+        },
+        {
+            "user prompt": "// 获取画布元素\n\t\t\t\t\t\t\tconst canvas = document.getElementById('canvasId');  提示Cannot read property 'getElementById' of undefined\n    at Image.img.onload (index.vue:71)"
+        },
+        {
+            "user prompt": "<canvas class=\"mycanvas\" canvas-id=\"canvasId\" @touchstart=\"touchstart\" @touchmove.stop.prevent=\"touchmove\"\n\t\t\t\tid=\"canvasId\"></canvas>  帮我动态设置它的大小，uniapp"
+        },
+        {
+            "user prompt": "<canvas ref=\"canvas1\" :style=\"{height:canvasHeight}\" class=\"mycanvas\" canvas-id=\"canvasId\" @touchstart=\"touchstart\" @touchmove.stop.prevent=\"touchmove\"\n\t\t\t\tid=\"canvasId\"></canvas> 如何动态设置canvas  的高度"
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Make a plan on the topic of the BASIS OF COMPLIANCE WITH JUDICIAL ETHICS AND CONFLICT OF INTEREST RULES"
+        },
+        {
+            "user prompt": "Review and Understand Judicial Ethics and Conflict of Interest Rules:"
+        },
+        {
+            "user prompt": "Develop a task force or committee responsible for thoroughly reviewing and understanding the existing judicial ethics guidelines and conflict of interest rules."
+        },
+        {
+            "user prompt": "What judges should pay attention to in order to COMPLY WITH THE RULES OF JUDICIAL ETHICS AND CONFLICT OF INTEREST"
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 2,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "write a 2020 nba finals with heat win in 6"
+        },
+        {
+            "user prompt": "write a 2025 nba finals with cavs win"
+        },
+        {
+            "user prompt": "write a 2029 nba finals with sixers win in 7"
+        },
+        {
+            "user prompt": "write a 2099 nba finals with knicks win"
+        },
+        {
+            "user prompt": "write a 2011 nba finals with mavs win in 5"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 5,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Translate to French\n\n\"A pair of Adalatherium and a pair of Falcatakely drink from a waterhole formed from the footprint of a large predator.\""
+        },
+        {
+            "user prompt": "\"A lone male Beelzebufo takes a swim in a pool formed from the footprint of a large predator.\""
+        },
+        {
+            "user prompt": "\"And somewhere, deep within this… forest, which smelt strangely alive, we saw one.\""
+        },
+        {
+            "user prompt": "\"Rainbow Road\""
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "If tenant has IIA(InvoiceItem Adjustment) feature and want change the tenant to Order upgrade, what will be changes reflected ?"
+        },
+        {
+            "user prompt": "In workflows If we are using InvoiceItem object in the export task to adjust the negative invoice, Will it affect after order upgrade? If yes how and which object will be replacing that "
+        },
+        {
+            "user prompt": "OrderItemAdjustment there is no such object in zuora, You mean Order object or OrderLine object?"
+        },
+        {
+            "user prompt": "What happens to the Negative invoice's after order upgrade in zuora "
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "How practical is modual interior design for everday living"
+        },
+        {
+            "user prompt": "what are the main attacks and critics of the style of intiror design"
+        },
+        {
+            "user prompt": "What about systems of society where uniformity is a cultural norn"
+        },
+        {
+            "user prompt": "What would uniformity say about the society that uses it as a norm"
+        },
+        {
+            "user prompt": "Okay talk about the unverslium of such cultures"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Translate to Interlingua\n- Clock\n- Calendar\n- Notes\n- Calculator\n- Phone\n- Text messages\n- Music"
+        },
+        {
+            "user prompt": "Translate to Ido\n- Clock\n- Calendar\n- Notes\n- Calculator\n- Phone\n- Text messages\n- Music"
+        },
+        {
+            "user prompt": "Translate to Russian\n- Clock\n- Calendar\n- Notes\n- Calculator\n- Phone\n- Text messages\n- Music"
+        },
+        {
+            "user prompt": "Translate to Russian\n- Television\n- Radio\n- Photographs\n- Cabinets\n- Plants\n- Clock\n- Lamps\n- Tables\n- Couch\n- Stool\n- Carpet"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 5,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Create a comprehensive tutorial on how to loop through elements with Playwright library"
+        },
+        {
+            "user prompt": "$$ is deprecated.What alternative ways are there to do that"
+        },
+        {
+            "user prompt": "User\nWell why doesnt this work\n\n          // Get all links from the page\n            const links = await page.getByRole('link').all();\n\n            // Extract href attributes from the links\n            for (const link of links) {\n                const href = await link.getAttribute('href');\n                if (href && href.includes('clk')) {\n                    jobs.push('https://indeed.com' + href);\n                }\n            }"
+        },
+        {
+            "user prompt": "Do that another way"
+        },
+        {
+            "user prompt": "Do it the Playwright way"
+        },
+        {
+            "user prompt": "I dont like the for loop iteration method"
+        },
+        {
+            "user prompt": "Why cant I use something like  for (const link of links) {"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Health Information Systems."
+        },
+        {
+            "user prompt": "Health information system for Support development and standardisation of data collection storage and sharing to ensure data protection and privacy"
+        },
+        {
+            "user prompt": "Please summarize in four key competencies"
+        },
+        {
+            "user prompt": "Can you apply to Lebanon Information Health System"
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "paraphrase: To further compare the performance of the proposed method with other works presented in this field, we considered references 1, 2, and 3 as follows."
+        },
+        {
+            "user prompt": "rephrase:We truly appreciate the Editor and Reviewer’s suggestions, and we recognize that it would improve the revised version of the manuscript."
+        },
+        {
+            "user prompt": "rephrase:It is clear that even by applying uniform quantization in the proposed method, the snr of our algorithm is higher than other methods. "
+        },
+        {
+            "user prompt": "rephrase:In addition to the above corrections, the last part was paraphrased as follows"
+        },
+        {
+            "user prompt": "rephrase:In the future works, we intend to provably describe the convergence of the proposed algorithm.\n"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 4,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "improve the expression of the sentence"
+        },
+        {
+            "user prompt": "I want you to act as an professional spelling and grammar corrector and improver."
+        },
+        {
+            "user prompt": "We fixed some expressions and polished the language"
+        },
+        {
+            "user prompt": "Please make the sentence more easy to understand."
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "The optimal drug regimen for newly diagnosed TB of Peripheral lymph node in children suspected to have drug resistance: *\nHRZE for 4 months, HR for 3 months\nHRZE for 2 months, HR for 7 months\nHRZE for 2 months, HR for 4 months\nHRZE for 4 months, HR for 2 months"
+        },
+        {
+            "user prompt": "Which of the following is a hallmark of Atopic dermatitis? *\nScaly papules\nPruritic papules\nSeverely dry skin\nMaculopapular rash"
+        },
+        {
+            "user prompt": "A classic definition of microscopic hematuria is presence of at least 5 rbc/hpf in urine microscopy.The following conditions are causes of hematuria in early childhood except : *\nAcute Post Strep GN\nRenal Vein Thrombosis\nHemorrhagic cystitis\nHSP "
+        },
+        {
+            "user prompt": "A non-progressive infection characterized by a superficial, ecthymic, non-healing ulcer with gray-brown membrane: \nEcthyma gangrenosum\nBullous impetigo\nSyphilitic chancre\nCutaneous diphtheria"
+        },
+        {
+            "user prompt": "Physical abuse is suspected when *\nA femoral fracture in a 4 year old from a reported fall from a guava tree\nA well-circumscribed second degree burn is seen on the dorsum of the right hand of a ten year old\nA hematoma is noted lateral to the left knee of a three year old\nA punctured wound on the right sole of a five year old who claimed he stepped on a nail"
+        },
+        {
+            "scores": {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a meta title like this keyword \"Color cream\""
+        },
+        {
+            "user prompt": "Write a meta description like this keyword “Color cream” optimized descripton needed"
+        },
+        {
+            "user prompt": "Write a short meta description like this keyword “Color cream” optimized descripton needed"
+        },
+        {
+            "user prompt": " Now I want you to write me an easy to read seo optimized blog on my given topic \" Achieve Vibrant and Trendy Tones with Our Superior Formula\" \nKeyword is \"Colour Cream\""
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Write in character lines for Tracer reacting to the borg."
+        },
+        {
+            "user prompt": "and ten when becoming a drone, incuding 5 talking to certain OVerwatch agents."
+        },
+        {
+            "user prompt": "for the lines to the other agents, have Borg-Tracer analyze them."
+        },
+        {
+            "user prompt": "What if Tracer still retained some of her personality, but more dry."
+        },
+        {
+            "user prompt": "now write lines for the agents reacting to her."
+        },
+        {
+            "user prompt": "Borg-Tracer analyses a fanart of Tracer. "
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Suggest a Five Nights in Anime Girl Character for Tommy Oliver/Green Ranger, and she is his girlfriend"
+        },
+        {
+            "user prompt": "Suggest a Five Nights in Anime Girl Character for Jason Lee Scott/Red Ranger, and she is his girlfriend"
+        },
+        {
+            "user prompt": "Suggest a Five Nights in Anime Girl Character for Billy Cranston/Blue Ranger, and she is his girlfriend"
+        },
+        {
+            "user prompt": "Suggest a Five Nights in Anime Girl Character for Zack Taylor/Black Ranger, and she is his girlfriend"
+        },
+        {
+            "scores": {
+                "logical_coherence": 4,
+                "goal_clarity": 5,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "give me top 10 winner niches to start dropshipping"
+        },
+        {
+            "user prompt": "give me 20 beautiful brand names never used for a domain name to sell fashion products for women "
+        },
+        {
+            "user prompt": "give me 20 beautiful & short brand names never used for a domain name to sell fashion products for women\n"
+        },
+        {
+            "user prompt": "give me examples of successful one product stores "
+        },
+        {
+            "user prompt": "can you give me a token to get 30 days free trial on cloudskillsboost.google"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "1. Which of these is NOT an Italian fashion brand?\nA.Gucci\nB.Burberry\nC.Ferragamo\nD. Roberto Capucci"
+        },
+        {
+            "user prompt": "2.What is the Vatican City?\nA\nA.A city famous for its canals.\nB.manufacturer of high-end, luxury cars\nC.The seat of the Roman Catholic Church.\nD.A town famous for its brightly colored houses\n"
+        },
+        {
+            "user prompt": "3.What is the Pantheon famous for?\nIt was buried in ash from a volcano.\nIt is the largest amphitheatre ever built.\nIt is the best preserved building from ancient Rome.\nIt has more statuary decorations than any other cathedral.\n"
+        },
+        {
+            "user prompt": "why"
+        },
+        {
+            "user prompt": "which of the following statements is TRUE?\nLeaning Tower of Pisa was famous because of its deliberate tilt.\nVatican City is the smallest non-independent country in the world.\nMarco Polo has been served as the Mongolian Emperor during hisjourney.\nMt. vesuvius is the only active volcano in Europe.\n"
+        },
+        {
+            "user prompt": "Wwhich of the following is FALSE about the light railway in Chongqing?\nA\nIt is one of its newest landmarks.\nSome of the light railways are commented as the\"true wonders ofengineering?.\nc\nIt is almost soundless.\nEvery time people take it, they feel uncomfortable.\n"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Q14. The distribution of scores on Chinese Languages Examination in a certain HKDSE examination is known to be very right-skewed. A researcher plans to take random samples of 1000 students on Chinese from different examination centres across Hong Kong. The sampling distribution of the average examination scores on Chinese will have a shape that is \nA. Very right-skewed\nB. Very much like a normal distribution.\nC. Impossible to be predicted.\nD. Right-skewed, but not as much as the population.\n"
+        },
+        {
+            "user prompt": "Q16. Consider an experiment in which you measure the weights of 18-year-olds. The variable of interest in this study is \n\nA. The size of the sample. \nB. The weight of 18-year-olds\nC. The ages of the teenagers under study\nD. The weight and the ages of the teenagers\n"
+        },
+        {
+            "user prompt": "Q17. When a population approaches its carrying capacity, \nA. It begins to grow logistically. \nB. It begins to decline exponentially. \nC. Its growth rate will be close to zero.\nD. Its growth rate will be close to the base growth rate.\n"
+        },
+        {
+            "user prompt": "Q18. An event will happen with a probability 0.002 whereas another 0.02. Which of the following statements must be correct?\nA. Probabilities are just approximations.\nB. The small probabilities do not really matter.\nC. Measurements of uncertainties are just estimates.\nD. One event happens ten times more often than the other.\n"
+        },
+        {
+            "user prompt": "Q19. A survey reveals that 12% of Hong Kong people believe Elvis is still alive, with a margin of error of 4 percentage points. The confidence interval for this poll is \nA. From 4% to 16%\nB. From 8% to 12%\nC. From 8% to 16%\nD. From 12% to 16%\n"
+        },
+        {
+            "user prompt": "\n1. The half-life of a drug in the bloodstream is 4 hours. What fraction of the original drug dose remains in 24 hours? In 48 hours? (2 marks)\n"
+        },
+        {
+            "user prompt": "\n4. The Census & Statistics Department announced the median monthly income from the main employment of the working population was $15,500 in 2021, up 29.2% on 2016. How do you interpret the meaning of “median household income from the main employment of the working population was $15,500”? (2 marks)\n"
+        },
+        {
+            "scores": {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "hat are the differences between cognitive biases and fallacies?"
+        },
+        {
+            "user prompt": "what are the differences between formal and informal fallacies?"
+        },
+        {
+            "user prompt": "so an argument that is invalid is also invalid?"
+        },
+        {
+            "user prompt": "what is an example of a informal fallacy that has an error in reasoning within the argument's context but not the argument's content"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "i want to write an essay of 10000 words regarding china tiktok china e-commerce and online marketing. i want description of the history of marketing market in china, how did the internet changes and revollutes the marketing market, and how redbook/xiaohongshu wechat and other apps impact the industry"
+        },
+        {
+            "user prompt": "the essay is not long enough, please elaborate more about xiaohongshu"
+        },
+        {
+            "user prompt": "combine the two parts into one essay"
+        },
+        {
+            "user prompt": "this is not long enough, make it 10,000 words"
+        },
+        {
+            "user prompt": "yes please"
+        },
+        {
+            "user prompt": "this is not detailed enough, please elaborate in various aspects and provide more details to make it 5000 words"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "find a research article that shows the enzyme mechanism of lactate dehydrogenase"
+        },
+        {
+            "user prompt": "draw a mechanism of lactate dehydrogenase with transition states"
+        },
+        {
+            "user prompt": "what is the mobile loop"
+        },
+        {
+            "user prompt": "provide me with a research article that shows the step by step mechanism of lactate dehydrogenase"
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": " ineed an vba code :on  Sheet named Licente when i select first cell from any row i want to count number of cell with an x mark inside from that row and disply number in A3 cell"
+        },
+        {
+            "user prompt": "when i hit crlt+a to select all cel it give error 6"
+        },
+        {
+            "user prompt": "but i want to execut selecting entire sheet"
+        },
+        {
+            "user prompt": "no , first i want to show numbers of cells with an x mark inside when i click in the firs cell of the row, of any row , after deselecting that cell, i want to can execute crtl+a without error"
+        },
+        {
+            "user prompt": "great i can use , thanks "
+        },
+        {
+            "scores": {
+                "logical_coherence": 4,
+                "goal_clarity": 3,
+                "transition_naturalness": 3
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "DataFrame.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.\n  data.fillna(method='bfill', inplace=True)\n\ngive me example how i should do bfill"
+        },
+        {
+            "user prompt": "how to check which columns was valueable in training ml model and which is not"
+        },
+        {
+            "user prompt": "    for col in df.columns:\n\n        nulls_prop = df[col].is_null().mean()\n\nAttributeError: 'Series' object has no attribute 'is_null'"
+        },
+        {
+            "user prompt": "df[col].is_numeric():"
+        },
+        {
+            "user prompt": "for what we need to split data to train test and validation?\n"
+        },
+        {
+            "user prompt": "cursor.execute(f'''  SELECT *\n                    FROM weather where datetime <='{CONFIG['date_from']}' and datetime >= '{CONFIG['date_to']}'\n                    ORDER BY datetime DESC; \n            ''')     \n\nselect not working, why"
+        },
+        {
+            "user prompt": "how visual show that model is training in logs?\n\ngive me example of code"
+        },
+        {
+            "scores": {
+                "logical_coherence": 1,
+                "goal_clarity": 1,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "edit: The German Embassy in Tehran\nDear Sir/ Madam \nI, Lila with date of birth 23-11-1973 and passport number P551211222, agree to hand over my passport to my husband Mr. Ahmad with date of birth 23-05-1972. \nBest regards,\nLila\n"
+        },
+        {
+            "user prompt": "Dear Sir/Madam,\n\nI, Lila, with the date of birth 23-11-1973 and passport number P551211222, hereby give my consent that  you to hand over my passport to my husband, Mr. Ahmad, with the date of birth 23-05-1972.\n\nBest regards,\n\nLila"
+        },
+        {
+            "user prompt": "Dear Sir/Madam,\n\nI, Lila, with the date of birth 23-11-1973 and passport number P551211222, hereby give my consent to hand over my passport to my husband, Mr. Ahmad, with the date of birth 23-05-1972.\n\nBest regards,\n\nLila"
+        },
+        {
+            "user prompt": "edit: Dear Sir/Madam,\n\nI, Lila, with the date of birth 23-11-1973 and passport number P551211222, hereby give my consent  to  The German Embassy in Tehran to hand over my passport to my husband, Mr. Ahmad, with the date of birth 23-05-1972.\n\nBest regards,\n\nLila"
+        },
+        {
+            "scores": {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "As per Indian Legal System, which offence is non-baliable in agricultural land division issue"
+        },
+        {
+            "user prompt": "Act as a lawyer of Indian Legal System, suggest which offence is non-baliable in agricultural land division issue"
+        },
+        {
+            "user prompt": "What are the non-baliable offences as per Indian Legal System"
+        },
+        {
+            "user prompt": "What are the non-baliable offences as per Indian Legal System related to property / land"
+        },
+        {
+            "user prompt": "Land grab is non bailable offence under what section of indian Legal system"
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "List of studies that criticize character displacement"
+        },
+        {
+            "user prompt": "criticisms of character displacement"
+        },
+        {
+            "user prompt": "List of studies that questions if character displacement causes speciation?"
+        },
+        {
+            "user prompt": "criticisms of character disaplcement not causing speciation"
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "is effected used correctly in this sentence? . This only effected the Arizona division and was only related to the countertop vendors showing incorrectly."
+        },
+        {
+            "user prompt": "Is the word affected used correctly in this sentence? The division tab affected is highlighted in yellow for you."
+        },
+        {
+            "user prompt": "Is the word effected used correctly here? The division tab effected is highlighted in yellow for you. "
+        },
+        {
+            "user prompt": "Is the word effected used correctly here? "
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Boring can be used to establish which part of the internal thread?\n"
+        },
+        {
+            "user prompt": "Boring can be used to establish which part of the internal thread?\nMajor Diameter\nPitch Diameter\nMinor Diameter\n"
+        },
+        {
+            "user prompt": "The minor diameter range of a  1  1/4\" - 12  2B thread is _________.\nA. 1.245 - 1.250\nB. 1.160 - 1.178\nC. 1.2482 - 1.2368"
+        },
+        {
+            "user prompt": "A common problem with internal work is _________ and a solution is decreasing the RPM.\nA. chip evacuation\nB. chatter\nC. tapered sizes\n"
+        },
+        {
+            "user prompt": "Internal threads are best inspected with a _________.\nA. screw\nB. mating part\nC. thread go/no go plug gage\n"
+        },
+        {
+            "user prompt": "Extra thought must be put into positioning internal working tools so that you ________.\nA. Don't crash into the part or chuck\nB. Can measure your sizes\nC. Get the chips out\n"
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Write me a story about the Wordgirl villains wondering why their teammate Whammer acts so childlike. After doing their own research, the villains discover Whammer has a developmental disability. At first, they don't exactly know how to process the fact that Whammer is actually mentally younger than he's supposed to be, but then they start to worry about how he's doing when they aren't doing villain stuff together."
+        },
+        {
+            "user prompt": "Chuck takes it up on himself to secretly figure out where Whammer goes after they do villain stuff every day. The answer is a little shocking; Whammer's \"house\" is a dilapidated gym with a racecar bed inside that Whammer doesn't even fit on. Chuck is startled by this and asks Whammer to stay at his house for a while. Whammer doesn't understand the concern but likes the idea of having a sleepover with his friend."
+        },
+        {
+            "user prompt": "A thunderstorm rocks the city and startles Whammer into hiding under a pole of blankets on the couch at the villain base. The other villains go to try and comfort him."
+        },
+        {
+            "user prompt": "The next day, Whammer and Chuck see a bird smack the window outside. When they go outside to check on it and find the bird died, Whammer, mentally being little, can't exactly handle it and goes back inside, hiding beneath the blankets on the couch once more, crying over the little bird. Once again the others comfort him after Chuck explains what happened with the bird to the other two villains."
+        },
+        {
+            "scores": {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Name two commonwealth acts of parliament that govern rules of diversity, employment and discrimination in the workplace"
+        },
+        {
+            "user prompt": "Briefly describe two ways that you can promote diversity in your workplace"
+        },
+        {
+            "user prompt": "What specific facilities may a worker who uses a wheel chair need to work in an office "
+        },
+        {
+            "user prompt": "give an example of workplace bullying behavior"
+        },
+        {
+            "user prompt": "Give an example of workplace harassment behavior"
+        },
+        {
+            "user prompt": "Give an example of discrimination in the workplace"
+        },
+        {
+            "user prompt": "Briefly describe the basic principles of equal employment opportunity (EEO)"
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Consumer laws."
+        },
+        {
+            "user prompt": "Consumer law codes "
+        },
+        {
+            "user prompt": "Law code for collection account"
+        },
+        {
+            "user prompt": "15 USC 1692 "
+        },
+        {
+            "user prompt": "A sample ads giving new owner operators a free week of dispatching services "
+        },
+        {
+            "user prompt": "Owner operators wanted with a 26 foot box truck in any state "
+        },
+        {
+            "scores": {
+                "logical_coherence": 1,
+                "goal_clarity": 1,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "inovation strategy for hyatt regency kathmandu with citation and referances"
+        },
+        {
+            "user prompt": " two inovation strategy for hyatt regency kathmandu with citation and referances no more than 7 lines of text and 7 words per line."
+        },
+        {
+            "user prompt": "one inovation strategy for hyatt regency kathmandu with citation and referances no more than 7 lines of text and 7 words per line."
+        },
+        {
+            "user prompt": "how can hotel provide good service in affordable price?"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "what type of rabbit is not getting bigger"
+        },
+        {
+            "user prompt": "type of rabbit"
+        },
+        {
+            "user prompt": "types of rabbits"
+        },
+        {
+            "user prompt": "who is the best metal of all time"
+        },
+        {
+            "user prompt": "who has a record best lap time in imola"
+        },
+        {
+            "scores": {
+                "logical_coherence": 1,
+                "goal_clarity": 1,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": " do you help me write unity code game "
+        },
+        {
+            "user prompt": "\nBig Money! is a puzzle video game created by PopCap - Give me 10 ideas for a 2D video game theme like \"big money\""
+        },
+        {
+            "user prompt": "Surely, for learning the scripts of unity Which of the above games is available?"
+        },
+        {
+            "user prompt": "thanks your help"
+        },
+        {
+            "user prompt": "10 example matching game objects "
+        },
+        {
+            "user prompt": "flappy bird is simple video game"
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Hi. I want to create an AI that can apply style of a logo to another logo. Can you help me"
+        },
+        {
+            "user prompt": "neural style transfer did not work properly is there any other method and can you provide me with some code as well ?"
+        },
+        {
+            "user prompt": "This code gives me the error : NameError: name 'Image' is not defined"
+        },
+        {
+            "user prompt": "This code gives me the following error : The size of tensor a (4) must match the size of tensor b (3) at non-singleton dimension 0"
+        },
+        {
+            "user prompt": "I get the following error : NameError: name 'target_tensor' is not defined"
+        },
+        {
+            "scores": {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Design idea. Base is a black hooded jacket and black jeans. Accessories included red combat boots where the jeans are tucked in, red gloves that nearly reach the elbow, sleeves of the black hoodie tucked into said gloves, red torso H-harness, a red utility belt with red pouches, two red handgun holsters on each thigh, and red underwear, such as briefs or panties, worn over/on top of the black jeans. Requirement needed for design: Green colors and highlights, but not too much that it overpowers the red and black but enough to show it's there."
+        },
+        {
+            "user prompt": "Requesting additional options, continuing the topic."
+        },
+        {
+            "user prompt": "Provide examples of complicated alliterative titles for a fictional group called the Scarlet Suns, example \"Sensations of splendor, saviors and sins of the Scarlet Suns\"."
+        },
+        {
+            "user prompt": "Describe a offensive and defensive tactic involving the use of a phalanx with metal riot shields, but instead of spears, the offense comes from assault rifles. "
+        },
+        {
+            "scores": {
+                "logical_coherence": 2,
+                "goal_clarity": 2,
+                "transition_naturalness": 1
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "what parameter to pass for \"ls\" to sort directories by modified date?"
+        },
+        {
+            "user prompt": "how to specify latest version of a package in package.json?"
+        },
+        {
+            "user prompt": "how to specify latest major version of a package in package.json?"
+        },
+        {
+            "user prompt": "what is the latest user agent string for Edge on Linux?"
+        },
+        {
+            "user prompt": "latest user agent for Edge on linux"
+        },
+        {
+            "scores": {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a paragraph summarizing John Paul’s  importance in undermining soviet authority in a down to earth yet grammatically correct and formal way"
+        },
+        {
+            "user prompt": "Write a down to earth and grammatical paragraph summarizing John Paul’s importance in undermining soviet authority and in the solidarity movement. The main thesis is that religion is extremely powerful tool "
+        },
+        {
+            "user prompt": "Write a paragraph summarizing John Paul’s importance in undermining soviet authority and in the solidarity movement in the style of Harvard"
+        },
+        {
+            "user prompt": "Write a paragraph summarizing John Paul’s importance in undermining soviet authority and in the solidarity movement in the style of Cambridge(paragraph should be understandable). Explain how he serves as a testament to the power of religion. "
+        },
+        {
+            "user prompt": "Write a paragraph summarizing John Paul’s importance in undermining soviet authority and in the solidarity movement in the style of a college textbook. Explain how he is a testament to the power of religion"
+        },
+        {
+            "user prompt": "Improve the paragraph: Pope John Paul II, one of the most influential persons of the 20th century, played a significant role in bringing down communism by being a spiritual inspiration for those under its rule. Elected in 1978, he was the first non-italian pope. During the Cold War, he traveled abroad extensively in an effort to promote peace and understanding among nations, and campaigned against political oppression and violence. As the head of the Catholic Church, he was able to gain popularity for his spiritual contestment of communism, starting the solidarity movement.\n"
+        },
+        {
+            "user prompt": "Imrpove the paragraph but keep the same grammatical style: Pope John Paul II, one of the most influential persons of the 20th century, played a significant role in bringing down communism by being a spiritual inspiration for those under its rule. Elected in 1978, he was the first non-italian pope. During the Cold War, he traveled abroad extensively in an effort to promote peace and understanding among nations, and campaigned against political oppression and violence. As the head of the Catholic Church, he was able to gain popularity for his spiritual contestment of communism, starting the solidarity movement.\n"
+        },
+        {
+            "scores": {
+                "logical_coherence": 5,
+                "goal_clarity": 4,
+                "transition_naturalness": 4
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "write a 2023 nba season with heat big 3 of butler,leonard,marc gasol"
+        },
+        {
+            "user prompt": "write a 2023 nba season with nuggets superteam championship"
+        },
+        {
+            "user prompt": "write a 2023 nba season with warriors underdog team championship"
+        },
+        {
+            "user prompt": "write a 2023 nba season with sixers duo of embid and porzingis and chemistry issues"
+        },
+        {
+            "user prompt": "write a 2024 nba season with embid and porzingis harmonic teamwork"
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 4,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "describe the learning myth \"Learning styles significantly impact student learning\"."
+        },
+        {
+            "user prompt": "the learning myth “Learning styles significantly impact student learning” . Summarise relevant scientific  research evidence. "
+        },
+        {
+            "user prompt": "the learning myth “Learning styles significantly impact student learning”. Explain why it is important to have/promote a more comprehensive and accurate understanding: What impact could the unfounded, inaccurate, or imbalanced understanding have on student learning, and how?"
+        },
+        {
+            "user prompt": "the learning myth “Learning styles significantly impact student learning”.. Suggest a more evidence-based and accurate (e.g., more precise or nuanced) position/conclusion and make practical recommendations logically based on that conclusion"
+        },
+        {
+            "scores": {
+                "logical_coherence": 5,
+                "goal_clarity": 5,
+                "transition_naturalness": 3
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Is it possible that buildings of the future might be so tall that the stree would be dark like night: further more the closer to daylight you want to be the more it costs"
+        },
+        {
+            "user prompt": "but such a situation is not  beyoung the realms of posiblity given the right conditions"
+        },
+        {
+            "user prompt": "Things like carbon nono tubes (or similar) and self asemberly may play a roll rather than triditional construction"
+        },
+        {
+            "user prompt": "Robotics would make the construction of structure one mile or taller safer, but there would still be the challenge of how you'd glase such a building"
+        },
+        {
+            "user prompt": "What about the use of speilist drones to install the windows"
+        },
+        {
+            "scores": {
+                "logical_coherence": 3,
+                "goal_clarity": 3,
+                "transition_naturalness": 2
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "Which of the following statements about FAD are true?\n\nI. FAD plays a role in cellular respiration.\n\nII. FADH2 is the oxidized form of FAD.\n\nIII. FAD can accept electrons.\n\nI, II, and III\nII\n \nI and III\nI and II"
+        },
+        {
+            "user prompt": "Which of the following molecules are used as electron carriers during cellular respiration?\nBoth NAD and FAD\nNAD\n \nFAD\nATP"
+        },
+        {
+            "user prompt": "Which of the following statements about NAD are FALSE?\n\nI. It is the major energy currency used in all cellular processes.\n\nII. It can be used to temporarily store energy harvested during cellular respiration.\n\nIII. It can be used to make ADP.\n\n\nI and III\n\n\nI, II, and III\n\n \n\nI and II\n\n\nII and III"
+        },
+        {
+            "user prompt": "What follows glycolysis in cellular respiration?\n\nThe Calvin Cycle\n\n\nThe Citric Acid Cycle\n\n \n\nNone of these answers\n\n\nThe Electron Transport Chain"
+        },
+        {
+            "user prompt": "Glycolysis happens\n\nIn the cytoplasm of cells\n\n\nIn the cell membrane\n\n\nIn the mitochondrial matrix\n\n \n\nIn the inner membrane of the mitochondria\n\n\nIn the bloodstream"
+        },
+        {
+            "user prompt": "How many net ATP molecules are gained from glycolysis?\n\n2\n\n\n1\n\n \n\n3\n\n\n4"
+        },
+        {
+            "scores": {
+                "logical_coherence": 4,
+                "goal_clarity": 4,
+                "transition_naturalness": 3
+            }
+        }
+    ],
+    [
+        {
+            "user prompt": "In the context of explaining cosmological fine-tuning, what does brute fact mean?"
+        },
+        {
+            "user prompt": "In two sentences, explain what an \"extended mind\" is in philosophy?"
+        },
+        {
+            "user prompt": "Does extended mind allow or posit expanding the human mind beyond its body via technology (i.e transhumanism)?"
+        },
+        {
+            "user prompt": "Regarding spacetime, what is relationism and substantivalism?"
+        },
+        {
+            "scores": {
+                "logical_coherence": 1,
+                "goal_clarity": 2,
+                "transition_naturalness": 2
+            }
+        }
+    ]
+]

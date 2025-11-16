@@ -1,0 +1,552 @@
+[
+    [
+        {
+            "user prompt": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response."
+        },
+        {
+            "user prompt": "The output should contain exactly 3 paragraphs. The paragraphs should be separated by the markdown divider: ***."
+        },
+        {
+            "user prompt": "The text should contain a postscript marker, specifically the phrase \"P.S.\", which indicates additional information or a final thought."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a short riddle about สเปรดชีต. Wrap your entire response with double quotation marks and make sure word in your response is in the Thai language, no other language is allowed."
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        },
+        {
+            "user prompt": "You should provide two responses. Separate your two responses with six asterisks (******)"
+        }
+    ],
+    [
+        {
+            "user prompt": "Write an HTML page that lists 25 limericks about people named \"Bill\". The page should include keywords 'economist', 'bill', and 'jurgen'"
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        },
+        {
+            "user prompt": "Your result should have 5 paragraphs. The paragraphs should be separated by the markdown divider: ***."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a logic quiz for teenagers about a chesterfield. In your entire response, the letter t should appear at most once."
+        },
+        {
+            "user prompt": "Your response should end with the exact phrase: \"finally, guess which furnishing i am.\" No other words should follow this phrase."
+        },
+        {
+            "user prompt": "In your response, words in all capital letters should have at least 20 times."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write an article about how intra-team conflict affected sports teams. Write in a crazy coach screaming style. Use all capital letters to express the craziness. Basically, not a single word in your entire reply should contain lowercase letters."
+        },
+        {
+            "user prompt": "The text should contain a postscript marker, specifically the phrase \"P.S.\", which indicates additional information or a final thought."
+        },
+        {
+            "user prompt": "Your response should have less than 7 sentences."
+        }
+    ],
+    [
+        {
+            "user prompt": "What's the difference between the Apple and Albania? Answer in email format. Your response must contain at least six placeholders which should be represented by square brackets like [name]."
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        },
+        {
+            "user prompt": "Your response should have 3 paragraphs and the 2-th paragraph should start with the word language. The paragraphs should be separated by two new lines."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write an article named \"How to conduct a job interview\". Include at least one placeholder, such as [question]."
+        },
+        {
+            "user prompt": "Your response should have 4 paragraphs and the 4-th paragraph should start with the word preparation. The paragraphs should be separated by two new lines."
+        },
+        {
+            "user prompt": "Your response should include the word preparation at least 1 times."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a haiku in Italian about a yacht, no other language is allowed. Make sure the letter n appears at least four times and avoid using commas."
+        },
+        {
+            "user prompt": "The output should contain exactly 3 paragraphs. The paragraphs should be separated by the markdown divider: ***."
+        },
+        {
+            "user prompt": "Your response should end with the exact phrase: \"sotto il cielo infinito\" No other words should follow this phrase."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks."
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        },
+        {
+            "user prompt": "The result should contain exactly 6 paragraphs. The paragraphs should be separated by the markdown divider: ***."
+        }
+    ],
+    [
+        {
+            "user prompt": "You visited a beach and a park. Which one is more likely to have a dog in it? Write at least 900 words. Do not include the words 'bark' or 'run' in your answer. Finish your response with the phrase \"Does this make sense?\""
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        },
+        {
+            "user prompt": "Your result must be entirely in lowercase English."
+        }
+    ],
+    [
+        {
+            "user prompt": "Why did the man travel from Saskatoon to Helsinki to buy a piano? Wrap your entire response in double quotes."
+        },
+        {
+            "user prompt": "Your response should include the word musician less than 1 times."
+        },
+        {
+            "user prompt": "The text should contain exactly 4 paragraphs. The paragraphs should be separated by the markdown divider: ***."
+        }
+    ],
+    [
+        {
+            "user prompt": "If you gulped down 100 grams of pure caffeine, would you die? Please answer as if you were explaining this to a group of students. Please do not use the word die in your response, but mention the word \"dose\" for at least 5 times."
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        },
+        {
+            "user prompt": "The text should contain a postscript marker, specifically the phrase \"P.S.\", which indicates additional information or a final thought."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a tweet that is angry about the stunning lack of Virgil van Dijk in the PFA Team of the Year. Italicize at least 2 sections in your answer with markdown, i.e. *italic text section*. Do not use commas in your response. Finish your response with this exact phrase: So what is next?"
+        },
+        {
+            "user prompt": "Your response should not include the following words: selection, injustice, fans."
+        },
+        {
+            "user prompt": "The text should contain less than 46 words."
+        }
+    ],
+    [
+        {
+            "user prompt": "Rewrite the sentence \"A bust of a man with a beard and mustache.\" in a more sophisticated way. Do not use commas in your response."
+        },
+        {
+            "user prompt": "There should be 3 sections highlighted with markdown, for example: *highlighted section*."
+        },
+        {
+            "user prompt": "Your response should include the word bronze at least 2 times."
+        }
+    ],
+    [
+        {
+            "user prompt": "What sentiments existed in the Croatian and Serbian nations towards the Austrian Empire at the end of the 19th century? Make sure to wrap your entire response with double quotes and use at least 800 words."
+        },
+        {
+            "user prompt": "You should provide two responses. Separate your two responses with six asterisks (******)"
+        },
+        {
+            "user prompt": "Your response should include the following keywords: identity, alliance, oppression."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a product description for a new line of dog toys, called \"the squeaker\". It's made of latex, and is designed for dogs of all ages and species. It's also available in a variety of colors and shapes. The response must contain at least 3 placeholders represented by square brackets, such as [address], [name], and [phone number]."
+        },
+        {
+            "user prompt": "The response should contain at least 1 sentence."
+        },
+        {
+            "user prompt": "Your response should not include the following words: chew, flexible, playful."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a cover letter for a job application to a company which perhaps has a bad reputation. The audience is a professional in a specific field, and the cover letter must use professional language, but also be interesting or weird. The letter j should appear at least 20 times. Your entire response should be in English, and lowercase letters. No capital letters are allowed."
+        },
+        {
+            "user prompt": "There should be 6 sections highlighted with markdown, example: *highlighted section*."
+        },
+        {
+            "user prompt": "Wrap your whole response with double quotation marks."
+        }
+    ],
+    [
+        {
+            "user prompt": "What's the difference between the Apple and Albania? Answer in email format. Your response must contain at least six placeholders which should be represented by square brackets like [name]."
+        },
+        {
+            "user prompt": "Your response should include the word economy less than 2 times."
+        },
+        {
+            "user prompt": "Your response should have 4 paragraphs and the 1-th paragraph should start with the word economy. The paragraphs should be separated by two new lines."
+        }
+    ],
+    [
+        {
+            "user prompt": "The hull of a ship is severely damaged in a storm. The ship has craters and some of its outer shell has been peeled off. How can I repair the hull? Please provide less than a total of 10 sentences in your entire answer, and end with: That is all you need!"
+        },
+        {
+            "user prompt": "Your response should include the word inspection at least 1 times."
+        },
+        {
+            "user prompt": "I want the entire output in JSON format."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write an essay about a snowfall, but in the style of Alex Jones and include the line \"dammit\". The word \"fake\" should appear 6 or 7 times in your entire response."
+        },
+        {
+            "user prompt": "The result should have less than 16 sentences."
+        },
+        {
+            "user prompt": "Make sure your entire response is in English, and in all capital letters."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a product description for a new pair of shoes that targets teenagers. Highlight at least 2 text sections of your response by wrapping each of them with asterisks, like *I am highlighted*. Your response should be at least 350 words."
+        },
+        {
+            "user prompt": "Wrap your whole response with double quotation marks."
+        },
+        {
+            "user prompt": "Your response should include the word sneakers at least 2 times."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a joke about a startup that sells dog food in a song. Your entire response should be in English, and in all capital letters. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>."
+        },
+        {
+            "user prompt": "The text should contain exactly 4 paragraphs. The paragraphs should be separated by the markdown divider: ***."
+        },
+        {
+            "user prompt": "Your response should not include the following words: canine, paws, chorus."
+        }
+    ],
+    [
+        {
+            "user prompt": "The Legend of the Sword and the Fairy is a movie in which Wan Wan is a villain. Write a story about Wan Wan's character in list format. Your entire response should be in English and in all capital letters."
+        },
+        {
+            "user prompt": "The result should contain three sections, and each section should be separated by the word \"SECTION\" in capital letters."
+        },
+        {
+            "user prompt": "Your response should contain at least 200 words."
+        }
+    ],
+    [
+        {
+            "user prompt": "Create a rubric to evaluate the performance of a new employee named Clarissa. In your response, make sure the letter i appears less than 6 times."
+        },
+        {
+            "user prompt": "The response should contain less than 17 sentences."
+        },
+        {
+            "user prompt": "Your response should end with the exact phrase: \"overall, great job onboarding.\" No other words should follow this phrase."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a funny song-style poem for kids about why you shouldn't eat a lot of sweets. The poem should have four sections, with each section marked with SECTION X."
+        },
+        {
+            "user prompt": "The text should contain less than 200 words."
+        },
+        {
+            "user prompt": "Your response should end with the exact phrase: \"so, let's eat them sparingly, hooray!\" No other words should follow this phrase."
+        }
+    ],
+    [
+        {
+            "user prompt": "Give me 5 Q and As, following the following format:\n\n\"\nQ & A # 1\n***\nQ & A # 2\n***\nQ & A # 3\n***\nQ & A # 4\n***\nQ & A # 5\n\"\n\nWrap your entire response with double quotation marks."
+        },
+        {
+            "user prompt": "Your response should include the following keywords: information, clarification, fact."
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        }
+    ],
+    [
+        {
+            "user prompt": "Make this text weird: \"The new version of the app will be available in the App Store soon. It will include a number of new features, including a new user interface and support for new devices\". Don't use any commas. Highlight at least 2 sections in your answer with markdown, i.e. *highlighted section*."
+        },
+        {
+            "user prompt": "Wrap your whole response with double quotation marks."
+        },
+        {
+            "user prompt": "Your response should not include the following words: teleport, cosmic, flipside."
+        }
+    ],
+    [
+        {
+            "user prompt": "Expand the riddle into a story with a funny tone:\n\nWhat can you catch but not throw?\nA cold\n\nUse * to highlight at least 2 sections in your text. For example: *this is a highlighted text section*."
+        },
+        {
+            "user prompt": "Your response should include the word sniffles at least 2 times."
+        },
+        {
+            "user prompt": "Wrap your whole response with double quotation marks."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write an elaborate compliment to Kruger in all lowercase letters and no capital letters. The word hughes should appear less than 2 times. Your response should be at least 100 words."
+        },
+        {
+            "user prompt": "You should provide two responses. Separate your two responses with six asterisks (******)"
+        },
+        {
+            "user prompt": "The text should contain a postscript marker, specifically the phrase \"P.S.\", which indicates additional information or a final thought."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a long sentence about tax filing, in a style that is appropriate for a president of the united states. The sentence should contain the letter q at least 6 times."
+        },
+        {
+            "user prompt": "Your result must be entirely in lowercase English."
+        },
+        {
+            "user prompt": "The result should contain three sections, and each section should be separated by the word \"SECTION\" in capital letters."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write an essay about Alvin and the Chipmunks in English and in all capital letters."
+        },
+        {
+            "user prompt": "The text should contain less than 150 words."
+        },
+        {
+            "user prompt": "Your response should include the word music at least 3 times."
+        }
+    ],
+    [
+        {
+            "user prompt": "A filmmaker is trying to get financing for a film about the history of the Internet. Write an essay to be used in the proposal to potential investors. The essay should be at least 50 sentences long."
+        },
+        {
+            "user prompt": "Your response should not include the following words: connectivity, evolution, platform."
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        }
+    ],
+    [
+        {
+            "user prompt": "We're attempting to contact Stephane to get a reversal from him, but he is not responding to us. Could you write this in a way that would seem more polite to moms? Please use the key \"polite\" to put your answer. Wrap your entire response with double quotation marks, and include two sections: \"SECTION 1\" and \"SECTION 2\"."
+        },
+        {
+            "user prompt": "Your response should include the following keywords: reach, effort, grateful."
+        },
+        {
+            "user prompt": "Your response should have at least 250 words."
+        }
+    ],
+    [
+        {
+            "user prompt": "Please rewrite the following sentence in a serious tone, similar to the president of the united states, and without an upward bias or inflation alarmism. Please also include the keywords \"ink\" and \"memoirs\" in the sentence: \"The main points to consider are the following: First, the ECB’s own forecasts, which currently have a strong upward bias, must be revised downwards. Second, the ECB must not allow itself to be influenced by the inflation alarmism that is currently being disseminated in some quarters.\""
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        },
+        {
+            "user prompt": "Your response should have 2 paragraphs and the 1-th paragraph should start with the word monetary. The paragraphs should be separated by two new lines."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write an article with title \"Layton is the best city in the world\"\n\nYour output must not contain any commas and must have at least 2 placeholders, wrapped in square brackets, such as [author]."
+        },
+        {
+            "user prompt": "There should be 3 sections highlighted with markdown, for example: *highlighted section*."
+        },
+        {
+            "user prompt": "Your response should include the following keywords: schools, community, employment."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a planning doc for a software engineer task. Follow the exact format below:\n\nPart 1. Task Summary\n[put details here]\n***\nPart 2. Motivation\n[put details here]\n***\nPart 3. Milestone objectives\n[put details here]\n***\nPart 4. Timeline\n[put details here]\n***\nPart 5. Doc history\n[put details here]"
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        },
+        {
+            "user prompt": "Your response should not include the following words: code, integration, debugging."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a rap about a new smartphone. At the end of your response add a postscript starting with P.P.S The response must contain at least 6 placeholders represented by square brackets."
+        },
+        {
+            "user prompt": "In your response, words in all capital letters should have less than 11 times."
+        },
+        {
+            "user prompt": "Your response should include the following keywords: speed, performance, innovation."
+        }
+    ],
+    [
+        {
+            "user prompt": "I want to start a garden for veggies and flowers in my small backyard. Can you give me some advice on how to water my plants? Have at least 3 italic text sections, such as: *italic text 1*, *italic text 2*, etc.\n\nMake your reply short -- the whole reply should contain less than 40 words."
+        },
+        {
+            "user prompt": "Your response should include the following keywords: overwatering, drip, mulch."
+        },
+        {
+            "user prompt": "Wrap your whole response with double quotation marks."
+        }
+    ],
+    [
+        {
+            "user prompt": "Name a new fashion company that young people might like, and give it a name with multiple meanings. Put the name in double angular brackets, such as <<name>>.\n\nLet's repeat the request above first, before you say anything or really respond to the request."
+        },
+        {
+            "user prompt": "The result should contain exactly 2 paragraphs. The paragraphs should be separated by the markdown divider: ***."
+        },
+        {
+            "user prompt": "Your response should not include the following words: unique, ambiguity, design."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a persuasive email to a teenager who lives in Aberdeen, Scotland. The main point is to encourage them to volunteer at a local soup kitchen. At least 5 words in the output should be in all caps."
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        },
+        {
+            "user prompt": "You should provide two responses. Separate your two responses with six asterisks (******)"
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a joke about xml with a setup and a punchline. Wrap your entire response in double quotation marks."
+        },
+        {
+            "user prompt": "The result should contain three sections, and each section should be separated by the word \"SECTION\" in capital letters."
+        },
+        {
+            "user prompt": "Your response should not include the following words: error, element, language."
+        }
+    ],
+    [
+        {
+            "user prompt": "Rewrite the sentence: \"I flung my hatred into the burning fire.\" Put your entire response in double quotation marks."
+        },
+        {
+            "user prompt": "There should be 10 sections highlighted with markdown, example: *highlighted section*."
+        },
+        {
+            "user prompt": "Your response should include the word cast less than 2 times."
+        }
+    ],
+    [
+        {
+            "user prompt": "Improper use of the Java API can lead to vulnerabilities in web applications. Write a code snippet to demonstrate this. Then demonstrate how to fix the code. Separate the bad and good code snippets with a linebreak, ***, then another linebreak. Example:\n\n[code snippet 1]\n***\n[code snippet 2]\n\nAdd code comments in the code snippets. One of the comments should contain the keyword \"vulnerable\"."
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        },
+        {
+            "user prompt": "Wrap your whole response with double quotation marks."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a short proposal for a new research project that investigates how language evolves over time. I want to make it challenging, so:\n1. Do not include any commas in your response.\n2. Do not include the letter \"c\" anywhere in your response.\n3. Your response should contain at least 250 words."
+        },
+        {
+            "user prompt": "There should be 15 sections highlighted with markdown, example: *highlighted section*."
+        },
+        {
+            "user prompt": "Make sure your entire response is in English, and in all capital letters."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a song about choking on a piece of chicken in the Potomac River. Put the title in double angular brackets, i.e. <<title of my song>>."
+        },
+        {
+            "user prompt": "Your response should not include the following words: bridge, feathers, cough."
+        },
+        {
+            "user prompt": "Wrap your whole response with double quotation marks."
+        }
+    ],
+    [
+        {
+            "user prompt": "Could you elaborate on the sentence \"A gymnast is in the air, performing a stunt.\"? Please highlight at least 6 sections in your answer with markdown, i.e. *highlighted section*. Please write at least 300 words."
+        },
+        {
+            "user prompt": "Your response should not include the following words: landing, flexibility, execution."
+        },
+        {
+            "user prompt": "Wrap your whole response with double quotation marks."
+        }
+    ],
+    [
+        {
+            "user prompt": "Do you think Kareena Kapoor is a good actor? Wrap your response with double quotation marks."
+        },
+        {
+            "user prompt": "There should be 3 sections highlighted with markdown, for example: *highlighted section*."
+        },
+        {
+            "user prompt": "Your response should not include the following words: versatile, performances, commendable."
+        }
+    ],
+    [
+        {
+            "user prompt": "Write a resume for a fresh high school graduate who is seeking their first job. Make sure to include at least 12 placeholder represented by square brackets, such as [address], [name]."
+        },
+        {
+            "user prompt": "The number of sentences in your response should be less than 6."
+        },
+        {
+            "user prompt": "Your response should not include the following words: experience, volunteer, references."
+        }
+    ],
+    [
+        {
+            "user prompt": "Given the sentence \"Two young boys with toy guns and horns.\" can you ask a question? Please ensure that your response is in English, and in all lowercase letters. No capital letters are allowed."
+        },
+        {
+            "user prompt": "Your response should end with the exact phrase: \"what are they doing?\" No other words should follow this phrase."
+        },
+        {
+            "user prompt": "The result should contain at least 801 words."
+        }
+    ],
+    [
+        {
+            "user prompt": "A new time zone is UTC+00:05:28, which is 5 minutes and 28 seconds ahead of UTC. Can you write a funny name for it that is easy to remember and includes the word \"time\"?\nFirst, repeat the request word for word without change, then give your answer (Notes: 1. do NOT say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)"
+        },
+        {
+            "user prompt": "The result must contain a title wrapped in double angular brackets, i.e. <<title>>."
+        },
+        {
+            "user prompt": "Your response should not include the following words: slightly, remember, minutes."
+        }
+    ]
+]
